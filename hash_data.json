@@ -1,20 +1,20 @@
 {
     "507a1ea99c86f41359b9b6ce18df992697e6d6afb8c0cf916c69ddc982aa8f54": {
-        "name": "T\u1ea3 Ph\u00f9",
+        "name": "Tả Phù",
         "image": "star_data\\star_images\\s000000.png",
         "hash_image": "star_data\\hash_images\\h000000.png",
         "chart_image": "star_data\\chart_images\\c000000.png",
         "id": 0
     },
     "2623d3b9b1894c8cdd7020ac88f7496b25feaa033bf3d11d9ba6852406b9a58c": {
-        "name": "H\u1ed3ng Loan",
+        "name": "Hồng Loan",
         "image": "star_data\\star_images\\s000001.png",
         "hash_image": "star_data\\hash_images\\h000001.png",
         "chart_image": "star_data\\chart_images\\c000001.png",
         "id": 1
     },
     "42ff740f8cdbc4eb256d37fa357c6fda62f74b1edd48a5d85fb5f691e5214ccc": {
-        "name": "Long \u0110\u1ee9c",
+        "name": "Long Đức",
         "image": "star_data\\star_images\\s000002.png",
         "hash_image": "star_data\\hash_images\\h000002.png",
         "chart_image": "star_data\\chart_images\\c000002.png",
@@ -28,189 +28,189 @@
         "id": 3
     },
     "db46817b3da96e054e4fbeb28ce4d83ed96a67f169bf76784c9785a820487f0a": {
-        "name": "Thi\u00ean Tr\u00f9",
+        "name": "Thiên Trù",
         "image": "star_data\\star_images\\s000004.png",
         "hash_image": "star_data\\hash_images\\h000004.png",
         "chart_image": "star_data\\chart_images\\c000004.png",
         "id": 4
     },
     "7610b21e6e014d229120a61fffafb002d2f8b66a00105dd82a7dff922d02e8a3": {
-        "name": "LN.V\u0103n Tinh",
+        "name": "LN.Văn Tinh",
         "image": "star_data\\star_images\\s000005.png",
         "hash_image": "star_data\\hash_images\\h000005.png",
         "chart_image": "star_data\\chart_images\\c000005.png",
         "id": 5
     },
     "24ab363fde7ac766e44239e1d823f976ce85942b9da4605dc0615f5e506b1df4": {
-        "name": "L.X\u01b0\u01a1ng",
+        "name": "L.Xương",
         "image": "star_data\\star_images\\s000006.png",
         "hash_image": "star_data\\hash_images\\h000006.png",
         "chart_image": "star_data\\chart_images\\c000006.png",
         "id": 6
     },
     "2fe4c8f580153ef88321686c486add7be48eaaead8ba63aeb91c8d995fed3728": {
-        "name": "L.Thi\u00ean M\u00e3",
+        "name": "L.Thiên Mã",
         "image": "star_data\\star_images\\s000007.png",
         "hash_image": "star_data\\hash_images\\h000007.png",
         "chart_image": "star_data\\chart_images\\c000007.png",
         "id": 7
     },
     "75494a65e3fc3f0709b6ab4baa6bede4c1ca036def26e1f85a9b976dbe38e222": {
-        "name": "LN.L\u1ed9c",
+        "name": "LN.Lộc",
         "image": "star_data\\star_images\\s000008.png",
         "hash_image": "star_data\\hash_images\\h000008.png",
         "chart_image": "star_data\\chart_images\\c000008.png",
         "id": 8
     },
     "0f016bf71b18342fa0722af9ce4b6cb78229eb1fb4e504531446757ad2bb7209": {
-        "name": "\u0110V.Khoa",
+        "name": "ĐV.Khoa",
         "image": "star_data\\star_images\\s000009.png",
         "hash_image": "star_data\\hash_images\\h000009.png",
         "chart_image": "star_data\\chart_images\\c000009.png",
         "id": 9
     },
     "4393cb0ed0b210b1c7e4b353d78923140602bfa86148ce79c27846babe4d13a9": {
-        "name": "\u0110\u1ecba Ki\u1ebfp(\u0110)",
+        "name": "Địa Kiếp(Đ)",
         "image": "star_data\\star_images\\s000010.png",
         "hash_image": "star_data\\hash_images\\h000010.png",
         "chart_image": "star_data\\chart_images\\c000010.png",
         "id": 10
     },
     "4a05d3d26729b4a3e67421348c627a031063232b0e0d6738eb7297f90974925f": {
-        "name": "\u0110\u1ecba Kh\u00f4ng(\u0110)",
+        "name": "Địa Không(Đ)",
         "image": "star_data\\star_images\\s000011.png",
         "hash_image": "star_data\\hash_images\\h000011.png",
         "chart_image": "star_data\\chart_images\\c000011.png",
         "id": 11
     },
     "5951b77d608fb788e878a5359cc7c16d35f4b8c3765d6daf349eac62a9692a07": {
-        "name": "Ti\u1ec3u Hao(H)",
+        "name": "Tiểu Hao(H)",
         "image": "star_data\\star_images\\s000012.png",
         "hash_image": "star_data\\hash_images\\h000012.png",
         "chart_image": "star_data\\chart_images\\c000012.png",
         "id": 12
     },
     "67910e4f56a69287baf6e2c28b7f23ddae27a9430eaa3e5774569adb4df42ba1": {
-        "name": "L.Tang M\u00f4n",
+        "name": "L.Tang Môn",
         "image": "star_data\\star_images\\s000013.png",
         "hash_image": "star_data\\hash_images\\h000013.png",
         "chart_image": "star_data\\chart_images\\c000013.png",
         "id": 13
     },
     "8fbe6eb80220df9a77c212887f07ef263afd06db0aea363f41fda007b74e6bee": {
-        "name": "Vong Th\u1ea7n",
+        "name": "Vong Thần",
         "image": "star_data\\star_images\\s000014.png",
         "hash_image": "star_data\\hash_images\\h000014.png",
         "chart_image": "star_data\\chart_images\\c000014.png",
         "id": 14
     },
     "3da5705ddd084884244581e4acfa5cf165ccb9a63c14b1982a6bd4f903b33dd9": {
-        "name": "-C\u1ef0 M\u00d4N(H)",
+        "name": "-CỰ MÔN(H)",
         "image": "star_data\\star_images\\s000015.png",
         "hash_image": "star_data\\hash_images\\h000015.png",
         "chart_image": "star_data\\chart_images\\c000015.png",
         "id": 15
     },
     "a8b2435e186552f172abfaad5a368ee65e7e0bb9dd5f518e04760d6c9bc99307": {
-        "name": "H\u00f3a L\u1ed9c(B)",
+        "name": "Hóa Lộc(B)",
         "image": "star_data\\star_images\\s000016.png",
         "hash_image": "star_data\\hash_images\\h000016.png",
         "chart_image": "star_data\\chart_images\\c000016.png",
         "id": 16
     },
     "637f57dc12780434fccabf88bdd60f2ef072c9fc0bd37295bdd35d277fbd0352": {
-        "name": "T\u01b0\u1edbng Tinh",
+        "name": "Tướng Tinh",
         "image": "star_data\\star_images\\s000017.png",
         "hash_image": "star_data\\hash_images\\h000017.png",
         "chart_image": "star_data\\chart_images\\c000017.png",
         "id": 17
     },
     "57a70726f7f5e9749b3e223290b147d86ebf69b592cef0f5c0246fd6f09af449": {
-        "name": "B\u1ea1ch H\u1ed5(H)",
+        "name": "Bạch Hổ(H)",
         "image": "star_data\\star_images\\s000018.png",
         "hash_image": "star_data\\hash_images\\h000018.png",
         "chart_image": "star_data\\chart_images\\c000018.png",
         "id": 18
     },
     "4bdca1cbbdcf5046a0da01e5382b4dd7ddf8311c1e19c75e44920157c6a6f2e6": {
-        "name": "T\u01b0\u1edbng Qu\u00e2n",
+        "name": "Tướng Quân",
         "image": "star_data\\star_images\\s000019.png",
         "hash_image": "star_data\\hash_images\\h000019.png",
         "chart_image": "star_data\\chart_images\\c000019.png",
         "id": 19
     },
     "087d6f5c77bcc6f122b47d1e95aedd5d96d916b3d19ce7ccb13d4f6a6d89b673": {
-        "name": "-LI\u00caM TRINH(V)",
+        "name": "-LIÊM TRINH(V)",
         "image": "star_data\\star_images\\s000020.png",
         "hash_image": "star_data\\hash_images\\h000020.png",
         "chart_image": "star_data\\chart_images\\c000020.png",
         "id": 20
     },
     "38bd63f6bcbe339fce6c584f19b74bf62f1891dcca688c0ec435627bb23eeb96": {
-        "name": "+THI\u00caN T\u01af\u1edaNG(V)",
+        "name": "+THIÊN TƯỚNG(V)",
         "image": "star_data\\star_images\\s000021.png",
         "hash_image": "star_data\\hash_images\\h000021.png",
         "chart_image": "star_data\\chart_images\\c000021.png",
         "id": 21
     },
     "1c72c502cf69ac10a5630d2d653460af8d9f0f064d6b05787e54aa1fd8acf253": {
-        "name": "Thi\u00ean Vi\u1ec7t",
+        "name": "Thiên Việt",
         "image": "star_data\\star_images\\s000022.png",
         "hash_image": "star_data\\hash_images\\h000022.png",
         "chart_image": "star_data\\chart_images\\c000022.png",
         "id": 22
     },
     "3c2c4ea0ea51e20ff6e589a1f5e56079e94babd6005331c45c1560da1a83e9da": {
-        "name": "Thi\u00ean Quan",
+        "name": "Thiên Quan",
         "image": "star_data\\star_images\\s000023.png",
         "hash_image": "star_data\\hash_images\\h000023.png",
         "chart_image": "star_data\\chart_images\\c000023.png",
         "id": 23
     },
     "27282cd25ec460ddaf0f87ba1abf5c3120f5cbac6efd5a8e5ae661a481d66cb9": {
-        "name": "\u0110\u01b0\u1eddng Ph\u00f9",
+        "name": "Đường Phù",
         "image": "star_data\\star_images\\s000024.png",
         "hash_image": "star_data\\hash_images\\h000024.png",
         "chart_image": "star_data\\chart_images\\c000024.png",
         "id": 24
     },
     "fc60bbbbcaaf6b4a843e99867420c6f8a1622b36b0a92526237b34640fc28303": {
-        "name": "Ph\u00fac \u0110\u1ee9c",
+        "name": "Phúc Đức",
         "image": "star_data\\star_images\\s000025.png",
         "hash_image": "star_data\\hash_images\\h000025.png",
         "chart_image": "star_data\\chart_images\\c000025.png",
         "id": 25
     },
     "fb28ba8c3ed2103186b790544ea62c4d598a4ce0431779c8800cd66b78c768b2": {
-        "name": "Thi\u00ean \u0110\u1ee9c",
+        "name": "Thiên Đức",
         "image": "star_data\\star_images\\s000026.png",
         "hash_image": "star_data\\hash_images\\h000026.png",
         "chart_image": "star_data\\chart_images\\c000026.png",
         "id": 26
     },
     "bd2d37c68879445640457a2fac6808328d2addba20cc57ecc51ada19e59df138": {
-        "name": "Thi\u00ean T\u00e0i",
+        "name": "Thiên Tài",
         "image": "star_data\\star_images\\s000027.png",
         "hash_image": "star_data\\hash_images\\h000027.png",
         "chart_image": "star_data\\chart_images\\c000027.png",
         "id": 27
     },
     "26f8c835aaebc41c8ef852f89c6aa9e244f664c3e1330ee2315e078fe671777a": {
-        "name": "T\u1ea5u Th\u01b0",
+        "name": "Tấu Thư",
         "image": "star_data\\star_images\\s000028.png",
         "hash_image": "star_data\\hash_images\\h000028.png",
         "chart_image": "star_data\\chart_images\\c000028.png",
         "id": 28
     },
     "03e0b9b3a7b29c58c6eb55e2c1ec7478fafc3d8d2a90758b116e6d1933fb0446": {
-        "name": "Thi\u00ean Th\u1ecd",
+        "name": "Thiên Thọ",
         "image": "star_data\\star_images\\s000029.png",
         "hash_image": "star_data\\hash_images\\h000029.png",
         "chart_image": "star_data\\chart_images\\c000029.png",
         "id": 29
     },
     "cd492084d4b2a8bdbc661b078fe10dfcbf43e056bdbbc7ae86f527c400c2f02f": {
-        "name": "\u0110V.L\u1ed9c",
+        "name": "ĐV.Lộc",
         "image": "star_data\\star_images\\s000030.png",
         "hash_image": "star_data\\hash_images\\h000030.png",
         "chart_image": "star_data\\chart_images\\c000030.png",
@@ -224,14 +224,14 @@
         "id": 31
     },
     "0785d3f415d12e296a1c394da7148e34410fb83206901b759fcfd7f4af672b2d": {
-        "name": "H\u1ecfa Tinh(H)",
+        "name": "Hỏa Tinh(H)",
         "image": "star_data\\star_images\\s000032.png",
         "hash_image": "star_data\\hash_images\\h000032.png",
         "chart_image": "star_data\\chart_images\\c000032.png",
         "id": 32
     },
     "19d44fed4ee98fb099aaa38b2b19da477b9f2f7a38c147c44442584eb696f5f4": {
-        "name": "Qu\u1ea3 T\u00fa",
+        "name": "Quả Tú",
         "image": "star_data\\star_images\\s000033.png",
         "hash_image": "star_data\\hash_images\\h000033.png",
         "chart_image": "star_data\\chart_images\\c000033.png",
@@ -245,77 +245,77 @@
         "id": 34
     },
     "e1ea5b6c5b7dcdd1ebea4e300417a23cd1525ef7590b6d2bf5b7fa6b05152a48": {
-        "name": "+THI\u00caN L\u01af\u01a0NG(\u0110)",
+        "name": "+THIÊN LƯƠNG(Đ)",
         "image": "star_data\\star_images\\s000035.png",
         "hash_image": "star_data\\hash_images\\h000035.png",
         "chart_image": "star_data\\chart_images\\c000035.png",
         "id": 35
     },
     "f3cbd2cafc6e0b4381a813633eb717d3293f419ac0e59a4044ccdcf61b496fe0": {
-        "name": "Thi\u00ean M\u00e3(H)",
+        "name": "Thiên Mã(H)",
         "image": "star_data\\star_images\\s000036.png",
         "hash_image": "star_data\\hash_images\\h000036.png",
         "chart_image": "star_data\\chart_images\\c000036.png",
         "id": 36
     },
     "d643f94ac8bcff8b63afaa0ecdeb1b9ed01baaafb6bb2dcb62f5fb5090916544": {
-        "name": "Phong C\u00e1o",
+        "name": "Phong Cáo",
         "image": "star_data\\star_images\\s000037.png",
         "hash_image": "star_data\\hash_images\\h000037.png",
         "chart_image": "star_data\\chart_images\\c000037.png",
         "id": 37
     },
     "3cfd0f1cb88d9b9fc7f4bec583cd09e62ac3aaed7c77b8c0872c9bf552a0edab": {
-        "name": "\u0110\u1ecba Gi\u1ea3i",
+        "name": "Địa Giải",
         "image": "star_data\\star_images\\s000038.png",
         "hash_image": "star_data\\hash_images\\h000038.png",
         "chart_image": "star_data\\chart_images\\c000038.png",
         "id": 38
     },
     "ce61d9216ce85f580778a69801a65fa36dd5fd6ce10edf3de712098de08e4615": {
-        "name": "Thi\u00ean Kh\u1ed1c(H)",
+        "name": "Thiên Khốc(H)",
         "image": "star_data\\star_images\\s000039.png",
         "hash_image": "star_data\\hash_images\\h000039.png",
         "chart_image": "star_data\\chart_images\\c000039.png",
         "id": 39
     },
     "5cb050371156912a97e6bab202485f9425325c5687d388d25a4c083e6b612bda": {
-        "name": "Phi Li\u00eam",
+        "name": "Phi Liêm",
         "image": "star_data\\star_images\\s000040.png",
         "hash_image": "star_data\\hash_images\\h000040.png",
         "chart_image": "star_data\\chart_images\\c000040.png",
         "id": 40
     },
     "4fd89ea049c2f231e809d50714dff076ee0e4990e368375e2a2de186f1ecdcde": {
-        "name": "\u0110i\u1ebfu Kh\u00e1ch",
+        "name": "Điếu Khách",
         "image": "star_data\\star_images\\s000041.png",
         "hash_image": "star_data\\hash_images\\h000041.png",
         "chart_image": "star_data\\chart_images\\c000041.png",
         "id": 41
     },
     "5b28b9b4aebed7ad2f5a0894ad400f61af574925c44c031af5bfcaf36787b763": {
-        "name": "L.\u0110\u00e0 La",
+        "name": "L.Đà La",
         "image": "star_data\\star_images\\s000042.png",
         "hash_image": "star_data\\hash_images\\h000042.png",
         "chart_image": "star_data\\chart_images\\c000042.png",
         "id": 42
     },
     "1e853cc03784dd94c5b7c5329e0674e6eb502c72cd1236bc7aad84e53a10f027": {
-        "name": "Tu\u1ebf D\u1ecbch",
+        "name": "Tuế Dịch",
         "image": "star_data\\star_images\\s000043.png",
         "hash_image": "star_data\\hash_images\\h000043.png",
         "chart_image": "star_data\\chart_images\\c000043.png",
         "id": 43
     },
     "c169f66744769672d0f14da7280ffb8ff2c5648956d9b5bb4f7d181297ff1e39": {
-        "name": "+TH\u1ea4T S\u00c1T(M)",
+        "name": "+THẤT SÁT(M)",
         "image": "star_data\\star_images\\s000044.png",
         "hash_image": "star_data\\hash_images\\h000044.png",
         "chart_image": "star_data\\chart_images\\c000044.png",
         "id": 44
     },
     "15c2e7a87b36cb682eb86c6794b27ca64a3af10568f08f0b065c48580b793d23": {
-        "name": "V\u0103n X\u01b0\u01a1ng(\u0110)",
+        "name": "Văn Xương(Đ)",
         "image": "star_data\\star_images\\s000045.png",
         "hash_image": "star_data\\hash_images\\h000045.png",
         "chart_image": "star_data\\chart_images\\c000045.png",
@@ -329,49 +329,49 @@
         "id": 46
     },
     "23e57fc30eaf47bf70265cffb6e3bc7db2a825bdb555501ad0db68ddba0598b8": {
-        "name": "N.Quy\u1ec1n",
+        "name": "N.Quyền",
         "image": "star_data\\star_images\\s000047.png",
         "hash_image": "star_data\\hash_images\\h000047.png",
         "chart_image": "star_data\\chart_images\\c000047.png",
         "id": 47
     },
     "26570ffb62600b2fea0086e5fc2fa04a8b369789d425b8f8d835f4b92da4f332": {
-        "name": "Thi\u00ean H\u01b0(H)",
+        "name": "Thiên Hư(H)",
         "image": "star_data\\star_images\\s000048.png",
         "hash_image": "star_data\\hash_images\\h000048.png",
         "chart_image": "star_data\\chart_images\\c000048.png",
         "id": 48
     },
     "929415d7f1bb99fbf78c13fa23ac457ef72f952a5f2445a4dbbe3d6f324f79f4": {
-        "name": "Tu\u1ebf Ph\u00e1",
+        "name": "Tuế Phá",
         "image": "star_data\\star_images\\s000049.png",
         "hash_image": "star_data\\hash_images\\h000049.png",
         "chart_image": "star_data\\chart_images\\c000049.png",
         "id": 49
     },
     "26d1d0b5f25139538fe9499562f822f7968ff6f5d5422c693adc1d48ef1fe24d": {
-        "name": "Thi\u00ean La",
+        "name": "Thiên La",
         "image": "star_data\\star_images\\s000050.png",
         "hash_image": "star_data\\hash_images\\h000050.png",
         "chart_image": "star_data\\chart_images\\c000050.png",
         "id": 50
     },
     "d710ba437e9749116d6b93d99ea1af432f7467bc49ef94077428eb23d8b5f017": {
-        "name": "Thi\u00ean S\u1ee9",
+        "name": "Thiên Sứ",
         "image": "star_data\\star_images\\s000051.png",
         "hash_image": "star_data\\hash_images\\h000051.png",
         "chart_image": "star_data\\chart_images\\c000051.png",
         "id": 51
     },
     "a3b6d3ece6ad7aaeed6ddb4605773d8a4803eb87b34855ba548e6fd3d4df57f0": {
-        "name": "Nguy\u1ec7t S\u00e1t",
+        "name": "Nguyệt Sát",
         "image": "star_data\\star_images\\s000052.png",
         "hash_image": "star_data\\hash_images\\h000052.png",
         "chart_image": "star_data\\chart_images\\c000052.png",
         "id": 52
     },
     "185d590d4edcfb8d1a72a5991ddda0ec2fe7ba40fa5399fd3fa7da33587ca116": {
-        "name": "LN.K\u1ecb",
+        "name": "LN.Kị",
         "image": "star_data\\star_images\\s000053.png",
         "hash_image": "star_data\\hash_images\\h000053.png",
         "chart_image": "star_data\\chart_images\\c000053.png",
@@ -385,49 +385,49 @@
         "id": 54
     },
     "bcfc1f0f1e4f71aeda03263656670e953128246c96b68fbb4d866be45b6ded19": {
-        "name": "H\u1eefu B\u1eadt",
+        "name": "Hữu Bật",
         "image": "star_data\\star_images\\s000055.png",
         "hash_image": "star_data\\hash_images\\h000055.png",
         "chart_image": "star_data\\chart_images\\c000055.png",
         "id": 55
     },
     "1d26309e9e61c4eda0948f716e210e07f1508a10ed20f456ee81fa7ac1fde476": {
-        "name": "H\u1ec9 Th\u1ea7n",
+        "name": "Hỉ Thần",
         "image": "star_data\\star_images\\s000056.png",
         "hash_image": "star_data\\hash_images\\h000056.png",
         "chart_image": "star_data\\chart_images\\c000056.png",
         "id": 56
     },
     "a0ba0c7d79be7ae208752a08fca350739f3d0ac82b422be2a6c176fa0ed3df0a": {
-        "name": "Thi\u00ean Ph\u00fac",
+        "name": "Thiên Phúc",
         "image": "star_data\\star_images\\s000057.png",
         "hash_image": "star_data\\hash_images\\h000057.png",
         "chart_image": "star_data\\chart_images\\c000057.png",
         "id": 57
     },
     "8bba8a5f1e6b5016fcad7e075c87dda50be8d593193b727e94bce50dfcdffbd3": {
-        "name": "Thi\u00ean Gi\u1ea3i",
+        "name": "Thiên Giải",
         "image": "star_data\\star_images\\s000058.png",
         "hash_image": "star_data\\hash_images\\h000058.png",
         "chart_image": "star_data\\chart_images\\c000058.png",
         "id": 58
     },
     "d38a9cd11650a03343fec256efea763c67098a80935b0de8ecec18fc2dd886d8": {
-        "name": "B\u00e1t T\u1ecda",
+        "name": "Bát Tọa",
         "image": "star_data\\star_images\\s000059.png",
         "hash_image": "star_data\\hash_images\\h000059.png",
         "chart_image": "star_data\\chart_images\\c000059.png",
         "id": 59
     },
     "ce6bbc61f94b9b3045e87d0631de3f8c5786f05297e8c628b542f8266b41190d": {
-        "name": "L.Kh\u00fac",
+        "name": "L.Khúc",
         "image": "star_data\\star_images\\s000060.png",
         "hash_image": "star_data\\hash_images\\h000060.png",
         "chart_image": "star_data\\chart_images\\c000060.png",
         "id": 60
     },
     "ac5ffa7b0ee855fefcc89933f279ac8379f29cb7714880cf0e6dae4412e66824": {
-        "name": "L.L\u1ed9c T\u1ed3n",
+        "name": "L.Lộc Tồn",
         "image": "star_data\\star_images\\s000061.png",
         "hash_image": "star_data\\hash_images\\h000061.png",
         "chart_image": "star_data\\chart_images\\c000061.png",
@@ -441,140 +441,140 @@
         "id": 62
     },
     "110dd429f1fa4958ce569a4bf7e3e23657d53694d88597797689c802a3b5f8d7": {
-        "name": "L\u01b0u H\u00e0",
+        "name": "Lưu Hà",
         "image": "star_data\\star_images\\s000063.png",
         "hash_image": "star_data\\hash_images\\h000063.png",
         "chart_image": "star_data\\chart_images\\c000063.png",
         "id": 63
     },
     "3e8b8f80fa0ad8322d85fecab6ddd277c949abf2fef00971fbbff14952e2bda5": {
-        "name": "Tr\u1ef1c Ph\u00f9",
+        "name": "Trực Phù",
         "image": "star_data\\star_images\\s000064.png",
         "hash_image": "star_data\\hash_images\\h000064.png",
         "chart_image": "star_data\\chart_images\\c000064.png",
         "id": 64
     },
     "614d7f218fe909c24419c657454ee84780089b60b3f505f8b11f2a75a58123a0": {
-        "name": "L.Thi\u00ean H\u01b0",
+        "name": "L.Thiên Hư",
         "image": "star_data\\star_images\\s000065.png",
         "hash_image": "star_data\\hash_images\\h000065.png",
         "chart_image": "star_data\\chart_images\\c000065.png",
         "id": 65
     },
     "b00db1c3c1c02db55330f74f541f80a9f836dca6f7c4e5288fc335f4b06ac381": {
-        "name": "T\u1ee9c Th\u1ea7n",
+        "name": "Tức Thần",
         "image": "star_data\\star_images\\s000066.png",
         "hash_image": "star_data\\hash_images\\h000066.png",
         "chart_image": "star_data\\chart_images\\c000066.png",
         "id": 66
     },
     "5ec0e52eb41bbab152762ec2435539d7d64fcff6e8ae631dc487cbdc4bee3947": {
-        "name": "+THI\u00caN \u0110\u1ed2NG(H)",
+        "name": "+THIÊN ĐỒNG(H)",
         "image": "star_data\\star_images\\s000067.png",
         "hash_image": "star_data\\hash_images\\h000067.png",
         "chart_image": "star_data\\chart_images\\c000067.png",
         "id": 67
     },
     "1cd6800f9cc4bede2145d93babac502e4e6b64515e2ff7598130d554009e9754": {
-        "name": "\u0110\u00e0o Hoa",
+        "name": "Đào Hoa",
         "image": "star_data\\star_images\\s000068.png",
         "hash_image": "star_data\\hash_images\\h000068.png",
         "chart_image": "star_data\\chart_images\\c000068.png",
         "id": 68
     },
     "b280e10624cf2294477535b96f04fe3860d9fa6e36691332972ada3ba87b0485": {
-        "name": "\u00c2n Quang",
+        "name": "Ân Quang",
         "image": "star_data\\star_images\\s000069.png",
         "hash_image": "star_data\\hash_images\\h000069.png",
         "chart_image": "star_data\\chart_images\\c000069.png",
         "id": 69
     },
     "de4f6f8fdca2f1dfadc4b9719dc5d225c5e16ca846533afe0a198c3078a2e5e5": {
-        "name": "L\u1ef1c S\u1ef9",
+        "name": "Lực Sỹ",
         "image": "star_data\\star_images\\s000070.png",
         "hash_image": "star_data\\hash_images\\h000070.png",
         "chart_image": "star_data\\chart_images\\c000070.png",
         "id": 70
     },
     "d43883d45a062e96c56151a6e56e4e9a9f456db902cf03f1a01cbf607f0accb4": {
-        "name": "Nguy\u1ec7t \u0110\u1ee9c",
+        "name": "Nguyệt Đức",
         "image": "star_data\\star_images\\s000071.png",
         "hash_image": "star_data\\hash_images\\h000071.png",
         "chart_image": "star_data\\chart_images\\c000071.png",
         "id": 71
     },
     "e242bf21b57c34d4053b206290696a6eec3062106146d93396417a45fdab06b0": {
-        "name": "K\u00ecnh D\u01b0\u01a1ng(H)",
+        "name": "Kình Dương(H)",
         "image": "star_data\\star_images\\s000072.png",
         "hash_image": "star_data\\hash_images\\h000072.png",
         "chart_image": "star_data\\chart_images\\c000072.png",
         "id": 72
     },
     "e563e08fc0e0057d24c50995d871f573c099f8aadf6de795a4f656394e72d0f6": {
-        "name": "\u0110\u1ea9u Qu\u00e2n",
+        "name": "Đẩu Quân",
         "image": "star_data\\star_images\\s000073.png",
         "hash_image": "star_data\\hash_images\\h000073.png",
         "chart_image": "star_data\\chart_images\\c000073.png",
         "id": 73
     },
     "8fbd38fdde1c84deb1f1ca7484ba7a0c877943750906006d34246a1743a90f21": {
-        "name": "T\u1eed Ph\u00f9",
+        "name": "Tử Phù",
         "image": "star_data\\star_images\\s000074.png",
         "hash_image": "star_data\\hash_images\\h000074.png",
         "chart_image": "star_data\\chart_images\\c000074.png",
         "id": 74
     },
     "7c323f10e7edf701c07841664f3a86416595a72932dce9c9be8ed616d69f83c3": {
-        "name": "L.Th\u00e1i Tu\u1ebf",
+        "name": "L.Thái Tuế",
         "image": "star_data\\star_images\\s000075.png",
         "hash_image": "star_data\\hash_images\\h000075.png",
         "chart_image": "star_data\\chart_images\\c000075.png",
         "id": 75
     },
     "ba3d1e607617aeae56e53834f749857d803b1b6d35080bfdb838f8a8ba66d2fa": {
-        "name": "L.Thi\u00ean Kh\u1ed1c",
+        "name": "L.Thiên Khốc",
         "image": "star_data\\star_images\\s000076.png",
         "hash_image": "star_data\\hash_images\\h000076.png",
         "chart_image": "star_data\\chart_images\\c000076.png",
         "id": 76
     },
     "3b2f067a81e83d8e4538df2bc39b7634038f14428d7cd34e3d1f1c23ce56ae65": {
-        "name": "-TH\u00c1I \u00c2M(H)",
+        "name": "-THÁI ÂM(H)",
         "image": "star_data\\star_images\\s000077.png",
         "hash_image": "star_data\\hash_images\\h000077.png",
         "chart_image": "star_data\\chart_images\\c000077.png",
         "id": 77
     },
     "f78c0a1ea647ea561882e4ef72e7edc834485df757f83cd12ce089d12ca46f52": {
-        "name": "H\u00f3a Khoa(V)",
+        "name": "Hóa Khoa(V)",
         "image": "star_data\\star_images\\s000078.png",
         "hash_image": "star_data\\hash_images\\h000078.png",
         "chart_image": "star_data\\chart_images\\c000078.png",
         "id": 78
     },
     "73547d0c60543d91e2a0f5345be35f39c380546a55a517ce05865c763a63c5c4": {
-        "name": "V\u0103n Kh\u00fac(\u0110)",
+        "name": "Văn Khúc(Đ)",
         "image": "star_data\\star_images\\s000079.png",
         "hash_image": "star_data\\hash_images\\h000079.png",
         "chart_image": "star_data\\chart_images\\c000079.png",
         "id": 79
     },
     "c79fb098df70aec6195586abdd142620a3ca5a8a9f03bf375cb0482f58b0bd44": {
-        "name": "Qu\u1ed1c \u1ea4n",
+        "name": "Quốc Ấn",
         "image": "star_data\\star_images\\s000080.png",
         "hash_image": "star_data\\hash_images\\h000080.png",
         "chart_image": "star_data\\chart_images\\c000080.png",
         "id": 80
     },
     "885365b79bfcf2a8fe862ffdd069b0f40afea7e2d88d0dbc424727bb96e9d4e9": {
-        "name": "Hoa C\u00e1i",
+        "name": "Hoa Cái",
         "image": "star_data\\star_images\\s000081.png",
         "hash_image": "star_data\\hash_images\\h000081.png",
         "chart_image": "star_data\\chart_images\\c000081.png",
         "id": 81
     },
     "f81fab022d94c2510eec9b321bc7827ba841fdb6719c0fe55b2d1b37039bc0ee": {
-        "name": "N.L\u1ed9c",
+        "name": "N.Lộc",
         "image": "star_data\\star_images\\s000082.png",
         "hash_image": "star_data\\hash_images\\h000082.png",
         "chart_image": "star_data\\chart_images\\c000082.png",
@@ -588,357 +588,357 @@
         "id": 83
     },
     "e566bdd1391226824bb542e9db05cb3439285e0dab4f005ec2d1a84cfe6b2f67": {
-        "name": "Th\u00e1i Tu\u1ebf",
+        "name": "Thái Tuế",
         "image": "star_data\\star_images\\s000084.png",
         "hash_image": "star_data\\hash_images\\h000084.png",
         "chart_image": "star_data\\chart_images\\c000084.png",
         "id": 84
     },
     "082a63eeb3a8229735a7b827d6c8ec4db39921ffbacb160dfd000ac7fc656a43": {
-        "name": "Thi\u00ean H\u00ecnh(H)",
+        "name": "Thiên Hình(H)",
         "image": "star_data\\star_images\\s000085.png",
         "hash_image": "star_data\\hash_images\\h000085.png",
         "chart_image": "star_data\\chart_images\\c000085.png",
         "id": 85
     },
     "dbd10ca32fbdaa82b0d459a285189d9d749d2ffa91a68357f644b5af86b94f07": {
-        "name": "B\u1ec7nh Ph\u00f9",
+        "name": "Bệnh Phù",
         "image": "star_data\\star_images\\s000086.png",
         "hash_image": "star_data\\hash_images\\h000086.png",
         "chart_image": "star_data\\chart_images\\c000086.png",
         "id": 86
     },
     "1a3a541752d06b03b89f683abe3cdc35ed70f75e490a25036edd3ef702ed47f1": {
-        "name": "\u0110\u1ecba V\u00f5ng",
+        "name": "Địa Võng",
         "image": "star_data\\star_images\\s000087.png",
         "hash_image": "star_data\\hash_images\\h000087.png",
         "chart_image": "star_data\\chart_images\\c000087.png",
         "id": 87
     },
     "879efffb95fef5d941eecad42e9543cf02fbe56f99d478f8959bceb63313cac5": {
-        "name": "L.K\u00ecnh D\u01b0\u01a1ng",
+        "name": "L.Kình Dương",
         "image": "star_data\\star_images\\s000088.png",
         "hash_image": "star_data\\hash_images\\h000088.png",
         "chart_image": "star_data\\chart_images\\c000088.png",
         "id": 88
     },
     "58ac767baa842a709cf3c0f8a21a7641e01ab8e3edd111567f51f47a0e833a17": {
-        "name": "\u00c2m S\u00e1t",
+        "name": "Âm Sát",
         "image": "star_data\\star_images\\s000089.png",
         "hash_image": "star_data\\hash_images\\h000089.png",
         "chart_image": "star_data\\chart_images\\c000089.png",
         "id": 89
     },
     "da6327bbea2d5a07ecfafe65cec6e368e81e8f5daf9396c36c1b384c0bed7e1d": {
-        "name": "\u0110V.K\u1ecb",
+        "name": "ĐV.Kị",
         "image": "star_data\\star_images\\s000090.png",
         "hash_image": "star_data\\hash_images\\h000090.png",
         "chart_image": "star_data\\chart_images\\c000090.png",
         "id": 90
     },
     "dc1b3e8f14dd248ac7af9c9783e84796b07707d597a2d702477cd14b5e8cf10e": {
-        "name": "N.K\u1ecb",
+        "name": "N.Kị",
         "image": "star_data\\star_images\\s000091.png",
         "hash_image": "star_data\\hash_images\\h000091.png",
         "chart_image": "star_data\\chart_images\\c000091.png",
         "id": 91
     },
     "cf6ad9c689ff6af81f5478248d9cfc50e8250019eb8cdb90f8ce4b3932cd03b6": {
-        "name": "-V\u0168 KH\u00daC(M)",
+        "name": "-VŨ KHÚC(M)",
         "image": "star_data\\star_images\\s000092.png",
         "hash_image": "star_data\\hash_images\\h000092.png",
         "chart_image": "star_data\\chart_images\\c000092.png",
         "id": 92
     },
     "34c6241e5467eb07a2e855bac65d7e33ef46b2fc499ba6ac9d70abb1dd69c8b9": {
-        "name": "L\u1ed9c T\u1ed3n",
+        "name": "Lộc Tồn",
         "image": "star_data\\star_images\\s000093.png",
         "hash_image": "star_data\\hash_images\\h000093.png",
         "chart_image": "star_data\\chart_images\\c000093.png",
         "id": 93
     },
     "df9e9aa1ff279fd009ef1c7c7abbebc120246dac04e451182b8926743a08ca63": {
-        "name": "B\u00e1c S\u1ef9",
+        "name": "Bác Sỹ",
         "image": "star_data\\star_images\\s000094.png",
         "hash_image": "star_data\\hash_images\\h000094.png",
         "chart_image": "star_data\\chart_images\\c000094.png",
         "id": 94
     },
     "076bab8a9d9e39038eba56a7f6193115ae9fb00bd54496a92a011cee70fe465d": {
-        "name": "Thi\u00ean Y",
+        "name": "Thiên Y",
         "image": "star_data\\star_images\\s000095.png",
         "hash_image": "star_data\\hash_images\\h000095.png",
         "chart_image": "star_data\\chart_images\\c000095.png",
         "id": 95
     },
     "4ca3e3942c0040e00823df86a8b172dbe4298f9e4b98b69e2b08eebba30941f3": {
-        "name": "Long Tr\u00ec",
+        "name": "Long Trì",
         "image": "star_data\\star_images\\s000096.png",
         "hash_image": "star_data\\hash_images\\h000096.png",
         "chart_image": "star_data\\chart_images\\c000096.png",
         "id": 96
     },
     "956149134f70a9265b2de7c6fa9e33dca09922107c913f1591ea8c2b7e7f0ef5": {
-        "name": "\u0110V.Quy\u1ec1n",
+        "name": "ĐV.Quyền",
         "image": "star_data\\star_images\\s000097.png",
         "hash_image": "star_data\\hash_images\\h000097.png",
         "chart_image": "star_data\\chart_images\\c000097.png",
         "id": 97
     },
     "f7a877a7394d5ab139a30fc23e8b2d4b77e5d981158f8d853951bad979c88d80": {
-        "name": "Thi\u00ean Di\u00eau(\u0110)",
+        "name": "Thiên Diêu(Đ)",
         "image": "star_data\\star_images\\s000098.png",
         "hash_image": "star_data\\hash_images\\h000098.png",
         "chart_image": "star_data\\chart_images\\c000098.png",
         "id": 98
     },
     "a85eaf835a7e77eb18ea36bbeba736a4b35bfa2223cc724bd6d9e5b007c09c30": {
-        "name": "Quan Ph\u00f9",
+        "name": "Quan Phù",
         "image": "star_data\\star_images\\s000099.png",
         "hash_image": "star_data\\hash_images\\h000099.png",
         "chart_image": "star_data\\chart_images\\c000099.png",
         "id": 99
     },
     "74173a7fae23a97fc69dfbfbafb98291bae769d15afac9942c00f775178cab7a": {
-        "name": "Thi\u00ean Th\u01b0\u01a1ng",
+        "name": "Thiên Thương",
         "image": "star_data\\star_images\\s000100.png",
         "hash_image": "star_data\\hash_images\\h000100.png",
         "chart_image": "star_data\\chart_images\\c000100.png",
         "id": 100
     },
     "9465c2be1b46593ee1259da478390341a7e5e63092252f96db7f6b938582f734": {
-        "name": "Ch\u1ec9 B\u1ed1i",
+        "name": "Chỉ Bối",
         "image": "star_data\\star_images\\s000101.png",
         "hash_image": "star_data\\hash_images\\h000101.png",
         "chart_image": "star_data\\chart_images\\c000101.png",
         "id": 101
     },
     "e44eed625fded27d9c8ccebc5446e24386c799486dfebdcb108c3d16410f3a6d": {
-        "name": "+T\u1eec VI(M)",
+        "name": "+TỬ VI(M)",
         "image": "star_data\\star_images\\s000102.png",
         "hash_image": "star_data\\hash_images\\h000102.png",
         "chart_image": "star_data\\chart_images\\c000102.png",
         "id": 102
     },
     "55d090b01c3e09e3977c456b43dd984d697858a13c8a587a2d2989a36971134c": {
-        "name": "-THI\u00caN PH\u00d9(M)",
+        "name": "-THIÊN PHÙ(M)",
         "image": "star_data\\star_images\\s000103.png",
         "hash_image": "star_data\\hash_images\\h000103.png",
         "chart_image": "star_data\\chart_images\\c000103.png",
         "id": 103
     },
     "029c0600d2a5b178de73a6d540eaca38d02f76b1133342380e76a5c01dd8ec51": {
-        "name": "Thi\u00ean Kh\u00f4i",
+        "name": "Thiên Khôi",
         "image": "star_data\\star_images\\s000104.png",
         "hash_image": "star_data\\hash_images\\h000104.png",
         "chart_image": "star_data\\chart_images\\c000104.png",
         "id": 104
     },
     "425b8bda3b1eed1f10bf6c184fa3dc87aed1d432799a3643812a2d083ca4e8cf": {
-        "name": "Thi\u1ebfu \u00c2m",
+        "name": "Thiếu Âm",
         "image": "star_data\\star_images\\s000105.png",
         "hash_image": "star_data\\hash_images\\h000105.png",
         "chart_image": "star_data\\chart_images\\c000105.png",
         "id": 105
     },
     "4266145c4637e585b254f69f5ea7f8fffaace8ffd476a5d21c4cfdbf7a27c4c6": {
-        "name": "\u0110\u00e0 La(\u0110)",
+        "name": "Đà La(Đ)",
         "image": "star_data\\star_images\\s000106.png",
         "hash_image": "star_data\\hash_images\\h000106.png",
         "chart_image": "star_data\\chart_images\\c000106.png",
         "id": 106
     },
     "4c6db113de2dffd7f8adc4dcf35dd9253d05017dd6cf9afcb80aaa5c87664d58": {
-        "name": "Quan Ph\u1ee7",
+        "name": "Quan Phủ",
         "image": "star_data\\star_images\\s000107.png",
         "hash_image": "star_data\\hash_images\\h000107.png",
         "chart_image": "star_data\\chart_images\\c000107.png",
         "id": 107
     },
     "53268a2ea4a392b1033b40d0dedfa026fb7af8396359b9454b444690a590d3ad": {
-        "name": "Ph\u00e1 To\u00e1i",
+        "name": "Phá Toái",
         "image": "star_data\\star_images\\s000108.png",
         "hash_image": "star_data\\hash_images\\h000108.png",
         "chart_image": "star_data\\chart_images\\c000108.png",
         "id": 108
     },
     "cfa19940564bf548bca32232823cb83677cbb051e620fc5b915f4ea64e0b35d4": {
-        "name": "Thi\u00ean S\u00e1t",
+        "name": "Thiên Sát",
         "image": "star_data\\star_images\\s000109.png",
         "hash_image": "star_data\\hash_images\\h000109.png",
         "chart_image": "star_data\\chart_images\\c000109.png",
         "id": 109
     },
     "8a0d9cbaac8b46e1f0107535fb86c25c893324b91283d7ef9ebac7510b07e8ed": {
-        "name": "-THI\u00caN C\u01a0(\u0110)",
+        "name": "-THIÊN CƠ(Đ)",
         "image": "star_data\\star_images\\s000110.png",
         "hash_image": "star_data\\hash_images\\h000110.png",
         "chart_image": "star_data\\chart_images\\c000110.png",
         "id": 110
     },
     "0cb36bdb02680b558d38cd6aa1e7d23e8414ea744c539a4237d8c66d8430f2fc": {
-        "name": "H\u00f3a Quy\u1ec1n(B)",
+        "name": "Hóa Quyền(B)",
         "image": "star_data\\star_images\\s000111.png",
         "hash_image": "star_data\\hash_images\\h000111.png",
         "chart_image": "star_data\\chart_images\\c000111.png",
         "id": 111
     },
     "a92f2aa9fd75bae7d697a4dff7845145621795d446e96e3d26f120a6e6d2f6a3": {
-        "name": "Thai Ph\u1ee5",
+        "name": "Thai Phụ",
         "image": "star_data\\star_images\\s000112.png",
         "hash_image": "star_data\\hash_images\\h000112.png",
         "chart_image": "star_data\\chart_images\\c000112.png",
         "id": 112
     },
     "465eacef324709ea4f2c3f7b03c395f3ae3c1cd2e762e10c1e0e5c8a01d31ef4": {
-        "name": "Ph\u01b0\u1ee3ng C\u00e1c",
+        "name": "Phượng Các",
         "image": "star_data\\star_images\\s000113.png",
         "hash_image": "star_data\\hash_images\\h000113.png",
         "chart_image": "star_data\\chart_images\\c000113.png",
         "id": 113
     },
     "4f4736fbf8450bcce4941e1f782bc7facbde76d8137c135f1072863ae3ac977f": {
-        "name": "Gi\u1ea3i Th\u1ea7n",
+        "name": "Giải Thần",
         "image": "star_data\\star_images\\s000114.png",
         "hash_image": "star_data\\hash_images\\h000114.png",
         "chart_image": "star_data\\chart_images\\c000114.png",
         "id": 114
     },
     "1cd7ec1043c77903e858437099f6212b5b493104568de6521afde326bce8f153": {
-        "name": "Tang M\u00f4n(H)",
+        "name": "Tang Môn(H)",
         "image": "star_data\\star_images\\s000115.png",
         "hash_image": "star_data\\hash_images\\h000115.png",
         "chart_image": "star_data\\chart_images\\c000115.png",
         "id": 115
     },
     "a35e659ab38d976a9e3e7a0792b3e88a2457d74887c945d4b0af46908e8417f9": {
-        "name": "Ph\u1ee5c Binh",
+        "name": "Phục Binh",
         "image": "star_data\\star_images\\s000116.png",
         "hash_image": "star_data\\hash_images\\h000116.png",
         "chart_image": "star_data\\chart_images\\c000116.png",
         "id": 116
     },
     "da21dfb1e43596fdb26ed4e1cec270ddfbd65e3562cac05bc69fbb05efddca72": {
-        "name": "Tai S\u00e1t",
+        "name": "Tai Sát",
         "image": "star_data\\star_images\\s000117.png",
         "hash_image": "star_data\\hash_images\\h000117.png",
         "chart_image": "star_data\\chart_images\\c000117.png",
         "id": 117
     },
     "e4619ecdc295ffaf13ffc59fe2f702dc4bba567781e6269d7518541eff8fa125": {
-        "name": "-PH\u00c1 QU\u00c2N(M)",
+        "name": "-PHÁ QUÂN(M)",
         "image": "star_data\\star_images\\s000118.png",
         "hash_image": "star_data\\hash_images\\h000118.png",
         "chart_image": "star_data\\chart_images\\c000118.png",
         "id": 118
     },
     "3000d88cfc2ca3606967db63191b748d9ebb07e7e7789c14d66a2c6622533dde": {
-        "name": "Thi\u00ean Qu\u00fd",
+        "name": "Thiên Quý",
         "image": "star_data\\star_images\\s000119.png",
         "hash_image": "star_data\\hash_images\\h000119.png",
         "chart_image": "star_data\\chart_images\\c000119.png",
         "id": 119
     },
     "bd8c86e925521586ab1b59042244a8ab8e03f9d417e406886240eeb3f2857579": {
-        "name": "Thi\u00ean H\u1ec9",
+        "name": "Thiên Hỉ",
         "image": "star_data\\star_images\\s000120.png",
         "hash_image": "star_data\\hash_images\\h000120.png",
         "chart_image": "star_data\\chart_images\\c000120.png",
         "id": 120
     },
     "6ee0cfc354d0641e363e93de05ae5d85357b5986813d1b99cf77657157f47b2f": {
-        "name": "Thi\u1ebfu D\u01b0\u01a1ng",
+        "name": "Thiếu Dương",
         "image": "star_data\\star_images\\s000121.png",
         "hash_image": "star_data\\hash_images\\h000121.png",
         "chart_image": "star_data\\chart_images\\c000121.png",
         "id": 121
     },
     "3c503f19786628b8feddf51e0beff2e78f051729e5f82c7f99bc18bd32706742": {
-        "name": "LN.Quy\u1ec1n",
+        "name": "LN.Quyền",
         "image": "star_data\\star_images\\s000122.png",
         "hash_image": "star_data\\hash_images\\h000122.png",
         "chart_image": "star_data\\chart_images\\c000122.png",
         "id": 122
     },
     "7eb5f75960ffb5e2bc2237180beb8953f38cbe0ec47b50870a1411f45acfb47e": {
-        "name": "H\u00f3a K\u1ecb(H)",
+        "name": "Hóa Kị(H)",
         "image": "star_data\\star_images\\s000123.png",
         "hash_image": "star_data\\hash_images\\h000123.png",
         "chart_image": "star_data\\chart_images\\c000123.png",
         "id": 123
     },
     "c10794ada4505d553ef7a3c186b4eaf516ca3a4b30585be7d194e4ed7c341924": {
-        "name": "Thi\u00ean Kh\u00f4ng",
+        "name": "Thiên Không",
         "image": "star_data\\star_images\\s000124.png",
         "hash_image": "star_data\\hash_images\\h000124.png",
         "chart_image": "star_data\\chart_images\\c000124.png",
         "id": 124
     },
     "84445de82786d23271d17617e92189a4c1a55067e7a3f61affbac6ce61938687": {
-        "name": "Ki\u1ebfp S\u00e1t",
+        "name": "Kiếp Sát",
         "image": "star_data\\star_images\\s000125.png",
         "hash_image": "star_data\\hash_images\\h000125.png",
         "chart_image": "star_data\\chart_images\\c000125.png",
         "id": 125
     },
     "b4fa484f02b074b23b465f8e527a605da3e3421273bf8ba2b3fca97b62e7c948": {
-        "name": "\u0110\u1ea1i Hao(H)",
+        "name": "Đại Hao(H)",
         "image": "star_data\\star_images\\s000126.png",
         "hash_image": "star_data\\hash_images\\h000126.png",
         "chart_image": "star_data\\chart_images\\c000126.png",
         "id": 126
     },
     "16f6ea2f2dfed83cc6024268a51e1bdbed3438239e32caef19c4b6b9d3219c4a": {
-        "name": "C\u00f4 Th\u1ea7n",
+        "name": "Cô Thần",
         "image": "star_data\\star_images\\s000127.png",
         "hash_image": "star_data\\hash_images\\h000127.png",
         "chart_image": "star_data\\chart_images\\c000127.png",
         "id": 127
     },
     "9dcdda337c5801c5e50f20be54ee9c6edf60a67dee6905883e521bd943ec9fa2": {
-        "name": "L.B\u1ea1ch H\u1ed5",
+        "name": "L.Bạch Hổ",
         "image": "star_data\\star_images\\s000128.png",
         "hash_image": "star_data\\hash_images\\h000128.png",
         "chart_image": "star_data\\chart_images\\c000128.png",
         "id": 128
     },
     "6ff2a7015492ea57fedc3315ab9b2885e61aea2c094f7ca157f0974446d75e2b": {
-        "name": "+TH\u00c1I D\u01af\u01a0NG(H)",
+        "name": "+THÁI DƯƠNG(H)",
         "image": "star_data\\star_images\\s000129.png",
         "hash_image": "star_data\\hash_images\\h000129.png",
         "chart_image": "star_data\\chart_images\\c000129.png",
         "id": 129
     },
     "0990589982df966d300539d6886e54d5cccf5e3540d6c5db20a904d6aea9cb53": {
-        "name": "\u0110\u00e0 La (H)",
+        "name": "Đà La (H)",
         "image": "star_data\\star_images\\s000130.png",
         "hash_image": "star_data\\hash_images\\h000130.png",
         "chart_image": "star_data\\chart_images\\c000130.png",
         "id": 130
     },
     "cb96acbfc151aa5e1f006cb102a088e0850c21e1f1a6a6ca15c74cfe9dfb0126": {
-        "name": "-THI\u00caN PH\u1ee6(\u0110)",
+        "name": "-THIÊN PHỦ(Đ)",
         "image": "star_data\\star_images\\s000131.png",
         "hash_image": "star_data\\hash_images\\h000131.png",
         "chart_image": "star_data\\chart_images\\c000131.png",
         "id": 131
     },
     "e321892227a5929c928734d0d60bace5ec92a50a42239713d5ea4339fd03c3d2": {
-        "name": "H\u00f3a L\u1ed9c(\u0110)",
+        "name": "Hóa Lộc(Đ)",
         "image": "star_data\\star_images\\s000132.png",
         "hash_image": "star_data\\hash_images\\h000132.png",
         "chart_image": "star_data\\chart_images\\c000132.png",
         "id": 132
     },
     "a4137d0394bef1ec4bbcdda2f355d0c0b9490debc1b96e6ee6b3e3fad4c292a4": {
-        "name": "H\u00f3a Quy\u1ec1n(\u0110)",
+        "name": "Hóa Quyền(Đ)",
         "image": "star_data\\star_images\\s000133.png",
         "hash_image": "star_data\\hash_images\\h000133.png",
         "chart_image": "star_data\\chart_images\\c000133.png",
         "id": 133
     },
     "add3dafbac61b0cb6817808a4800f372e5a6b3fd213899ea716c80716c30e021": {
-        "name": "K\u00ecnh D\u01b0\u01a1ng(\u0110)",
+        "name": "Kình Dương(Đ)",
         "image": "star_data\\star_images\\s000134.png",
         "hash_image": "star_data\\hash_images\\h000134.png",
         "chart_image": "star_data\\chart_images\\c000134.png",
@@ -952,147 +952,147 @@
         "id": 135
     },
     "247590244a6bb573220902920ee3af72aa510165b8c29526295e227c718ae868": {
-        "name": "-C\u1ef0 M\u00d4N(\u0110)",
+        "name": "-CỰ MÔN(Đ)",
         "image": "star_data\\star_images\\s000136.png",
         "hash_image": "star_data\\hash_images\\h000136.png",
         "chart_image": "star_data\\chart_images\\c000136.png",
         "id": 136
     },
     "746b03488d1ebb78281ea7d351882172539c6c5982e8cd00df51a878e7115168": {
-        "name": "Linh Tinh(\u0110)",
+        "name": "Linh Tinh(Đ)",
         "image": "star_data\\star_images\\s000137.png",
         "hash_image": "star_data\\hash_images\\h000137.png",
         "chart_image": "star_data\\chart_images\\c000137.png",
         "id": 137
     },
     "2b64f1a25a451611a159aa14917c4c0eb646fcd40174f34828209b958b3fe792": {
-        "name": "Ti\u1ec3u Hao(\u0110)",
+        "name": "Tiểu Hao(Đ)",
         "image": "star_data\\star_images\\s000138.png",
         "hash_image": "star_data\\hash_images\\h000138.png",
         "chart_image": "star_data\\chart_images\\c000138.png",
         "id": 138
     },
     "62563052b63fd25cfd7600fab756c93de60a77716ebca0edc9295b2bd4a6265e": {
-        "name": "+THI\u00caN T\u01af\u1edaNG(H)",
+        "name": "+THIÊN TƯỚNG(H)",
         "image": "star_data\\star_images\\s000139.png",
         "hash_image": "star_data\\hash_images\\h000139.png",
         "chart_image": "star_data\\chart_images\\c000139.png",
         "id": 139
     },
     "5f0dfc0caa1404d6121850f293ebbc1c2d200a35e40ee9ca2ee70dfbd9cb7be6": {
-        "name": "\u0110\u1ea1i Hao(\u0110)",
+        "name": "Đại Hao(Đ)",
         "image": "star_data\\star_images\\s000140.png",
         "hash_image": "star_data\\hash_images\\h000140.png",
         "chart_image": "star_data\\chart_images\\c000140.png",
         "id": 140
     },
     "1279b9b18717640e17df1a91af91a38026b88711ef9da0540d23edd5c672ce42": {
-        "name": "-LI\u00caM TRINH(H)",
+        "name": "-LIÊM TRINH(H)",
         "image": "star_data\\star_images\\s000141.png",
         "hash_image": "star_data\\hash_images\\h000141.png",
         "chart_image": "star_data\\chart_images\\c000141.png",
         "id": 141
     },
     "733ade4b3edf7fd45e2140d2425431724063ba07817230cdd046bfc36b0c4020": {
-        "name": "-PH\u00c1 QU\u00c2N(H)",
+        "name": "-PHÁ QUÂN(H)",
         "image": "star_data\\star_images\\s000142.png",
         "hash_image": "star_data\\hash_images\\h000142.png",
         "chart_image": "star_data\\chart_images\\c000142.png",
         "id": 142
     },
     "88dfeb6fa255829b0850062e88765d5372093dceb94494f4b75bc0be99fe0819": {
-        "name": "H\u00f3a K\u1ecb(B)",
+        "name": "Hóa Kị(B)",
         "image": "star_data\\star_images\\s000143.png",
         "hash_image": "star_data\\hash_images\\h000143.png",
         "chart_image": "star_data\\chart_images\\c000143.png",
         "id": 143
     },
     "f8e515c784f12886ced8df1dfdb49db4948db8babe4952c7b1113ca4217899c0": {
-        "name": "-THI\u00caN C\u01a0(M)",
+        "name": "-THIÊN CƠ(M)",
         "image": "star_data\\star_images\\s000144.png",
         "hash_image": "star_data\\hash_images\\h000144.png",
         "chart_image": "star_data\\chart_images\\c000144.png",
         "id": 144
     },
     "b575ef473c00f1e619c8fe703a3080590b6bdb5af0b2beb0cf570df4a92fa889": {
-        "name": "+THI\u00caN L\u01af\u01a0NG(M)",
+        "name": "+THIÊN LƯƠNG(M)",
         "image": "star_data\\star_images\\s000145.png",
         "hash_image": "star_data\\hash_images\\h000145.png",
         "chart_image": "star_data\\chart_images\\c000145.png",
         "id": 145
     },
     "39282b55a5245f36143062c9f96e2ea188153d678e8f3d27adaab5af2113b69e": {
-        "name": "Thi\u00ean Kh\u1ed1c(\u0110)",
+        "name": "Thiên Khốc(Đ)",
         "image": "star_data\\star_images\\s000146.png",
         "hash_image": "star_data\\hash_images\\h000146.png",
         "chart_image": "star_data\\chart_images\\c000146.png",
         "id": 146
     },
     "ac77b6f08c306e75fe99a60cf42622783e879e20f166f6c03ae3147005cb7caf": {
-        "name": "+T\u1eec VI(B)",
+        "name": "+TỬ VI(B)",
         "image": "star_data\\star_images\\s000147.png",
         "hash_image": "star_data\\hash_images\\h000147.png",
         "chart_image": "star_data\\chart_images\\c000147.png",
         "id": 147
     },
     "bee66219377188f2f36422d46dd8bbdc6a291421709d7bb80d02dddb1db93e23": {
-        "name": "+TH\u1ea4T S\u00c1T(V)",
+        "name": "+THẤT SÁT(V)",
         "image": "star_data\\star_images\\s000148.png",
         "hash_image": "star_data\\hash_images\\h000148.png",
         "chart_image": "star_data\\chart_images\\c000148.png",
         "id": 148
     },
     "ae8dadcb0552868699941f169c782ab26017d8a4418d480f7e41d77863162e99": {
-        "name": "Thi\u00ean M\u00e3(\u0110)",
+        "name": "Thiên Mã(Đ)",
         "image": "star_data\\star_images\\s000149.png",
         "hash_image": "star_data\\hash_images\\h000149.png",
         "chart_image": "star_data\\chart_images\\c000149.png",
         "id": 149
     },
     "5c90cc848e57591e98079bff6d8d71f224de22dad1167d3571938e0a9ba829aa": {
-        "name": "+THI\u00caN T\u01af\u1edaNG(\u0110)",
+        "name": "+THIÊN TƯỚNG(Đ)",
         "image": "star_data\\star_images\\s000150.png",
         "hash_image": "star_data\\hash_images\\h000150.png",
         "chart_image": "star_data\\chart_images\\c000150.png",
         "id": 150
     },
     "b46b51014bf66f7904c49c122730c49fba9e44df55846b0e5244bd524032b56b": {
-        "name": "H\u00f3a Khoa(\u0110)",
+        "name": "Hóa Khoa(Đ)",
         "image": "star_data\\star_images\\s000151.png",
         "hash_image": "star_data\\hash_images\\h000151.png",
         "chart_image": "star_data\\chart_images\\c000151.png",
         "id": 151
     },
     "be75de8e0a2d6b7452cdc686a32d94e86f1688b13ec85c49e6b6b5bc7a8d31ca": {
-        "name": "-LI\u00caM TRINH(\u0110)",
+        "name": "-LIÊM TRINH(Đ)",
         "image": "star_data\\star_images\\s000152.png",
         "hash_image": "star_data\\hash_images\\h000152.png",
         "chart_image": "star_data\\chart_images\\c000152.png",
         "id": 152
     },
     "907733535f4ad9ea426654717ff3e5567a5fcc20a83980bd54d0bc1fce5db3a9": {
-        "name": "+TH\u1ea4T S\u00c1T(\u0110)",
+        "name": "+THẤT SÁT(Đ)",
         "image": "star_data\\star_images\\s000153.png",
         "hash_image": "star_data\\hash_images\\h000153.png",
         "chart_image": "star_data\\chart_images\\c000153.png",
         "id": 153
     },
     "ef24de422487da2af3f952e9f504825b9e63a8d7fefe35c8450f77c3a11c2980": {
-        "name": "Thi\u00ean H\u01b0(\u0110)",
+        "name": "Thiên Hư(Đ)",
         "image": "star_data\\star_images\\s000154.png",
         "hash_image": "star_data\\hash_images\\h000154.png",
         "chart_image": "star_data\\chart_images\\c000154.png",
         "id": 154
     },
     "2faa7578f1dda57fc81d63e2569648108fd07f3f1d68dd9536c1907f3e104e12": {
-        "name": "H\u00f3a Quy\u1ec1n(V)",
+        "name": "Hóa Quyền(V)",
         "image": "star_data\\star_images\\s000155.png",
         "hash_image": "star_data\\hash_images\\h000155.png",
         "chart_image": "star_data\\chart_images\\c000155.png",
         "id": 155
     },
     "66f37c9807d696bb588461cf859e64f0aa680321a3e4cf6702b50e68def44082": {
-        "name": "H\u1ecfa Tinh(\u0110)",
+        "name": "Hỏa Tinh(Đ)",
         "image": "star_data\\star_images\\s000156.png",
         "hash_image": "star_data\\hash_images\\h000156.png",
         "chart_image": "star_data\\chart_images\\c000156.png",
@@ -1106,259 +1106,259 @@
         "id": 157
     },
     "e8be00e6c060e0f91deb63d563d100e122312faaa78a97ca5d3ab3ab2eeb5b07": {
-        "name": "-THI\u00caN C\u01a0(H)",
+        "name": "-THIÊN CƠ(H)",
         "image": "star_data\\star_images\\s000158.png",
         "hash_image": "star_data\\hash_images\\h000158.png",
         "chart_image": "star_data\\chart_images\\c000158.png",
         "id": 158
     },
     "9ae25023598011322ae27ed7d946f43de1e60fe603c72fc678699934c5b4749e": {
-        "name": "-THI\u00caN PH\u1ee6(B)",
+        "name": "-THIÊN PHỦ(B)",
         "image": "star_data\\star_images\\s000159.png",
         "hash_image": "star_data\\hash_images\\h000159.png",
         "chart_image": "star_data\\chart_images\\c000159.png",
         "id": 159
     },
     "29ab6f708b5c62a1527d6a56898f6bfe2190d3d5cbd73d3239f48904d89ddd3f": {
-        "name": "Thi\u00ean Di\u00eau(H)",
+        "name": "Thiên Diêu(H)",
         "image": "star_data\\star_images\\s000160.png",
         "hash_image": "star_data\\hash_images\\h000160.png",
         "chart_image": "star_data\\chart_images\\c000160.png",
         "id": 160
     },
     "95fd38234ddf6665fe431ff324c9b7ba916d909af20797265c32ae2054ef69fb": {
-        "name": "-V\u0168 KH\u00daC(H)",
+        "name": "-VŨ KHÚC(H)",
         "image": "star_data\\star_images\\s000161.png",
         "hash_image": "star_data\\hash_images\\h000161.png",
         "chart_image": "star_data\\chart_images\\c000161.png",
         "id": 161
     },
     "f1dcb8b38d0bf5a4f8b0c53d54687b785862de1db07e6d9a84b3af2abf5d3969": {
-        "name": "+TH\u00c1I D\u01af\u01a0NG(M)",
+        "name": "+THÁI DƯƠNG(M)",
         "image": "star_data\\star_images\\s000162.png",
         "hash_image": "star_data\\hash_images\\h000162.png",
         "chart_image": "star_data\\chart_images\\c000162.png",
         "id": 162
     },
     "fc79c416e0c017f00f5f7405bbee6f60ad96fbb5067cff72cbd8481649b63e64": {
-        "name": "-TH\u00c1I \u00c2M(M)",
+        "name": "-THÁI ÂM(M)",
         "image": "star_data\\star_images\\s000163.png",
         "hash_image": "star_data\\hash_images\\h000163.png",
         "chart_image": "star_data\\chart_images\\c000163.png",
         "id": 163
     },
     "426f26fb0c0ee4ca30cbce62680b25d32bbb2f8571b94548e68980d15fed463c": {
-        "name": "+THI\u00caN \u0110\u1ed2NG(\u0110)",
+        "name": "+THIÊN ĐỒNG(Đ)",
         "image": "star_data\\star_images\\s000164.png",
         "hash_image": "star_data\\hash_images\\h000164.png",
         "chart_image": "star_data\\chart_images\\c000164.png",
         "id": 164
     },
     "d3446ac01af4998854ef78b98c50a413b56dcf3aa2787565b1031cc44b558da3": {
-        "name": "Thi\u00ean H\u00ecnh(\u0110)",
+        "name": "Thiên Hình(Đ)",
         "image": "star_data\\star_images\\s000165.png",
         "hash_image": "star_data\\hash_images\\h000165.png",
         "chart_image": "star_data\\chart_images\\c000165.png",
         "id": 165
     },
     "315fe54d7f070e51c73ac0cd691ea1b3adedcad826737f6d6ab3f590a456e60c": {
-        "name": "-THI\u00caN C\u01a0(\u0110)",
+        "name": "-THIÊN CƠ(Đ)",
         "image": "star_data\\star_images\\s000166.png",
         "hash_image": "star_data\\hash_images\\h000166.png",
         "chart_image": "star_data\\chart_images\\c000166.png",
         "id": 166
     },
     "29dc592261c43786f3ccc4d701071056d582345a2b96d6b98d1fcca54d27c002": {
-        "name": "+TH\u1ea4T S\u00c1T(H)",
+        "name": "+THẤT SÁT(H)",
         "image": "star_data\\star_images\\s000167.png",
         "hash_image": "star_data\\hash_images\\h000167.png",
         "chart_image": "star_data\\chart_images\\c000167.png",
         "id": 167
     },
     "674e7af05f26ff34084cec57cab296acc3a041a4e2e742a748b212feea63cfc7": {
-        "name": "B\u1ea1ch H\u1ed5(\u0110)",
+        "name": "Bạch Hổ(Đ)",
         "image": "star_data\\star_images\\s000168.png",
         "hash_image": "star_data\\hash_images\\h000168.png",
         "chart_image": "star_data\\chart_images\\c000168.png",
         "id": 168
     },
     "c11d68104d6feea5bc8dab4dc6c02e6276b83179e5c51a90f9685aa20be10523": {
-        "name": "Tang M\u00f4n(\u0110)",
+        "name": "Tang Môn(Đ)",
         "image": "star_data\\star_images\\s000169.png",
         "hash_image": "star_data\\hash_images\\h000169.png",
         "chart_image": "star_data\\chart_images\\c000169.png",
         "id": 169
     },
     "c90a98543439224d025fcf8cec7a2f4613a8f7ac452251cdb36c14cc0f519914": {
-        "name": "+TH\u00c1I D\u01af\u01a0NG(V)",
+        "name": "+THÁI DƯƠNG(V)",
         "image": "star_data\\star_images\\s000170.png",
         "hash_image": "star_data\\hash_images\\h000170.png",
         "chart_image": "star_data\\chart_images\\c000170.png",
         "id": 170
     },
     "2924f67e06b77fd5dbb0b4729a554ce88aeac880b99ce07683d83d51b456dd1c": {
-        "name": "+THI\u00caN L\u01af\u01a0NG(V)",
+        "name": "+THIÊN LƯƠNG(V)",
         "image": "star_data\\star_images\\s000171.png",
         "hash_image": "star_data\\hash_images\\h000171.png",
         "chart_image": "star_data\\chart_images\\c000171.png",
         "id": 171
     },
     "4a35907a383c450b6ee805bd693b887991b09d95feb9d81c891bddb019abb6b4": {
-        "name": "-LI\u00caM TRINH(M)",
+        "name": "-LIÊM TRINH(M)",
         "image": "star_data\\star_images\\s000172.png",
         "hash_image": "star_data\\hash_images\\h000172.png",
         "chart_image": "star_data\\chart_images\\c000172.png",
         "id": 172
     },
     "14a1f47083e2e9e0d142e607dfeb2cbf54ac6cb9bb7a23a877180276fcf53f13": {
-        "name": "-THI\u00caN PH\u1ee6(V)",
+        "name": "-THIÊN PHỦ(V)",
         "image": "star_data\\star_images\\s000173.png",
         "hash_image": "star_data\\hash_images\\h000173.png",
         "chart_image": "star_data\\chart_images\\c000173.png",
         "id": 173
     },
     "b45172561057ff3933f07adb60e1ece7b529ab3a6e8fe6ed7252c33b09bcabc3": {
-        "name": "-V\u0168 KH\u00daC(V)",
+        "name": "-VŨ KHÚC(V)",
         "image": "star_data\\star_images\\s000174.png",
         "hash_image": "star_data\\hash_images\\h000174.png",
         "chart_image": "star_data\\chart_images\\c000174.png",
         "id": 174
     },
     "ef27cd6da91bb18b76d174b4ab0f0276b2d2c48cc71a01ee2364bfa8e306f7d1": {
-        "name": "+THI\u00caN T\u01af\u1edaNG(M)",
+        "name": "+THIÊN TƯỚNG(M)",
         "image": "star_data\\star_images\\s000175.png",
         "hash_image": "star_data\\hash_images\\h000175.png",
         "chart_image": "star_data\\chart_images\\c000175.png",
         "id": 175
     },
     "de41fc44e4da7e1d53f0d261cffb367dab5d7ae895f6256db8e07453780b424e": {
-        "name": "H\u00f3a L\u1ed9c(V)",
+        "name": "Hóa Lộc(V)",
         "image": "star_data\\star_images\\s000176.png",
         "hash_image": "star_data\\hash_images\\h000176.png",
         "chart_image": "star_data\\chart_images\\c000176.png",
         "id": 176
     },
     "a6ec57daa88301e08785726f5b4203bd5d86cbcfe8fadb1e02e77b7c3c5c3ced": {
-        "name": "-C\u1ef0 M\u00d4N(V)",
+        "name": "-CỰ MÔN(V)",
         "image": "star_data\\star_images\\s000177.png",
         "hash_image": "star_data\\hash_images\\h000177.png",
         "chart_image": "star_data\\chart_images\\c000177.png",
         "id": 177
     },
     "3ecf9ec17bd9ffa6ce250d0148348955c8073459b23bab58d20b967d4bc5eba9": {
-        "name": "+THI\u00caN \u0110\u1ed2NG(V)",
+        "name": "+THIÊN ĐỒNG(V)",
         "image": "star_data\\star_images\\s000178.png",
         "hash_image": "star_data\\hash_images\\h000178.png",
         "chart_image": "star_data\\chart_images\\c000178.png",
         "id": 178
     },
     "4343ddd39731726fcbe6dc4732473128eecfc857884efdf53dea3050badf5761": {
-        "name": "-TH\u00c1I \u00c2M(V)",
+        "name": "-THÁI ÂM(V)",
         "image": "star_data\\star_images\\s000179.png",
         "hash_image": "star_data\\hash_images\\h000179.png",
         "chart_image": "star_data\\chart_images\\c000179.png",
         "id": 179
     },
     "483d8a21e4b482b6c089633d447c4723becdc894328158600209371a7521c900": {
-        "name": "+THI\u00caN L\u01af\u01a0NG(H)",
+        "name": "+THIÊN LƯƠNG(H)",
         "image": "star_data\\star_images\\s000180.png",
         "hash_image": "star_data\\hash_images\\h000180.png",
         "chart_image": "star_data\\chart_images\\c000180.png",
         "id": 180
     },
     "81e8e335373be34de426d230ccc0cee0d8e3319282b68e8415ae105ca03c67eb": {
-        "name": "+T\u1eec VI(V)",
+        "name": "+TỬ VI(V)",
         "image": "star_data\\star_images\\s000181.png",
         "hash_image": "star_data\\hash_images\\h000181.png",
         "chart_image": "star_data\\chart_images\\c000181.png",
         "id": 181
     },
     "276c785ffdda77882cf5190d36aed4d249dc6c6e11a74d0e68199f808b6b07a6": {
-        "name": "-C\u1ef0 M\u00d4N(H)",
+        "name": "-CỰ MÔN(H)",
         "image": "star_data\\star_images\\s000182.png",
         "hash_image": "star_data\\hash_images\\h000182.png",
         "chart_image": "star_data\\chart_images\\c000182.png",
         "id": 182
     },
     "3087b3891ddb983f0aa6c1f8621a00aaa220ecf90e25608ea9cd0e39006ea85e": {
-        "name": "-PH\u00c1 QU\u00c2N(\u0110)",
+        "name": "-PHÁ QUÂN(Đ)",
         "image": "star_data\\star_images\\s000183.png",
         "hash_image": "star_data\\hash_images\\h000183.png",
         "chart_image": "star_data\\chart_images\\c000183.png",
         "id": 183
     },
     "5850e4fc82ed473a3a26174d30e9a0c30e50718d4aab8baeaf550bf9ae67d19c": {
-        "name": "-THAM LANG(\u0110)",
+        "name": "-THAM LANG(Đ)",
         "image": "star_data\\star_images\\s000184.png",
         "hash_image": "star_data\\hash_images\\h000184.png",
         "chart_image": "star_data\\chart_images\\c000184.png",
         "id": 184
     },
     "fcd2eaae64b1f18e60fda0eb51048912b623b9cee2871770b76fe15797d15743": {
-        "name": "+TH\u00c1I D\u01af\u01a0NG(\u0110)",
+        "name": "+THÁI DƯƠNG(Đ)",
         "image": "star_data\\star_images\\s000185.png",
         "hash_image": "star_data\\hash_images\\h000185.png",
         "chart_image": "star_data\\chart_images\\c000185.png",
         "id": 185
     },
     "8c928666e50f9e89b989b56fe1c23a8d6df7dc30c07af2549f2e9c801ff5adb5": {
-        "name": "-TH\u00c1I \u00c2M(\u0110)",
+        "name": "-THÁI ÂM(Đ)",
         "image": "star_data\\star_images\\s000186.png",
         "hash_image": "star_data\\hash_images\\h000186.png",
         "chart_image": "star_data\\chart_images\\c000186.png",
         "id": 186
     },
     "68d66e04fc4634e26edc37ff01b3bc7b40c6afff28597e94ff74ca1c8f7baa85": {
-        "name": "+T\u1eec VI(\u0110)",
+        "name": "+TỬ VI(Đ)",
         "image": "star_data\\star_images\\s000187.png",
         "hash_image": "star_data\\hash_images\\h000187.png",
         "chart_image": "star_data\\chart_images\\c000187.png",
         "id": 187
     },
     "5ce044bb4001cb89f8fb8b941c930c8f33e330b4c7a48497d397672d8f9dd309": {
-        "name": "-PH\u00c1 QU\u00c2N(V)",
+        "name": "-PHÁ QUÂN(V)",
         "image": "star_data\\star_images\\s000188.png",
         "hash_image": "star_data\\hash_images\\h000188.png",
         "chart_image": "star_data\\chart_images\\c000188.png",
         "id": 188
     },
     "eeaf253f6232bb75ccea15af34af8f9fd93bf056ddd3ab2cc6e1753f5ef99842": {
-        "name": "-V\u0168 KH\u00daC(\u0110)",
+        "name": "-VŨ KHÚC(Đ)",
         "image": "star_data\\star_images\\s000189.png",
         "hash_image": "star_data\\hash_images\\h000189.png",
         "chart_image": "star_data\\chart_images\\c000189.png",
         "id": 189
     },
     "ae74c444a3b2c2f5f87110ceb0537789801bc165f74d2016bf962ce358d14c48": {
-        "name": "+THI\u00caN \u0110\u1ed2NG(M)",
+        "name": "+THIÊN ĐỒNG(M)",
         "image": "star_data\\star_images\\s000190.png",
         "hash_image": "star_data\\hash_images\\h000190.png",
         "chart_image": "star_data\\chart_images\\c000190.png",
         "id": 190
     },
     "66ae731a771b251498a3fe31b6944a7125e46989ac0cb633e17426917cf9d566": {
-        "name": null,
+        "name": "Văn Khúc(H)",
         "image": "star_data\\star_images\\s000191.png",
         "hash_image": "star_data\\hash_images\\h000191.png",
         "chart_image": "star_data\\chart_images\\c000191.png",
         "id": 191
     },
     "600b82ca74f8910d611efb772d3f26f46d98fa2071395a9411f1de58e0010ee4": {
-        "name": null,
+        "name": "Địa Kiếp(H)",
         "image": "star_data\\star_images\\s000192.png",
         "hash_image": "star_data\\hash_images\\h000192.png",
         "chart_image": "star_data\\chart_images\\c000192.png",
         "id": 192
     },
     "df957a3c3ee7eaf6f89a3b6ed8fcd5fd3f069ce720dffff75d70f7157170a2d6": {
-        "name": null,
+        "name": "Địa Không(H)",
         "image": "star_data\\star_images\\s000193.png",
         "hash_image": "star_data\\hash_images\\h000193.png",
         "chart_image": "star_data\\chart_images\\c000193.png",
         "id": 193
     },
     "8497ed5eac348d489c2ea706b47780166adbed7283a81fdebfc1a72a6f3c5903": {
-        "name": null,
+        "name": "Văn Xương(H)",
         "image": "star_data\\star_images\\s000194.png",
         "hash_image": "star_data\\hash_images\\h000194.png",
         "chart_image": "star_data\\chart_images\\c000194.png",

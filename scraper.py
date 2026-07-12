@@ -7,6 +7,7 @@ import urllib.parse
 import json
 from pathlib import Path
 from queue import Queue
+import calendar
 import io
 
 import requests
@@ -62,12 +63,21 @@ def get_session():
     return thread_local.session
 
 def random_form():
+    # 1. Pick the year and month first so we know the limits
+    year_val = random.randint(1900, 2099)
+    month_val = random.randint(1, 12)
+    
+    # 2. Get the correct maximum number of days for that specific month and year
+    _, num_days = calendar.monthrange(year_val, month_val)
+    day_val = random.randint(1, num_days)
+    
+    # 3. Return your dictionary with the dynamically calculated day
     return {
         "name": "",
         "sex": str(random.choice((1, 2))),
-        "day": str(random.randint(1, 28)),
-        "month": str(random.randint(1, 12)),
-        "year": str(random.randint(1900, 2099)),
+        "day": str(day_val),
+        "month": str(month_val),
+        "year": str(year_val),
         "caltype": "1",
         "hour": str(random.randint(0, 23)),
         "minute": str(random.randint(0, 59)),

@@ -11,20 +11,25 @@ while True:
     k = keys[i]
     v = data[k]
 
-    image = Image.open(v['hash_image'])
+    if v['name'] is not None:
+        i += 1
+        continue
+
+    image = Image.open(v['image'])
     image.save('cropped_result.png')
 
-    
-    print(v['name'])
-    input()
-    # v['name'] = input('Star name: ')
 
-    # if v['name'] == 'u':
-    #     i -= 1
-    #     continue
+    v['name'] = input(f'Star [{v['id']}] name: ')
+
+    if v['name'] == 'u':
+        i -= 1
+        continue
 
     if i < len(keys) - 1:
         i += 1
+    else:
+        print('done')
+        quit()
     
-    # with open('hash_data.json', 'w', encoding='utf-8') as f:
-    #     json.dump(data, f, ensure_ascii=False, indent=4)
+    with open('hash_data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
