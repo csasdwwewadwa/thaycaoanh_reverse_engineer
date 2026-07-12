@@ -4,21 +4,23 @@ import time
 import random
 import threading
 import urllib.parse
-import json  # Added
+import json
 from pathlib import Path
 from queue import Queue
+import io
 
-import cv2
-import numpy as np
 import requests
 from requests.adapters import HTTPAdapter
+from PIL import Image
+
+from extractor import process_image
+
 
 URL = "https://tuvi.thaycaoanh.net/index.php"
-DOWNLOAD_DIR = Path("downloads")
 LOG_FILE = "metadata.jsonl"
 
 NUM_DOWNLOADERS = 4
-NUM_WRITERS = 2
+NUM_WRITERS = 1
 QUEUE_SIZE = 128
 
 headers = {
@@ -38,7 +40,7 @@ save_queue = Queue(maxsize=QUEUE_SIZE)
 
 counter_lock = threading.Lock()
 status_lock = threading.Lock()
-log_lock = threading.Lock()  # Added to prevent concurrent file writes
+log_lock = threading.Lock()  # Prevents concurrent file writes
 
 downloaded = 0
 saved = 0
@@ -67,8 +69,8 @@ def random_form():
         "month": str(random.randint(1, 12)),
         "year": str(random.randint(1900, 2099)),
         "caltype": "1",
-        "hour": "12",
-        "minute": "0",
+        "hour": str(random.randint(0, 23)),
+        "minute": str(random.randint(0, 59)),
         "yearcalc": str(random.randint(1900, 2099)),
         "monthcalc": str(random.randint(1, 12)),
         "timezone": "235",
@@ -85,15 +87,6 @@ def next_chart_index():
         idx = chart_index
         chart_index += 1
         return idx
-
-def find_next_chart_index():
-    maximum = -1
-    for f in DOWNLOAD_DIR.glob("c*.png"):
-        try:
-            maximum = max(maximum, int(f.stem[1:]))
-        except:
-            pass
-    return maximum + 1
 
 def download_chart():
     session = get_session()
@@ -115,18 +108,18 @@ def download_chart():
 
     r = session.get(image_url, timeout=30)
     r.raise_for_status()
-    image = cv2.imdecode(np.frombuffer(r.content, np.uint8), cv2.IMREAD_COLOR)
-    if image is None: raise RuntimeError("Decode failed.")
     
-    return image, data
+    # Open bytes stream with PIL and force RGB conversion
+    img = Image.open(io.BytesIO(r.content)).convert("RGB")
+    return img, data
 
 def downloader():
     global downloaded, errors
     while not stop_event.is_set():
         try:
-            image, data = download_chart()
+            img, data = download_chart()
             idx = next_chart_index()
-            save_queue.put((idx, image, data)) # Pass data to queue
+            save_queue.put((idx, img, data)) # Pass PIL image and input data to queue
             with status_lock: downloaded += 1
         except Exception:
             with status_lock: errors += 1
@@ -134,19 +127,30 @@ def downloader():
 def writer():
     global saved
     while not stop_event.is_set():
-        idx, image, data = save_queue.get()
-        filename = DOWNLOAD_DIR / f"c{idx:06d}.png"
+        idx, img, data = save_queue.get()
         
-        cv2.imwrite(str(filename), image, [cv2.IMWRITE_PNG_COMPRESSION, 0])
-        
-        # Log metadata to JSONL
-        entry = {"index": idx, "filename": filename.name, "data": data}
-        with log_lock:
-            with open(LOG_FILE, "a", encoding="utf-8") as f:
-                f.write(json.dumps(entry) + "\n")
-
-        with status_lock: saved += 1
-        save_queue.task_done()
+        try:
+            # Process the PIL image using the extraction pipeline
+            chart_data = process_image(img)
+            
+            if chart_data:
+                # Structure matching the specified format
+                new_item = {
+                    "input_data": data,
+                    "output_chart": chart_data.to_dict()
+                }
+                
+                # Append formatted item directly to metadata.jsonl
+                with log_lock:
+                    with open(LOG_FILE, "a", encoding="utf-8") as outfile:
+                        outfile.write(json.dumps(new_item, ensure_ascii=False) + '\n')
+                        
+        except Exception as e:
+            print(f"\nError processing index {idx}: {e}")
+            
+        finally:
+            with status_lock: saved += 1
+            save_queue.task_done()
 
 
 def status_thread():
@@ -161,21 +165,19 @@ def status_thread():
         sys.stdout.write(
             "\r"
             f"Downloaded: {d:,} | "
-            f"Saved: {s:,} | "
+            f"Processed: {s:,} | "
             f"Errors: {e:,} | "
             f"Speed: {d / elapsed:.2f}/s | "
             f"Queue: {save_queue.qsize()}/{QUEUE_SIZE}"
         )
 
         sys.stdout.flush()
-
         time.sleep(0.2)
 
 
 if __name__ == "__main__":
-    DOWNLOAD_DIR.mkdir(exist_ok=True)
-
-    chart_index = find_next_chart_index()
+    # Removed DOWNLOAD_DIR and find_next_chart_index since images aren't saved to disk anymore
+    chart_index = 0
 
     threading.Thread(target=status_thread, daemon=True).start()
 

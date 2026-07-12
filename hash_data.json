@@ -1,1574 +1,1367 @@
 {
-    "644c133f975a79ea01b75ff4e142ac7c13f77088562971c1258e4c686f07857c": {
-        "name": null,
+    "507a1ea99c86f41359b9b6ce18df992697e6d6afb8c0cf916c69ddc982aa8f54": {
+        "name": "T\u1ea3 Ph\u00f9",
         "image": "star_data\\star_images\\s000000.png",
         "hash_image": "star_data\\hash_images\\h000000.png",
-        "chart_image": "star_data\\chart_images\\h000000.png"
+        "chart_image": "star_data\\chart_images\\c000000.png",
+        "id": 0
     },
-    "7c9da0db786ef7b3cd9bd6c1c9c724bb3f8803d1cb1bad095c63f766c66c9aea": {
-        "name": null,
+    "2623d3b9b1894c8cdd7020ac88f7496b25feaa033bf3d11d9ba6852406b9a58c": {
+        "name": "H\u1ed3ng Loan",
         "image": "star_data\\star_images\\s000001.png",
         "hash_image": "star_data\\hash_images\\h000001.png",
-        "chart_image": "star_data\\chart_images\\h000001.png"
+        "chart_image": "star_data\\chart_images\\c000001.png",
+        "id": 1
     },
-    "4751f8bd405b05ec7711a558864ea00adba0ef1363abdba8f05d07f7eee6f9e0": {
-        "name": null,
+    "42ff740f8cdbc4eb256d37fa357c6fda62f74b1edd48a5d85fb5f691e5214ccc": {
+        "name": "Long \u0110\u1ee9c",
         "image": "star_data\\star_images\\s000002.png",
         "hash_image": "star_data\\hash_images\\h000002.png",
-        "chart_image": "star_data\\chart_images\\h000002.png"
+        "chart_image": "star_data\\chart_images\\c000002.png",
+        "id": 2
     },
-    "394000d420d801b6de5de16bba20400f248155f0020ff69c1eac71e11770973e": {
-        "name": null,
+    "74e97e5714aa52fda50afe928da47184fc00a0b03fe88f9c2805a610cd38a017": {
+        "name": "Tam Thai",
         "image": "star_data\\star_images\\s000003.png",
         "hash_image": "star_data\\hash_images\\h000003.png",
-        "chart_image": "star_data\\chart_images\\h000003.png"
+        "chart_image": "star_data\\chart_images\\c000003.png",
+        "id": 3
     },
-    "f156504f2a12496bae012eb343b7b67ae2d7cc17962839fbbbb88f4cf3454b42": {
-        "name": null,
+    "db46817b3da96e054e4fbeb28ce4d83ed96a67f169bf76784c9785a820487f0a": {
+        "name": "Thi\u00ean Tr\u00f9",
         "image": "star_data\\star_images\\s000004.png",
         "hash_image": "star_data\\hash_images\\h000004.png",
-        "chart_image": "star_data\\chart_images\\h000004.png"
+        "chart_image": "star_data\\chart_images\\c000004.png",
+        "id": 4
     },
-    "1f0c36ab0551837407248074e88f36bd66f60563e7226c506a11e276fbb5577a": {
-        "name": null,
+    "7610b21e6e014d229120a61fffafb002d2f8b66a00105dd82a7dff922d02e8a3": {
+        "name": "LN.V\u0103n Tinh",
         "image": "star_data\\star_images\\s000005.png",
         "hash_image": "star_data\\hash_images\\h000005.png",
-        "chart_image": "star_data\\chart_images\\h000005.png"
+        "chart_image": "star_data\\chart_images\\c000005.png",
+        "id": 5
     },
-    "610ed7c5e41b499f5a3f79a192cab4fe1eb41d87d1dac376514c64be3f67879c": {
-        "name": null,
+    "24ab363fde7ac766e44239e1d823f976ce85942b9da4605dc0615f5e506b1df4": {
+        "name": "L.X\u01b0\u01a1ng",
         "image": "star_data\\star_images\\s000006.png",
         "hash_image": "star_data\\hash_images\\h000006.png",
-        "chart_image": "star_data\\chart_images\\h000006.png"
+        "chart_image": "star_data\\chart_images\\c000006.png",
+        "id": 6
     },
-    "cec5319b330b7b556c10db82da71a95b03913c09fff6ef6f27b7e172a4f33e01": {
-        "name": null,
+    "2fe4c8f580153ef88321686c486add7be48eaaead8ba63aeb91c8d995fed3728": {
+        "name": "L.Thi\u00ean M\u00e3",
         "image": "star_data\\star_images\\s000007.png",
         "hash_image": "star_data\\hash_images\\h000007.png",
-        "chart_image": "star_data\\chart_images\\h000007.png"
+        "chart_image": "star_data\\chart_images\\c000007.png",
+        "id": 7
     },
-    "a7e407434b83a15d8fa723ead5b6304c539717e1ff3fa8596a1d34f5323a8a35": {
-        "name": null,
+    "75494a65e3fc3f0709b6ab4baa6bede4c1ca036def26e1f85a9b976dbe38e222": {
+        "name": "LN.L\u1ed9c",
         "image": "star_data\\star_images\\s000008.png",
         "hash_image": "star_data\\hash_images\\h000008.png",
-        "chart_image": "star_data\\chart_images\\h000008.png"
+        "chart_image": "star_data\\chart_images\\c000008.png",
+        "id": 8
     },
-    "781c862f9fb843ae54f40a76dff2bb171e68f526a7534b2f5a583cdc1354fb50": {
-        "name": null,
+    "0f016bf71b18342fa0722af9ce4b6cb78229eb1fb4e504531446757ad2bb7209": {
+        "name": "\u0110V.Khoa",
         "image": "star_data\\star_images\\s000009.png",
         "hash_image": "star_data\\hash_images\\h000009.png",
-        "chart_image": "star_data\\chart_images\\h000009.png"
+        "chart_image": "star_data\\chart_images\\c000009.png",
+        "id": 9
     },
-    "3402494d35da15c43874bb74035e44945cfe322db4e3ee960849b83c8263868e": {
-        "name": null,
+    "4393cb0ed0b210b1c7e4b353d78923140602bfa86148ce79c27846babe4d13a9": {
+        "name": "\u0110\u1ecba Ki\u1ebfp(\u0110)",
         "image": "star_data\\star_images\\s000010.png",
         "hash_image": "star_data\\hash_images\\h000010.png",
-        "chart_image": "star_data\\chart_images\\h000010.png"
+        "chart_image": "star_data\\chart_images\\c000010.png",
+        "id": 10
     },
-    "0edf8d84bf945759b2c8c5955dde54aadb018c67889c811ebd2ad362401c5436": {
-        "name": null,
+    "4a05d3d26729b4a3e67421348c627a031063232b0e0d6738eb7297f90974925f": {
+        "name": "\u0110\u1ecba Kh\u00f4ng(\u0110)",
         "image": "star_data\\star_images\\s000011.png",
         "hash_image": "star_data\\hash_images\\h000011.png",
-        "chart_image": "star_data\\chart_images\\h000011.png"
+        "chart_image": "star_data\\chart_images\\c000011.png",
+        "id": 11
     },
-    "7264d64669016513712679568fefc90aee962e5e86b8373d5d53fef6f9484e63": {
-        "name": null,
+    "5951b77d608fb788e878a5359cc7c16d35f4b8c3765d6daf349eac62a9692a07": {
+        "name": "Ti\u1ec3u Hao(H)",
         "image": "star_data\\star_images\\s000012.png",
         "hash_image": "star_data\\hash_images\\h000012.png",
-        "chart_image": "star_data\\chart_images\\h000012.png"
+        "chart_image": "star_data\\chart_images\\c000012.png",
+        "id": 12
     },
-    "f0345f6563335296808c8acd496b70ca75f6d91125af8880428992f647258afa": {
-        "name": null,
+    "67910e4f56a69287baf6e2c28b7f23ddae27a9430eaa3e5774569adb4df42ba1": {
+        "name": "L.Tang M\u00f4n",
         "image": "star_data\\star_images\\s000013.png",
         "hash_image": "star_data\\hash_images\\h000013.png",
-        "chart_image": "star_data\\chart_images\\h000013.png"
+        "chart_image": "star_data\\chart_images\\c000013.png",
+        "id": 13
     },
-    "6252354c0d9cca45403fe1e30a3d0cd0b176130db9ff7c4448c419d909423534": {
-        "name": null,
+    "8fbe6eb80220df9a77c212887f07ef263afd06db0aea363f41fda007b74e6bee": {
+        "name": "Vong Th\u1ea7n",
         "image": "star_data\\star_images\\s000014.png",
         "hash_image": "star_data\\hash_images\\h000014.png",
-        "chart_image": "star_data\\chart_images\\h000014.png"
+        "chart_image": "star_data\\chart_images\\c000014.png",
+        "id": 14
     },
     "3da5705ddd084884244581e4acfa5cf165ccb9a63c14b1982a6bd4f903b33dd9": {
-        "name": null,
+        "name": "-C\u1ef0 M\u00d4N(H)",
         "image": "star_data\\star_images\\s000015.png",
         "hash_image": "star_data\\hash_images\\h000015.png",
-        "chart_image": "star_data\\chart_images\\h000015.png"
+        "chart_image": "star_data\\chart_images\\c000015.png",
+        "id": 15
     },
-    "2885cce8076e3dc902774334ff69b7a09cbc039aa14d13b6ec6d6dc7461b0aa8": {
-        "name": null,
+    "a8b2435e186552f172abfaad5a368ee65e7e0bb9dd5f518e04760d6c9bc99307": {
+        "name": "H\u00f3a L\u1ed9c(B)",
         "image": "star_data\\star_images\\s000016.png",
         "hash_image": "star_data\\hash_images\\h000016.png",
-        "chart_image": "star_data\\chart_images\\h000016.png"
+        "chart_image": "star_data\\chart_images\\c000016.png",
+        "id": 16
     },
-    "50ec60e5c29c15ec0f92f87007e3d8f0919d122108a9624a0047fe424c52a035": {
-        "name": null,
+    "637f57dc12780434fccabf88bdd60f2ef072c9fc0bd37295bdd35d277fbd0352": {
+        "name": "T\u01b0\u1edbng Tinh",
         "image": "star_data\\star_images\\s000017.png",
         "hash_image": "star_data\\hash_images\\h000017.png",
-        "chart_image": "star_data\\chart_images\\h000017.png"
+        "chart_image": "star_data\\chart_images\\c000017.png",
+        "id": 17
     },
-    "05977372f362a80f3ed9ab75ee5cc556c329a4ea8b3b18a1eee4f6ccfb37aebe": {
-        "name": null,
+    "57a70726f7f5e9749b3e223290b147d86ebf69b592cef0f5c0246fd6f09af449": {
+        "name": "B\u1ea1ch H\u1ed5(H)",
         "image": "star_data\\star_images\\s000018.png",
         "hash_image": "star_data\\hash_images\\h000018.png",
-        "chart_image": "star_data\\chart_images\\h000018.png"
+        "chart_image": "star_data\\chart_images\\c000018.png",
+        "id": 18
     },
-    "bc957ca6c715a864109fb1ddb8ea15cd159e8abeb4b134326a91e37af51d817c": {
-        "name": null,
+    "4bdca1cbbdcf5046a0da01e5382b4dd7ddf8311c1e19c75e44920157c6a6f2e6": {
+        "name": "T\u01b0\u1edbng Qu\u00e2n",
         "image": "star_data\\star_images\\s000019.png",
         "hash_image": "star_data\\hash_images\\h000019.png",
-        "chart_image": "star_data\\chart_images\\h000019.png"
+        "chart_image": "star_data\\chart_images\\c000019.png",
+        "id": 19
     },
     "087d6f5c77bcc6f122b47d1e95aedd5d96d916b3d19ce7ccb13d4f6a6d89b673": {
-        "name": null,
+        "name": "-LI\u00caM TRINH(V)",
         "image": "star_data\\star_images\\s000020.png",
         "hash_image": "star_data\\hash_images\\h000020.png",
-        "chart_image": "star_data\\chart_images\\h000020.png"
+        "chart_image": "star_data\\chart_images\\c000020.png",
+        "id": 20
     },
     "38bd63f6bcbe339fce6c584f19b74bf62f1891dcca688c0ec435627bb23eeb96": {
-        "name": null,
+        "name": "+THI\u00caN T\u01af\u1edaNG(V)",
         "image": "star_data\\star_images\\s000021.png",
         "hash_image": "star_data\\hash_images\\h000021.png",
-        "chart_image": "star_data\\chart_images\\h000021.png"
+        "chart_image": "star_data\\chart_images\\c000021.png",
+        "id": 21
     },
-    "dcc4697bf8c4f9a94eb547384281df6a1c152f1858da7306d8a1d05403606225": {
-        "name": null,
+    "1c72c502cf69ac10a5630d2d653460af8d9f0f064d6b05787e54aa1fd8acf253": {
+        "name": "Thi\u00ean Vi\u1ec7t",
         "image": "star_data\\star_images\\s000022.png",
         "hash_image": "star_data\\hash_images\\h000022.png",
-        "chart_image": "star_data\\chart_images\\h000022.png"
+        "chart_image": "star_data\\chart_images\\c000022.png",
+        "id": 22
     },
-    "166440b61ec3a2186479cecbb13aeb7c8315296bd01e868aecf57850c3b3b4cb": {
-        "name": null,
+    "3c2c4ea0ea51e20ff6e589a1f5e56079e94babd6005331c45c1560da1a83e9da": {
+        "name": "Thi\u00ean Quan",
         "image": "star_data\\star_images\\s000023.png",
         "hash_image": "star_data\\hash_images\\h000023.png",
-        "chart_image": "star_data\\chart_images\\h000023.png"
+        "chart_image": "star_data\\chart_images\\c000023.png",
+        "id": 23
     },
-    "f8dcd97a93056cf03d34697851a33149c30745e03d465faa0428d90e03bf549d": {
-        "name": null,
+    "27282cd25ec460ddaf0f87ba1abf5c3120f5cbac6efd5a8e5ae661a481d66cb9": {
+        "name": "\u0110\u01b0\u1eddng Ph\u00f9",
         "image": "star_data\\star_images\\s000024.png",
         "hash_image": "star_data\\hash_images\\h000024.png",
-        "chart_image": "star_data\\chart_images\\h000024.png"
+        "chart_image": "star_data\\chart_images\\c000024.png",
+        "id": 24
     },
-    "105dd2fa04e3df000f0bcb699a123ae856c26b541c66cffb95794144138dc32b": {
-        "name": null,
+    "fc60bbbbcaaf6b4a843e99867420c6f8a1622b36b0a92526237b34640fc28303": {
+        "name": "Ph\u00fac \u0110\u1ee9c",
         "image": "star_data\\star_images\\s000025.png",
         "hash_image": "star_data\\hash_images\\h000025.png",
-        "chart_image": "star_data\\chart_images\\h000025.png"
+        "chart_image": "star_data\\chart_images\\c000025.png",
+        "id": 25
     },
-    "1c8ae5263fcf1ba74ed72701038e455e94ecc4d986032f3f2e81d09de372f318": {
-        "name": null,
+    "fb28ba8c3ed2103186b790544ea62c4d598a4ce0431779c8800cd66b78c768b2": {
+        "name": "Thi\u00ean \u0110\u1ee9c",
         "image": "star_data\\star_images\\s000026.png",
         "hash_image": "star_data\\hash_images\\h000026.png",
-        "chart_image": "star_data\\chart_images\\h000026.png"
+        "chart_image": "star_data\\chart_images\\c000026.png",
+        "id": 26
     },
-    "4b637217f54fd4ab4456f609ecedeb0c9f223b5c2121a209f75a86d8a25b5e5d": {
-        "name": null,
+    "bd2d37c68879445640457a2fac6808328d2addba20cc57ecc51ada19e59df138": {
+        "name": "Thi\u00ean T\u00e0i",
         "image": "star_data\\star_images\\s000027.png",
         "hash_image": "star_data\\hash_images\\h000027.png",
-        "chart_image": "star_data\\chart_images\\h000027.png"
+        "chart_image": "star_data\\chart_images\\c000027.png",
+        "id": 27
     },
-    "f20cbc4c8400d1cd72cab3f802b8bb80ba4ce489635a450b7c542d3d01f56135": {
-        "name": null,
+    "26f8c835aaebc41c8ef852f89c6aa9e244f664c3e1330ee2315e078fe671777a": {
+        "name": "T\u1ea5u Th\u01b0",
         "image": "star_data\\star_images\\s000028.png",
         "hash_image": "star_data\\hash_images\\h000028.png",
-        "chart_image": "star_data\\chart_images\\h000028.png"
+        "chart_image": "star_data\\chart_images\\c000028.png",
+        "id": 28
     },
-    "18ff2866a689fbbbd029d76cb9472cb7f2c54bb4415517ed356f348e4e46ec15": {
-        "name": null,
+    "03e0b9b3a7b29c58c6eb55e2c1ec7478fafc3d8d2a90758b116e6d1933fb0446": {
+        "name": "Thi\u00ean Th\u1ecd",
         "image": "star_data\\star_images\\s000029.png",
         "hash_image": "star_data\\hash_images\\h000029.png",
-        "chart_image": "star_data\\chart_images\\h000029.png"
+        "chart_image": "star_data\\chart_images\\c000029.png",
+        "id": 29
     },
-    "2f932b570f13d7174c03ec647031154dd2ee5c2c6a86347ee294bb0697738934": {
-        "name": null,
+    "cd492084d4b2a8bdbc661b078fe10dfcbf43e056bdbbc7ae86f527c400c2f02f": {
+        "name": "\u0110V.L\u1ed9c",
         "image": "star_data\\star_images\\s000030.png",
         "hash_image": "star_data\\hash_images\\h000030.png",
-        "chart_image": "star_data\\chart_images\\h000030.png"
+        "chart_image": "star_data\\chart_images\\c000030.png",
+        "id": 30
     },
-    "b8d80653ed8170e2f6fc0e6083e9d24f9cc776647796146d9978998d536bff48": {
-        "name": null,
+    "848b995abc343375a9f2be2a6894ec51c228fcc162434360551c936815e9f91c": {
+        "name": "N.Khoa",
         "image": "star_data\\star_images\\s000031.png",
         "hash_image": "star_data\\hash_images\\h000031.png",
-        "chart_image": "star_data\\chart_images\\h000031.png"
+        "chart_image": "star_data\\chart_images\\c000031.png",
+        "id": 31
     },
-    "247a9a1528feb280d83f2605cf01330a33c87dfb48587ed1970a521fa88126b4": {
-        "name": null,
+    "0785d3f415d12e296a1c394da7148e34410fb83206901b759fcfd7f4af672b2d": {
+        "name": "H\u1ecfa Tinh(H)",
         "image": "star_data\\star_images\\s000032.png",
         "hash_image": "star_data\\hash_images\\h000032.png",
-        "chart_image": "star_data\\chart_images\\h000032.png"
+        "chart_image": "star_data\\chart_images\\c000032.png",
+        "id": 32
     },
-    "cc1b38ce0658b5c4a2f98bc5e5407f9b49f2f74b1de3bc30d5906a7fc8542be2": {
-        "name": null,
+    "19d44fed4ee98fb099aaa38b2b19da477b9f2f7a38c147c44442584eb696f5f4": {
+        "name": "Qu\u1ea3 T\u00fa",
         "image": "star_data\\star_images\\s000033.png",
         "hash_image": "star_data\\hash_images\\h000033.png",
-        "chart_image": "star_data\\chart_images\\h000033.png"
+        "chart_image": "star_data\\chart_images\\c000033.png",
+        "id": 33
     },
-    "e45625fc27a23e83a97cdc30e18eda3169626ecbedbcff42712057542d8f1b65": {
-        "name": null,
+    "d25b6aff1c80c9de602982d624736d3aa2c1bc85b9d1e87d36c51f53aafb8c59": {
+        "name": "Phan An",
         "image": "star_data\\star_images\\s000034.png",
         "hash_image": "star_data\\hash_images\\h000034.png",
-        "chart_image": "star_data\\chart_images\\h000034.png"
+        "chart_image": "star_data\\chart_images\\c000034.png",
+        "id": 34
     },
     "e1ea5b6c5b7dcdd1ebea4e300417a23cd1525ef7590b6d2bf5b7fa6b05152a48": {
-        "name": null,
+        "name": "+THI\u00caN L\u01af\u01a0NG(\u0110)",
         "image": "star_data\\star_images\\s000035.png",
         "hash_image": "star_data\\hash_images\\h000035.png",
-        "chart_image": "star_data\\chart_images\\h000035.png"
+        "chart_image": "star_data\\chart_images\\c000035.png",
+        "id": 35
     },
-    "d59d88390012c1969cc6066e892d2eff01dd28779d4058cd14e364e868e123a0": {
-        "name": null,
+    "f3cbd2cafc6e0b4381a813633eb717d3293f419ac0e59a4044ccdcf61b496fe0": {
+        "name": "Thi\u00ean M\u00e3(H)",
         "image": "star_data\\star_images\\s000036.png",
         "hash_image": "star_data\\hash_images\\h000036.png",
-        "chart_image": "star_data\\chart_images\\h000036.png"
+        "chart_image": "star_data\\chart_images\\c000036.png",
+        "id": 36
     },
-    "75e2b78ff6a263fe69f785e61af192e48b5f8fd37aaec7fbdb16e53325fd0df4": {
-        "name": null,
+    "d643f94ac8bcff8b63afaa0ecdeb1b9ed01baaafb6bb2dcb62f5fb5090916544": {
+        "name": "Phong C\u00e1o",
         "image": "star_data\\star_images\\s000037.png",
         "hash_image": "star_data\\hash_images\\h000037.png",
-        "chart_image": "star_data\\chart_images\\h000037.png"
+        "chart_image": "star_data\\chart_images\\c000037.png",
+        "id": 37
     },
-    "513c8e003669c9bf480e23ef62c748816707a85bb2123263212be0914076645a": {
-        "name": null,
+    "3cfd0f1cb88d9b9fc7f4bec583cd09e62ac3aaed7c77b8c0872c9bf552a0edab": {
+        "name": "\u0110\u1ecba Gi\u1ea3i",
         "image": "star_data\\star_images\\s000038.png",
         "hash_image": "star_data\\hash_images\\h000038.png",
-        "chart_image": "star_data\\chart_images\\h000038.png"
+        "chart_image": "star_data\\chart_images\\c000038.png",
+        "id": 38
     },
-    "b48db2a44d759b0ca269a9a6cb88f945619f51d741b1b9273bcf5c99b08a0976": {
-        "name": null,
+    "ce61d9216ce85f580778a69801a65fa36dd5fd6ce10edf3de712098de08e4615": {
+        "name": "Thi\u00ean Kh\u1ed1c(H)",
         "image": "star_data\\star_images\\s000039.png",
         "hash_image": "star_data\\hash_images\\h000039.png",
-        "chart_image": "star_data\\chart_images\\h000039.png"
+        "chart_image": "star_data\\chart_images\\c000039.png",
+        "id": 39
     },
-    "fa71ae1d8c19b076a95c56a012c2b690cd4ec0636ee4d7f58dda713c7e68f372": {
-        "name": null,
+    "5cb050371156912a97e6bab202485f9425325c5687d388d25a4c083e6b612bda": {
+        "name": "Phi Li\u00eam",
         "image": "star_data\\star_images\\s000040.png",
         "hash_image": "star_data\\hash_images\\h000040.png",
-        "chart_image": "star_data\\chart_images\\h000040.png"
+        "chart_image": "star_data\\chart_images\\c000040.png",
+        "id": 40
     },
-    "91931ee3eb46b16db9188cbbb1f195dc64e7800271832aae1556a5bb7a9ec910": {
-        "name": null,
+    "4fd89ea049c2f231e809d50714dff076ee0e4990e368375e2a2de186f1ecdcde": {
+        "name": "\u0110i\u1ebfu Kh\u00e1ch",
         "image": "star_data\\star_images\\s000041.png",
         "hash_image": "star_data\\hash_images\\h000041.png",
-        "chart_image": "star_data\\chart_images\\h000041.png"
+        "chart_image": "star_data\\chart_images\\c000041.png",
+        "id": 41
     },
-    "345174812946e463df6dd10882981003cba568277de244afa30720953bd8395c": {
-        "name": null,
+    "5b28b9b4aebed7ad2f5a0894ad400f61af574925c44c031af5bfcaf36787b763": {
+        "name": "L.\u0110\u00e0 La",
         "image": "star_data\\star_images\\s000042.png",
         "hash_image": "star_data\\hash_images\\h000042.png",
-        "chart_image": "star_data\\chart_images\\h000042.png"
+        "chart_image": "star_data\\chart_images\\c000042.png",
+        "id": 42
     },
-    "177a92aec1fe14c269b02230916ddd156598276275e1ce2ef67c856f3c571031": {
-        "name": null,
+    "1e853cc03784dd94c5b7c5329e0674e6eb502c72cd1236bc7aad84e53a10f027": {
+        "name": "Tu\u1ebf D\u1ecbch",
         "image": "star_data\\star_images\\s000043.png",
         "hash_image": "star_data\\hash_images\\h000043.png",
-        "chart_image": "star_data\\chart_images\\h000043.png"
-    },
-    "8924be42cc271e1f8f44886494aa32e49b133dd15b9f579f920a6cd94ba76705": {
-        "name": null,
-        "image": "star_data\\star_images\\s000044.png",
-        "hash_image": "star_data\\hash_images\\h000044.png",
-        "chart_image": "star_data\\chart_images\\h000044.png"
+        "chart_image": "star_data\\chart_images\\c000043.png",
+        "id": 43
     },
     "c169f66744769672d0f14da7280ffb8ff2c5648956d9b5bb4f7d181297ff1e39": {
-        "name": null,
+        "name": "+TH\u1ea4T S\u00c1T(M)",
+        "image": "star_data\\star_images\\s000044.png",
+        "hash_image": "star_data\\hash_images\\h000044.png",
+        "chart_image": "star_data\\chart_images\\c000044.png",
+        "id": 44
+    },
+    "15c2e7a87b36cb682eb86c6794b27ca64a3af10568f08f0b065c48580b793d23": {
+        "name": "V\u0103n X\u01b0\u01a1ng(\u0110)",
         "image": "star_data\\star_images\\s000045.png",
         "hash_image": "star_data\\hash_images\\h000045.png",
-        "chart_image": "star_data\\chart_images\\h000045.png"
+        "chart_image": "star_data\\chart_images\\c000045.png",
+        "id": 45
     },
-    "41e1f419ff1ddf7f7f4d6c4ba89a1fa1301bf42b57fd6c2914cefa946d707b27": {
-        "name": null,
+    "667dd46e76011a971ec958d950fd278e15cc3dc62e27213c863db4877b8fc07b": {
+        "name": "Thanh Long",
         "image": "star_data\\star_images\\s000046.png",
         "hash_image": "star_data\\hash_images\\h000046.png",
-        "chart_image": "star_data\\chart_images\\h000046.png"
+        "chart_image": "star_data\\chart_images\\c000046.png",
+        "id": 46
     },
-    "9d4834c7ff6943638b452a64ba4b097408ac547af07152e0141e25423a860aac": {
-        "name": null,
+    "23e57fc30eaf47bf70265cffb6e3bc7db2a825bdb555501ad0db68ddba0598b8": {
+        "name": "N.Quy\u1ec1n",
         "image": "star_data\\star_images\\s000047.png",
         "hash_image": "star_data\\hash_images\\h000047.png",
-        "chart_image": "star_data\\chart_images\\h000047.png"
+        "chart_image": "star_data\\chart_images\\c000047.png",
+        "id": 47
     },
-    "09229a3a715f5c355c798a521990b3a12ab6775be458d2757a53692a9ea6b14c": {
-        "name": null,
+    "26570ffb62600b2fea0086e5fc2fa04a8b369789d425b8f8d835f4b92da4f332": {
+        "name": "Thi\u00ean H\u01b0(H)",
         "image": "star_data\\star_images\\s000048.png",
         "hash_image": "star_data\\hash_images\\h000048.png",
-        "chart_image": "star_data\\chart_images\\h000048.png"
+        "chart_image": "star_data\\chart_images\\c000048.png",
+        "id": 48
     },
-    "da7fe3f60cae9928a5c28a83ffbc20324693d141a1de4db63583694d8957119f": {
-        "name": null,
+    "929415d7f1bb99fbf78c13fa23ac457ef72f952a5f2445a4dbbe3d6f324f79f4": {
+        "name": "Tu\u1ebf Ph\u00e1",
         "image": "star_data\\star_images\\s000049.png",
         "hash_image": "star_data\\hash_images\\h000049.png",
-        "chart_image": "star_data\\chart_images\\h000049.png"
+        "chart_image": "star_data\\chart_images\\c000049.png",
+        "id": 49
     },
-    "95af0d0880b2e00159dc83a97b1c146f6df555574e41737bc5c505253b7a6f55": {
-        "name": null,
+    "26d1d0b5f25139538fe9499562f822f7968ff6f5d5422c693adc1d48ef1fe24d": {
+        "name": "Thi\u00ean La",
         "image": "star_data\\star_images\\s000050.png",
         "hash_image": "star_data\\hash_images\\h000050.png",
-        "chart_image": "star_data\\chart_images\\h000050.png"
+        "chart_image": "star_data\\chart_images\\c000050.png",
+        "id": 50
     },
-    "1673860bbf64b5c0c157eeb8d26a1454638b747e142d8a2574d84334f9fbc6a7": {
-        "name": null,
+    "d710ba437e9749116d6b93d99ea1af432f7467bc49ef94077428eb23d8b5f017": {
+        "name": "Thi\u00ean S\u1ee9",
         "image": "star_data\\star_images\\s000051.png",
         "hash_image": "star_data\\hash_images\\h000051.png",
-        "chart_image": "star_data\\chart_images\\h000051.png"
+        "chart_image": "star_data\\chart_images\\c000051.png",
+        "id": 51
     },
-    "cc675e6717ac06cbb80f5754710e5da7985fd5d0abf7cc675bbfbafe90c3e024": {
-        "name": null,
+    "a3b6d3ece6ad7aaeed6ddb4605773d8a4803eb87b34855ba548e6fd3d4df57f0": {
+        "name": "Nguy\u1ec7t S\u00e1t",
         "image": "star_data\\star_images\\s000052.png",
         "hash_image": "star_data\\hash_images\\h000052.png",
-        "chart_image": "star_data\\chart_images\\h000052.png"
+        "chart_image": "star_data\\chart_images\\c000052.png",
+        "id": 52
     },
-    "a6e6c3cf7f634eb4f8bd422632d5045b7ffa843939da9a8aca49fa97e0d6e60e": {
-        "name": null,
+    "185d590d4edcfb8d1a72a5991ddda0ec2fe7ba40fa5399fd3fa7da33587ca116": {
+        "name": "LN.K\u1ecb",
         "image": "star_data\\star_images\\s000053.png",
         "hash_image": "star_data\\hash_images\\h000053.png",
-        "chart_image": "star_data\\chart_images\\h000053.png"
-    },
-    "8bc41b927eb8275d618b221d28d1b55ed6e0d0cd8b70389953a6362848304c73": {
-        "name": null,
-        "image": "star_data\\star_images\\s000054.png",
-        "hash_image": "star_data\\hash_images\\h000054.png",
-        "chart_image": "star_data\\chart_images\\h000054.png"
+        "chart_image": "star_data\\chart_images\\c000053.png",
+        "id": 53
     },
     "88fd12161629d23032c2835326365ec9017652549104eb0bf757eb64d19dd2b3": {
-        "name": null,
+        "name": "-THAM LANG(V)",
+        "image": "star_data\\star_images\\s000054.png",
+        "hash_image": "star_data\\hash_images\\h000054.png",
+        "chart_image": "star_data\\chart_images\\c000054.png",
+        "id": 54
+    },
+    "bcfc1f0f1e4f71aeda03263656670e953128246c96b68fbb4d866be45b6ded19": {
+        "name": "H\u1eefu B\u1eadt",
         "image": "star_data\\star_images\\s000055.png",
         "hash_image": "star_data\\hash_images\\h000055.png",
-        "chart_image": "star_data\\chart_images\\h000055.png"
+        "chart_image": "star_data\\chart_images\\c000055.png",
+        "id": 55
     },
-    "87f004555985c090a51384a5c40539ba23a820ab1ca53ee10d5fab5a08ab2650": {
-        "name": null,
+    "1d26309e9e61c4eda0948f716e210e07f1508a10ed20f456ee81fa7ac1fde476": {
+        "name": "H\u1ec9 Th\u1ea7n",
         "image": "star_data\\star_images\\s000056.png",
         "hash_image": "star_data\\hash_images\\h000056.png",
-        "chart_image": "star_data\\chart_images\\h000056.png"
+        "chart_image": "star_data\\chart_images\\c000056.png",
+        "id": 56
     },
-    "e955af0ab1bfbf52bce088ab337827118b08baa97df0a4f047e37c79b27366b2": {
-        "name": null,
+    "a0ba0c7d79be7ae208752a08fca350739f3d0ac82b422be2a6c176fa0ed3df0a": {
+        "name": "Thi\u00ean Ph\u00fac",
         "image": "star_data\\star_images\\s000057.png",
         "hash_image": "star_data\\hash_images\\h000057.png",
-        "chart_image": "star_data\\chart_images\\h000057.png"
+        "chart_image": "star_data\\chart_images\\c000057.png",
+        "id": 57
     },
-    "0f9d1b93e1b3a871ade6eaac81944b002f1d30680c1e9d3f1957cb635d1691b4": {
-        "name": null,
+    "8bba8a5f1e6b5016fcad7e075c87dda50be8d593193b727e94bce50dfcdffbd3": {
+        "name": "Thi\u00ean Gi\u1ea3i",
         "image": "star_data\\star_images\\s000058.png",
         "hash_image": "star_data\\hash_images\\h000058.png",
-        "chart_image": "star_data\\chart_images\\h000058.png"
+        "chart_image": "star_data\\chart_images\\c000058.png",
+        "id": 58
     },
-    "446f29cf22f7fd82fc112bea7158d92a796ee44f9eef9b819f33a507f80ba15b": {
-        "name": null,
+    "d38a9cd11650a03343fec256efea763c67098a80935b0de8ecec18fc2dd886d8": {
+        "name": "B\u00e1t T\u1ecda",
         "image": "star_data\\star_images\\s000059.png",
         "hash_image": "star_data\\hash_images\\h000059.png",
-        "chart_image": "star_data\\chart_images\\h000059.png"
+        "chart_image": "star_data\\chart_images\\c000059.png",
+        "id": 59
     },
-    "90d80309ec2b0ab00970ddb65fa7e48a4ed03d73c78197115ed5c6a04f993ea3": {
-        "name": null,
+    "ce6bbc61f94b9b3045e87d0631de3f8c5786f05297e8c628b542f8266b41190d": {
+        "name": "L.Kh\u00fac",
         "image": "star_data\\star_images\\s000060.png",
         "hash_image": "star_data\\hash_images\\h000060.png",
-        "chart_image": "star_data\\chart_images\\h000060.png"
+        "chart_image": "star_data\\chart_images\\c000060.png",
+        "id": 60
     },
-    "3ab35c4853c15d964205a788588f7a96be44f56678edc0f1d442b05d1c8e6b1a": {
-        "name": null,
+    "ac5ffa7b0ee855fefcc89933f279ac8379f29cb7714880cf0e6dae4412e66824": {
+        "name": "L.L\u1ed9c T\u1ed3n",
         "image": "star_data\\star_images\\s000061.png",
         "hash_image": "star_data\\hash_images\\h000061.png",
-        "chart_image": "star_data\\chart_images\\h000061.png"
+        "chart_image": "star_data\\chart_images\\c000061.png",
+        "id": 61
     },
-    "412374dcba68f2c5db8a4e0fee0cd25a8a5672e0947ac820f684366b728cd9d6": {
-        "name": null,
+    "4ec69f3e9a3907eb45d85130b4c1aee5337dae17143ab35de96c88f5a27c1563": {
+        "name": "Linh Tinh(H)",
         "image": "star_data\\star_images\\s000062.png",
         "hash_image": "star_data\\hash_images\\h000062.png",
-        "chart_image": "star_data\\chart_images\\h000062.png"
+        "chart_image": "star_data\\chart_images\\c000062.png",
+        "id": 62
     },
-    "e8df859f9858b82e3ccb048be2c1f2ddea7df9da232a5c3eb55e3f9bda2ad4bb": {
-        "name": null,
+    "110dd429f1fa4958ce569a4bf7e3e23657d53694d88597797689c802a3b5f8d7": {
+        "name": "L\u01b0u H\u00e0",
         "image": "star_data\\star_images\\s000063.png",
         "hash_image": "star_data\\hash_images\\h000063.png",
-        "chart_image": "star_data\\chart_images\\h000063.png"
+        "chart_image": "star_data\\chart_images\\c000063.png",
+        "id": 63
     },
-    "c71425c46a5658129cfc0de8c4d12946eacdd7bbf5bdcdbaf6e32c01e4a3e8f6": {
-        "name": null,
+    "3e8b8f80fa0ad8322d85fecab6ddd277c949abf2fef00971fbbff14952e2bda5": {
+        "name": "Tr\u1ef1c Ph\u00f9",
         "image": "star_data\\star_images\\s000064.png",
         "hash_image": "star_data\\hash_images\\h000064.png",
-        "chart_image": "star_data\\chart_images\\h000064.png"
+        "chart_image": "star_data\\chart_images\\c000064.png",
+        "id": 64
     },
-    "536a15ba2b9cbf583824fe931383823054bdca79fb6361090a1b1cb0df7b17ea": {
-        "name": null,
+    "614d7f218fe909c24419c657454ee84780089b60b3f505f8b11f2a75a58123a0": {
+        "name": "L.Thi\u00ean H\u01b0",
         "image": "star_data\\star_images\\s000065.png",
         "hash_image": "star_data\\hash_images\\h000065.png",
-        "chart_image": "star_data\\chart_images\\h000065.png"
+        "chart_image": "star_data\\chart_images\\c000065.png",
+        "id": 65
     },
-    "1d78658180480d58ad56a10fbf68e3b315615a2b74ad3a73a185de017ce01968": {
-        "name": null,
+    "b00db1c3c1c02db55330f74f541f80a9f836dca6f7c4e5288fc335f4b06ac381": {
+        "name": "T\u1ee9c Th\u1ea7n",
         "image": "star_data\\star_images\\s000066.png",
         "hash_image": "star_data\\hash_images\\h000066.png",
-        "chart_image": "star_data\\chart_images\\h000066.png"
-    },
-    "b4e0d6d04e9d76056155227e92844b24736be4413c43438f1cd953479f90cadd": {
-        "name": null,
-        "image": "star_data\\star_images\\s000067.png",
-        "hash_image": "star_data\\hash_images\\h000067.png",
-        "chart_image": "star_data\\chart_images\\h000067.png"
+        "chart_image": "star_data\\chart_images\\c000066.png",
+        "id": 66
     },
     "5ec0e52eb41bbab152762ec2435539d7d64fcff6e8ae631dc487cbdc4bee3947": {
-        "name": null,
+        "name": "+THI\u00caN \u0110\u1ed2NG(H)",
+        "image": "star_data\\star_images\\s000067.png",
+        "hash_image": "star_data\\hash_images\\h000067.png",
+        "chart_image": "star_data\\chart_images\\c000067.png",
+        "id": 67
+    },
+    "1cd6800f9cc4bede2145d93babac502e4e6b64515e2ff7598130d554009e9754": {
+        "name": "\u0110\u00e0o Hoa",
         "image": "star_data\\star_images\\s000068.png",
         "hash_image": "star_data\\hash_images\\h000068.png",
-        "chart_image": "star_data\\chart_images\\h000068.png"
+        "chart_image": "star_data\\chart_images\\c000068.png",
+        "id": 68
     },
-    "3148814f4683f0a2432222d09cf38e30183d069b3b1ab856e1caa9cd2102183b": {
-        "name": null,
+    "b280e10624cf2294477535b96f04fe3860d9fa6e36691332972ada3ba87b0485": {
+        "name": "\u00c2n Quang",
         "image": "star_data\\star_images\\s000069.png",
         "hash_image": "star_data\\hash_images\\h000069.png",
-        "chart_image": "star_data\\chart_images\\h000069.png"
+        "chart_image": "star_data\\chart_images\\c000069.png",
+        "id": 69
     },
-    "80f1445e405ada28d3560e9410b56d71e5e004462b18bcf984bea8146bdf3fd0": {
-        "name": null,
+    "de4f6f8fdca2f1dfadc4b9719dc5d225c5e16ca846533afe0a198c3078a2e5e5": {
+        "name": "L\u1ef1c S\u1ef9",
         "image": "star_data\\star_images\\s000070.png",
         "hash_image": "star_data\\hash_images\\h000070.png",
-        "chart_image": "star_data\\chart_images\\h000070.png"
+        "chart_image": "star_data\\chart_images\\c000070.png",
+        "id": 70
     },
-    "d7b56663070c96e89a5bb064ba4388897c1bd9d33451bab2a3046b802108f576": {
-        "name": null,
+    "d43883d45a062e96c56151a6e56e4e9a9f456db902cf03f1a01cbf607f0accb4": {
+        "name": "Nguy\u1ec7t \u0110\u1ee9c",
         "image": "star_data\\star_images\\s000071.png",
         "hash_image": "star_data\\hash_images\\h000071.png",
-        "chart_image": "star_data\\chart_images\\h000071.png"
+        "chart_image": "star_data\\chart_images\\c000071.png",
+        "id": 71
     },
-    "293cbd7126489549fdfc9304db8c29c1f30094a7c2a17292156fe2ef525e4cd2": {
-        "name": null,
+    "e242bf21b57c34d4053b206290696a6eec3062106146d93396417a45fdab06b0": {
+        "name": "K\u00ecnh D\u01b0\u01a1ng(H)",
         "image": "star_data\\star_images\\s000072.png",
         "hash_image": "star_data\\hash_images\\h000072.png",
-        "chart_image": "star_data\\chart_images\\h000072.png"
+        "chart_image": "star_data\\chart_images\\c000072.png",
+        "id": 72
     },
-    "f41c28e30884f451fa74589842b1121dd469aabec4f6a13f4dbe61d3501c5984": {
-        "name": null,
+    "e563e08fc0e0057d24c50995d871f573c099f8aadf6de795a4f656394e72d0f6": {
+        "name": "\u0110\u1ea9u Qu\u00e2n",
         "image": "star_data\\star_images\\s000073.png",
         "hash_image": "star_data\\hash_images\\h000073.png",
-        "chart_image": "star_data\\chart_images\\h000073.png"
+        "chart_image": "star_data\\chart_images\\c000073.png",
+        "id": 73
     },
-    "1000edc1673f179a9838de8fe412de554a4e5039845cdece7431e1a944916a57": {
-        "name": null,
+    "8fbd38fdde1c84deb1f1ca7484ba7a0c877943750906006d34246a1743a90f21": {
+        "name": "T\u1eed Ph\u00f9",
         "image": "star_data\\star_images\\s000074.png",
         "hash_image": "star_data\\hash_images\\h000074.png",
-        "chart_image": "star_data\\chart_images\\h000074.png"
+        "chart_image": "star_data\\chart_images\\c000074.png",
+        "id": 74
     },
-    "e278a204df86a039784750ab84e82b40f25de6e7c7cb65e068289499a0e9d09d": {
-        "name": null,
+    "7c323f10e7edf701c07841664f3a86416595a72932dce9c9be8ed616d69f83c3": {
+        "name": "L.Th\u00e1i Tu\u1ebf",
         "image": "star_data\\star_images\\s000075.png",
         "hash_image": "star_data\\hash_images\\h000075.png",
-        "chart_image": "star_data\\chart_images\\h000075.png"
+        "chart_image": "star_data\\chart_images\\c000075.png",
+        "id": 75
     },
-    "f2f665bf46e84a61fbf15de40b59f376a67bb5ad9c57fdbd97f0a998555391bb": {
-        "name": null,
+    "ba3d1e607617aeae56e53834f749857d803b1b6d35080bfdb838f8a8ba66d2fa": {
+        "name": "L.Thi\u00ean Kh\u1ed1c",
         "image": "star_data\\star_images\\s000076.png",
         "hash_image": "star_data\\hash_images\\h000076.png",
-        "chart_image": "star_data\\chart_images\\h000076.png"
-    },
-    "8ff54c8d6f497cb5c07367ffc3c7f283f0223e1368dd1d7eb7581e94170e2f5a": {
-        "name": null,
-        "image": "star_data\\star_images\\s000077.png",
-        "hash_image": "star_data\\hash_images\\h000077.png",
-        "chart_image": "star_data\\chart_images\\h000077.png"
+        "chart_image": "star_data\\chart_images\\c000076.png",
+        "id": 76
     },
     "3b2f067a81e83d8e4538df2bc39b7634038f14428d7cd34e3d1f1c23ce56ae65": {
-        "name": null,
+        "name": "-TH\u00c1I \u00c2M(H)",
+        "image": "star_data\\star_images\\s000077.png",
+        "hash_image": "star_data\\hash_images\\h000077.png",
+        "chart_image": "star_data\\chart_images\\c000077.png",
+        "id": 77
+    },
+    "f78c0a1ea647ea561882e4ef72e7edc834485df757f83cd12ce089d12ca46f52": {
+        "name": "H\u00f3a Khoa(V)",
         "image": "star_data\\star_images\\s000078.png",
         "hash_image": "star_data\\hash_images\\h000078.png",
-        "chart_image": "star_data\\chart_images\\h000078.png"
+        "chart_image": "star_data\\chart_images\\c000078.png",
+        "id": 78
     },
-    "ba31f57e8287fbdb7f9b71112b4a77ff7c3de72c9d626a317760736434a907c3": {
-        "name": null,
+    "73547d0c60543d91e2a0f5345be35f39c380546a55a517ce05865c763a63c5c4": {
+        "name": "V\u0103n Kh\u00fac(\u0110)",
         "image": "star_data\\star_images\\s000079.png",
         "hash_image": "star_data\\hash_images\\h000079.png",
-        "chart_image": "star_data\\chart_images\\h000079.png"
+        "chart_image": "star_data\\chart_images\\c000079.png",
+        "id": 79
     },
-    "3ac2b140e0dfb0763343bb2c94c8c62e0a3a17cebce239242d2ca264ab38ebe5": {
-        "name": null,
+    "c79fb098df70aec6195586abdd142620a3ca5a8a9f03bf375cb0482f58b0bd44": {
+        "name": "Qu\u1ed1c \u1ea4n",
         "image": "star_data\\star_images\\s000080.png",
         "hash_image": "star_data\\hash_images\\h000080.png",
-        "chart_image": "star_data\\chart_images\\h000080.png"
+        "chart_image": "star_data\\chart_images\\c000080.png",
+        "id": 80
     },
-    "39410702425e2156c1da4a010bc5ea39bf4ec6b4e42d741fa8cd5b2a397b2c6c": {
-        "name": null,
+    "885365b79bfcf2a8fe862ffdd069b0f40afea7e2d88d0dbc424727bb96e9d4e9": {
+        "name": "Hoa C\u00e1i",
         "image": "star_data\\star_images\\s000081.png",
         "hash_image": "star_data\\hash_images\\h000081.png",
-        "chart_image": "star_data\\chart_images\\h000081.png"
+        "chart_image": "star_data\\chart_images\\c000081.png",
+        "id": 81
     },
-    "c8de4d2e8e3c97a2cca602f4f88194d7601796aceea2c6c0c80674893a7f23e2": {
-        "name": null,
+    "f81fab022d94c2510eec9b321bc7827ba841fdb6719c0fe55b2d1b37039bc0ee": {
+        "name": "N.L\u1ed9c",
         "image": "star_data\\star_images\\s000082.png",
         "hash_image": "star_data\\hash_images\\h000082.png",
-        "chart_image": "star_data\\chart_images\\h000082.png"
+        "chart_image": "star_data\\chart_images\\c000082.png",
+        "id": 82
     },
-    "0835e5ac36a4239c944a6d57e40f8c6f1cea757b1957e9212a5dee0e67e3eced": {
-        "name": null,
+    "a4fe2e71bb5ee73e0f1331cc2331a588de447b42e13c599c49ef766b20c7b4d0": {
+        "name": "LN.Khoa",
         "image": "star_data\\star_images\\s000083.png",
         "hash_image": "star_data\\hash_images\\h000083.png",
-        "chart_image": "star_data\\chart_images\\h000083.png"
+        "chart_image": "star_data\\chart_images\\c000083.png",
+        "id": 83
     },
-    "5c7f60e5795f0aaba48e01ff712a2ac73a6466c2642ae10af6050343e61c7d63": {
-        "name": null,
+    "e566bdd1391226824bb542e9db05cb3439285e0dab4f005ec2d1a84cfe6b2f67": {
+        "name": "Th\u00e1i Tu\u1ebf",
         "image": "star_data\\star_images\\s000084.png",
         "hash_image": "star_data\\hash_images\\h000084.png",
-        "chart_image": "star_data\\chart_images\\h000084.png"
+        "chart_image": "star_data\\chart_images\\c000084.png",
+        "id": 84
     },
-    "d7583079e764f5efa867b5519ab984cf934fd12d7365b37d211370882fa47bb9": {
-        "name": null,
+    "082a63eeb3a8229735a7b827d6c8ec4db39921ffbacb160dfd000ac7fc656a43": {
+        "name": "Thi\u00ean H\u00ecnh(H)",
         "image": "star_data\\star_images\\s000085.png",
         "hash_image": "star_data\\hash_images\\h000085.png",
-        "chart_image": "star_data\\chart_images\\h000085.png"
+        "chart_image": "star_data\\chart_images\\c000085.png",
+        "id": 85
     },
-    "ce8bfefd9c715e3a3ff34979ed8997464527707bfee1a662f825aba6991c563f": {
-        "name": null,
+    "dbd10ca32fbdaa82b0d459a285189d9d749d2ffa91a68357f644b5af86b94f07": {
+        "name": "B\u1ec7nh Ph\u00f9",
         "image": "star_data\\star_images\\s000086.png",
         "hash_image": "star_data\\hash_images\\h000086.png",
-        "chart_image": "star_data\\chart_images\\h000086.png"
+        "chart_image": "star_data\\chart_images\\c000086.png",
+        "id": 86
     },
-    "d74978ee99caced17a1e1d547b3fa19f7bdc959b94e29d187f3c60935d4248ec": {
-        "name": null,
+    "1a3a541752d06b03b89f683abe3cdc35ed70f75e490a25036edd3ef702ed47f1": {
+        "name": "\u0110\u1ecba V\u00f5ng",
         "image": "star_data\\star_images\\s000087.png",
         "hash_image": "star_data\\hash_images\\h000087.png",
-        "chart_image": "star_data\\chart_images\\h000087.png"
+        "chart_image": "star_data\\chart_images\\c000087.png",
+        "id": 87
     },
-    "587a20dc2247a8a9597ca1c33cc68571e43e243af28c3bfc1e24e4789fa144f2": {
-        "name": null,
+    "879efffb95fef5d941eecad42e9543cf02fbe56f99d478f8959bceb63313cac5": {
+        "name": "L.K\u00ecnh D\u01b0\u01a1ng",
         "image": "star_data\\star_images\\s000088.png",
         "hash_image": "star_data\\hash_images\\h000088.png",
-        "chart_image": "star_data\\chart_images\\h000088.png"
+        "chart_image": "star_data\\chart_images\\c000088.png",
+        "id": 88
     },
-    "440601e7139903e708b5e86d63e8ad06c9c4677a3b1da92fba514e4c49224a0a": {
-        "name": null,
+    "58ac767baa842a709cf3c0f8a21a7641e01ab8e3edd111567f51f47a0e833a17": {
+        "name": "\u00c2m S\u00e1t",
         "image": "star_data\\star_images\\s000089.png",
         "hash_image": "star_data\\hash_images\\h000089.png",
-        "chart_image": "star_data\\chart_images\\h000089.png"
+        "chart_image": "star_data\\chart_images\\c000089.png",
+        "id": 89
     },
-    "0f924850f451e5421727981f15630b513b50ee39375fee33f9e496b0b1cbffde": {
-        "name": null,
+    "da6327bbea2d5a07ecfafe65cec6e368e81e8f5daf9396c36c1b384c0bed7e1d": {
+        "name": "\u0110V.K\u1ecb",
         "image": "star_data\\star_images\\s000090.png",
         "hash_image": "star_data\\hash_images\\h000090.png",
-        "chart_image": "star_data\\chart_images\\h000090.png"
+        "chart_image": "star_data\\chart_images\\c000090.png",
+        "id": 90
     },
-    "da104f140aac38906a662bb015b19ed6492949e54fde73b4cd9f1fac92b68fc3": {
-        "name": null,
+    "dc1b3e8f14dd248ac7af9c9783e84796b07707d597a2d702477cd14b5e8cf10e": {
+        "name": "N.K\u1ecb",
         "image": "star_data\\star_images\\s000091.png",
         "hash_image": "star_data\\hash_images\\h000091.png",
-        "chart_image": "star_data\\chart_images\\h000091.png"
-    },
-    "8319d312d84e36cee321837b531387d943ed7198cd01801629f92cb794f40210": {
-        "name": null,
-        "image": "star_data\\star_images\\s000092.png",
-        "hash_image": "star_data\\hash_images\\h000092.png",
-        "chart_image": "star_data\\chart_images\\h000092.png"
+        "chart_image": "star_data\\chart_images\\c000091.png",
+        "id": 91
     },
     "cf6ad9c689ff6af81f5478248d9cfc50e8250019eb8cdb90f8ce4b3932cd03b6": {
-        "name": null,
+        "name": "-V\u0168 KH\u00daC(M)",
+        "image": "star_data\\star_images\\s000092.png",
+        "hash_image": "star_data\\hash_images\\h000092.png",
+        "chart_image": "star_data\\chart_images\\c000092.png",
+        "id": 92
+    },
+    "34c6241e5467eb07a2e855bac65d7e33ef46b2fc499ba6ac9d70abb1dd69c8b9": {
+        "name": "L\u1ed9c T\u1ed3n",
         "image": "star_data\\star_images\\s000093.png",
         "hash_image": "star_data\\hash_images\\h000093.png",
-        "chart_image": "star_data\\chart_images\\h000093.png"
+        "chart_image": "star_data\\chart_images\\c000093.png",
+        "id": 93
     },
-    "630eedc1cb07365debfc6a47b993ac01ec01f33d59356c0ecb3793c4d9c1939a": {
-        "name": null,
+    "df9e9aa1ff279fd009ef1c7c7abbebc120246dac04e451182b8926743a08ca63": {
+        "name": "B\u00e1c S\u1ef9",
         "image": "star_data\\star_images\\s000094.png",
         "hash_image": "star_data\\hash_images\\h000094.png",
-        "chart_image": "star_data\\chart_images\\h000094.png"
+        "chart_image": "star_data\\chart_images\\c000094.png",
+        "id": 94
     },
-    "8419ae45cef0700f4fa06345841f9158eaf1253f38038569372788516dd347c9": {
-        "name": null,
+    "076bab8a9d9e39038eba56a7f6193115ae9fb00bd54496a92a011cee70fe465d": {
+        "name": "Thi\u00ean Y",
         "image": "star_data\\star_images\\s000095.png",
         "hash_image": "star_data\\hash_images\\h000095.png",
-        "chart_image": "star_data\\chart_images\\h000095.png"
+        "chart_image": "star_data\\chart_images\\c000095.png",
+        "id": 95
     },
-    "171cc08541957bd648140accaf36f87703a96e6a66891b8c6a9bb9e22fde394f": {
-        "name": null,
+    "4ca3e3942c0040e00823df86a8b172dbe4298f9e4b98b69e2b08eebba30941f3": {
+        "name": "Long Tr\u00ec",
         "image": "star_data\\star_images\\s000096.png",
         "hash_image": "star_data\\hash_images\\h000096.png",
-        "chart_image": "star_data\\chart_images\\h000096.png"
+        "chart_image": "star_data\\chart_images\\c000096.png",
+        "id": 96
     },
-    "a02d5c1bcee2a7493972eddcd504db2006e8400925101f2dbb705dd2cc00d4b6": {
-        "name": null,
+    "956149134f70a9265b2de7c6fa9e33dca09922107c913f1591ea8c2b7e7f0ef5": {
+        "name": "\u0110V.Quy\u1ec1n",
         "image": "star_data\\star_images\\s000097.png",
         "hash_image": "star_data\\hash_images\\h000097.png",
-        "chart_image": "star_data\\chart_images\\h000097.png"
+        "chart_image": "star_data\\chart_images\\c000097.png",
+        "id": 97
     },
-    "2a272ac585c93b665341cad82d111f3cceb97966f7239862e1ac3c998f8d1d82": {
-        "name": null,
+    "f7a877a7394d5ab139a30fc23e8b2d4b77e5d981158f8d853951bad979c88d80": {
+        "name": "Thi\u00ean Di\u00eau(\u0110)",
         "image": "star_data\\star_images\\s000098.png",
         "hash_image": "star_data\\hash_images\\h000098.png",
-        "chart_image": "star_data\\chart_images\\h000098.png"
+        "chart_image": "star_data\\chart_images\\c000098.png",
+        "id": 98
     },
-    "9aabefb752d8435bc16669578a37d8ad1ab7c2ffe22c903ecc42bd1abb046443": {
-        "name": null,
+    "a85eaf835a7e77eb18ea36bbeba736a4b35bfa2223cc724bd6d9e5b007c09c30": {
+        "name": "Quan Ph\u00f9",
         "image": "star_data\\star_images\\s000099.png",
         "hash_image": "star_data\\hash_images\\h000099.png",
-        "chart_image": "star_data\\chart_images\\h000099.png"
+        "chart_image": "star_data\\chart_images\\c000099.png",
+        "id": 99
     },
-    "789a3fca19902900b0437f32e7172b7850422fe1af2057b219c67c8736adf9e4": {
-        "name": null,
+    "74173a7fae23a97fc69dfbfbafb98291bae769d15afac9942c00f775178cab7a": {
+        "name": "Thi\u00ean Th\u01b0\u01a1ng",
         "image": "star_data\\star_images\\s000100.png",
         "hash_image": "star_data\\hash_images\\h000100.png",
-        "chart_image": "star_data\\chart_images\\h000100.png"
+        "chart_image": "star_data\\chart_images\\c000100.png",
+        "id": 100
     },
-    "489c67c2772da37ce166c732093f679edaeac161443454939eda8c879d5a54b3": {
-        "name": null,
+    "9465c2be1b46593ee1259da478390341a7e5e63092252f96db7f6b938582f734": {
+        "name": "Ch\u1ec9 B\u1ed1i",
         "image": "star_data\\star_images\\s000101.png",
         "hash_image": "star_data\\hash_images\\h000101.png",
-        "chart_image": "star_data\\chart_images\\h000101.png"
-    },
-    "553d07536ac6b72662c3e1db6ea093d300613bbf7d53e807dd402ee6dd35f10a": {
-        "name": null,
-        "image": "star_data\\star_images\\s000102.png",
-        "hash_image": "star_data\\hash_images\\h000102.png",
-        "chart_image": "star_data\\chart_images\\h000102.png"
+        "chart_image": "star_data\\chart_images\\c000101.png",
+        "id": 101
     },
     "e44eed625fded27d9c8ccebc5446e24386c799486dfebdcb108c3d16410f3a6d": {
-        "name": null,
-        "image": "star_data\\star_images\\s000103.png",
-        "hash_image": "star_data\\hash_images\\h000103.png",
-        "chart_image": "star_data\\chart_images\\h000103.png"
+        "name": "+T\u1eec VI(M)",
+        "image": "star_data\\star_images\\s000102.png",
+        "hash_image": "star_data\\hash_images\\h000102.png",
+        "chart_image": "star_data\\chart_images\\c000102.png",
+        "id": 102
     },
     "55d090b01c3e09e3977c456b43dd984d697858a13c8a587a2d2989a36971134c": {
-        "name": null,
+        "name": "-THI\u00caN PH\u00d9(M)",
+        "image": "star_data\\star_images\\s000103.png",
+        "hash_image": "star_data\\hash_images\\h000103.png",
+        "chart_image": "star_data\\chart_images\\c000103.png",
+        "id": 103
+    },
+    "029c0600d2a5b178de73a6d540eaca38d02f76b1133342380e76a5c01dd8ec51": {
+        "name": "Thi\u00ean Kh\u00f4i",
         "image": "star_data\\star_images\\s000104.png",
         "hash_image": "star_data\\hash_images\\h000104.png",
-        "chart_image": "star_data\\chart_images\\h000104.png"
+        "chart_image": "star_data\\chart_images\\c000104.png",
+        "id": 104
     },
-    "2e71da8d92e495e35dde34618cb3580aae1144212259d0389d3c8413516c4fa1": {
-        "name": null,
+    "425b8bda3b1eed1f10bf6c184fa3dc87aed1d432799a3643812a2d083ca4e8cf": {
+        "name": "Thi\u1ebfu \u00c2m",
         "image": "star_data\\star_images\\s000105.png",
         "hash_image": "star_data\\hash_images\\h000105.png",
-        "chart_image": "star_data\\chart_images\\h000105.png"
+        "chart_image": "star_data\\chart_images\\c000105.png",
+        "id": 105
     },
-    "4670a26613017e04890bd8febbdf10936f264d3f5f1a31b02a8ca7c9f7157304": {
-        "name": null,
+    "4266145c4637e585b254f69f5ea7f8fffaace8ffd476a5d21c4cfdbf7a27c4c6": {
+        "name": "\u0110\u00e0 La(\u0110)",
         "image": "star_data\\star_images\\s000106.png",
         "hash_image": "star_data\\hash_images\\h000106.png",
-        "chart_image": "star_data\\chart_images\\h000106.png"
+        "chart_image": "star_data\\chart_images\\c000106.png",
+        "id": 106
     },
-    "960f23c220d8d0de7436c78e173ee72a3d4b995e48447489f973dd6952a5794d": {
-        "name": null,
+    "4c6db113de2dffd7f8adc4dcf35dd9253d05017dd6cf9afcb80aaa5c87664d58": {
+        "name": "Quan Ph\u1ee7",
         "image": "star_data\\star_images\\s000107.png",
         "hash_image": "star_data\\hash_images\\h000107.png",
-        "chart_image": "star_data\\chart_images\\h000107.png"
+        "chart_image": "star_data\\chart_images\\c000107.png",
+        "id": 107
     },
-    "d741885e757a6c0eb670c22a01b922fa9eb5ed2b5ba09eb2f6440b688c94afa8": {
-        "name": null,
+    "53268a2ea4a392b1033b40d0dedfa026fb7af8396359b9454b444690a590d3ad": {
+        "name": "Ph\u00e1 To\u00e1i",
         "image": "star_data\\star_images\\s000108.png",
         "hash_image": "star_data\\hash_images\\h000108.png",
-        "chart_image": "star_data\\chart_images\\h000108.png"
+        "chart_image": "star_data\\chart_images\\c000108.png",
+        "id": 108
     },
-    "d6c2d8a1ee41e9d59769be176839e0d5a3908b2143296fdcb2288db470eacfc9": {
-        "name": null,
+    "cfa19940564bf548bca32232823cb83677cbb051e620fc5b915f4ea64e0b35d4": {
+        "name": "Thi\u00ean S\u00e1t",
         "image": "star_data\\star_images\\s000109.png",
         "hash_image": "star_data\\hash_images\\h000109.png",
-        "chart_image": "star_data\\chart_images\\h000109.png"
-    },
-    "781d637bca62dc7f80daecb860b232c291a1d241b098192c6d4c6b3558243035": {
-        "name": null,
-        "image": "star_data\\star_images\\s000110.png",
-        "hash_image": "star_data\\hash_images\\h000110.png",
-        "chart_image": "star_data\\chart_images\\h000110.png"
+        "chart_image": "star_data\\chart_images\\c000109.png",
+        "id": 109
     },
     "8a0d9cbaac8b46e1f0107535fb86c25c893324b91283d7ef9ebac7510b07e8ed": {
-        "name": null,
+        "name": "-THI\u00caN C\u01a0(\u0110)",
+        "image": "star_data\\star_images\\s000110.png",
+        "hash_image": "star_data\\hash_images\\h000110.png",
+        "chart_image": "star_data\\chart_images\\c000110.png",
+        "id": 110
+    },
+    "0cb36bdb02680b558d38cd6aa1e7d23e8414ea744c539a4237d8c66d8430f2fc": {
+        "name": "H\u00f3a Quy\u1ec1n(B)",
         "image": "star_data\\star_images\\s000111.png",
         "hash_image": "star_data\\hash_images\\h000111.png",
-        "chart_image": "star_data\\chart_images\\h000111.png"
+        "chart_image": "star_data\\chart_images\\c000111.png",
+        "id": 111
     },
-    "2c6684a04541f60adeaecd47689d5703a56ac041367cc79fc01b42670293c68f": {
-        "name": null,
+    "a92f2aa9fd75bae7d697a4dff7845145621795d446e96e3d26f120a6e6d2f6a3": {
+        "name": "Thai Ph\u1ee5",
         "image": "star_data\\star_images\\s000112.png",
         "hash_image": "star_data\\hash_images\\h000112.png",
-        "chart_image": "star_data\\chart_images\\h000112.png"
+        "chart_image": "star_data\\chart_images\\c000112.png",
+        "id": 112
     },
-    "aa572325fe5915f75cf12783c3dc96012353208037ec01508941be0002322969": {
-        "name": null,
+    "465eacef324709ea4f2c3f7b03c395f3ae3c1cd2e762e10c1e0e5c8a01d31ef4": {
+        "name": "Ph\u01b0\u1ee3ng C\u00e1c",
         "image": "star_data\\star_images\\s000113.png",
         "hash_image": "star_data\\hash_images\\h000113.png",
-        "chart_image": "star_data\\chart_images\\h000113.png"
+        "chart_image": "star_data\\chart_images\\c000113.png",
+        "id": 113
     },
-    "bd4a9fec0676e4cfd06a83041b87d9abdefa81c17a018f7622ea1367e21105c1": {
-        "name": null,
+    "4f4736fbf8450bcce4941e1f782bc7facbde76d8137c135f1072863ae3ac977f": {
+        "name": "Gi\u1ea3i Th\u1ea7n",
         "image": "star_data\\star_images\\s000114.png",
         "hash_image": "star_data\\hash_images\\h000114.png",
-        "chart_image": "star_data\\chart_images\\h000114.png"
+        "chart_image": "star_data\\chart_images\\c000114.png",
+        "id": 114
     },
-    "64776a4ce8683bf187eb4d62fd8059eae7c1687cf85023984f74ef868b488120": {
-        "name": null,
+    "1cd7ec1043c77903e858437099f6212b5b493104568de6521afde326bce8f153": {
+        "name": "Tang M\u00f4n(H)",
         "image": "star_data\\star_images\\s000115.png",
         "hash_image": "star_data\\hash_images\\h000115.png",
-        "chart_image": "star_data\\chart_images\\h000115.png"
+        "chart_image": "star_data\\chart_images\\c000115.png",
+        "id": 115
     },
-    "d7235c214e67e0d6db322dcb04723c56ab746e4ba9ec5b6efc8b9c340c04f5ad": {
-        "name": null,
+    "a35e659ab38d976a9e3e7a0792b3e88a2457d74887c945d4b0af46908e8417f9": {
+        "name": "Ph\u1ee5c Binh",
         "image": "star_data\\star_images\\s000116.png",
         "hash_image": "star_data\\hash_images\\h000116.png",
-        "chart_image": "star_data\\chart_images\\h000116.png"
+        "chart_image": "star_data\\chart_images\\c000116.png",
+        "id": 116
     },
-    "cad29b5561738c086e888ba0bec837317f69e47ac8c186f9eb31ee3925226618": {
-        "name": null,
+    "da21dfb1e43596fdb26ed4e1cec270ddfbd65e3562cac05bc69fbb05efddca72": {
+        "name": "Tai S\u00e1t",
         "image": "star_data\\star_images\\s000117.png",
         "hash_image": "star_data\\hash_images\\h000117.png",
-        "chart_image": "star_data\\chart_images\\h000117.png"
-    },
-    "37c1d9c7598abe85a3df7a852af5bd7b1b28b2ee91d2aa4c9eec20a82c709c4f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000118.png",
-        "hash_image": "star_data\\hash_images\\h000118.png",
-        "chart_image": "star_data\\chart_images\\h000118.png"
+        "chart_image": "star_data\\chart_images\\c000117.png",
+        "id": 117
     },
     "e4619ecdc295ffaf13ffc59fe2f702dc4bba567781e6269d7518541eff8fa125": {
-        "name": null,
+        "name": "-PH\u00c1 QU\u00c2N(M)",
+        "image": "star_data\\star_images\\s000118.png",
+        "hash_image": "star_data\\hash_images\\h000118.png",
+        "chart_image": "star_data\\chart_images\\c000118.png",
+        "id": 118
+    },
+    "3000d88cfc2ca3606967db63191b748d9ebb07e7e7789c14d66a2c6622533dde": {
+        "name": "Thi\u00ean Qu\u00fd",
         "image": "star_data\\star_images\\s000119.png",
         "hash_image": "star_data\\hash_images\\h000119.png",
-        "chart_image": "star_data\\chart_images\\h000119.png"
+        "chart_image": "star_data\\chart_images\\c000119.png",
+        "id": 119
     },
-    "b4c5b7546ed1247eb2da4c5b2fa70cda423e405226d5bd90f13a4946840848c6": {
-        "name": null,
+    "bd8c86e925521586ab1b59042244a8ab8e03f9d417e406886240eeb3f2857579": {
+        "name": "Thi\u00ean H\u1ec9",
         "image": "star_data\\star_images\\s000120.png",
         "hash_image": "star_data\\hash_images\\h000120.png",
-        "chart_image": "star_data\\chart_images\\h000120.png"
+        "chart_image": "star_data\\chart_images\\c000120.png",
+        "id": 120
     },
-    "58abcd0dde074fcd16a928c9877c15d569818ea50aa279d066756e8901cdf55d": {
-        "name": null,
+    "6ee0cfc354d0641e363e93de05ae5d85357b5986813d1b99cf77657157f47b2f": {
+        "name": "Thi\u1ebfu D\u01b0\u01a1ng",
         "image": "star_data\\star_images\\s000121.png",
         "hash_image": "star_data\\hash_images\\h000121.png",
-        "chart_image": "star_data\\chart_images\\h000121.png"
+        "chart_image": "star_data\\chart_images\\c000121.png",
+        "id": 121
     },
-    "7576a5cde2f42035b8833b763b78ede07ba0d0c8db8a90fc249f26a1279d6ddd": {
-        "name": null,
+    "3c503f19786628b8feddf51e0beff2e78f051729e5f82c7f99bc18bd32706742": {
+        "name": "LN.Quy\u1ec1n",
         "image": "star_data\\star_images\\s000122.png",
         "hash_image": "star_data\\hash_images\\h000122.png",
-        "chart_image": "star_data\\chart_images\\h000122.png"
+        "chart_image": "star_data\\chart_images\\c000122.png",
+        "id": 122
     },
-    "5ee008630924ebab968d8a0e4827d34a2ed2e5eebdf52f377093618c82f590db": {
-        "name": null,
+    "7eb5f75960ffb5e2bc2237180beb8953f38cbe0ec47b50870a1411f45acfb47e": {
+        "name": "H\u00f3a K\u1ecb(H)",
         "image": "star_data\\star_images\\s000123.png",
         "hash_image": "star_data\\hash_images\\h000123.png",
-        "chart_image": "star_data\\chart_images\\h000123.png"
+        "chart_image": "star_data\\chart_images\\c000123.png",
+        "id": 123
     },
-    "304c257805acfc2bfe2cc39e9fac6096f6d75f0ddd685ca1417787407589ac3d": {
-        "name": null,
+    "c10794ada4505d553ef7a3c186b4eaf516ca3a4b30585be7d194e4ed7c341924": {
+        "name": "Thi\u00ean Kh\u00f4ng",
         "image": "star_data\\star_images\\s000124.png",
         "hash_image": "star_data\\hash_images\\h000124.png",
-        "chart_image": "star_data\\chart_images\\h000124.png"
+        "chart_image": "star_data\\chart_images\\c000124.png",
+        "id": 124
     },
-    "24d180d8f1150357e457414379c00a816295c1bf6ba32640a814b1ac562150cb": {
-        "name": null,
+    "84445de82786d23271d17617e92189a4c1a55067e7a3f61affbac6ce61938687": {
+        "name": "Ki\u1ebfp S\u00e1t",
         "image": "star_data\\star_images\\s000125.png",
         "hash_image": "star_data\\hash_images\\h000125.png",
-        "chart_image": "star_data\\chart_images\\h000125.png"
+        "chart_image": "star_data\\chart_images\\c000125.png",
+        "id": 125
     },
-    "0dd600061c05d17d341ba564f289f690c69bfdb0c255016dd036085eed227c28": {
-        "name": null,
+    "b4fa484f02b074b23b465f8e527a605da3e3421273bf8ba2b3fca97b62e7c948": {
+        "name": "\u0110\u1ea1i Hao(H)",
         "image": "star_data\\star_images\\s000126.png",
         "hash_image": "star_data\\hash_images\\h000126.png",
-        "chart_image": "star_data\\chart_images\\h000126.png"
+        "chart_image": "star_data\\chart_images\\c000126.png",
+        "id": 126
     },
-    "0be9396ee94fc22a57f6a206997caa22717fac67f717a7209ab5aa96c91017b0": {
-        "name": null,
+    "16f6ea2f2dfed83cc6024268a51e1bdbed3438239e32caef19c4b6b9d3219c4a": {
+        "name": "C\u00f4 Th\u1ea7n",
         "image": "star_data\\star_images\\s000127.png",
         "hash_image": "star_data\\hash_images\\h000127.png",
-        "chart_image": "star_data\\chart_images\\h000127.png"
+        "chart_image": "star_data\\chart_images\\c000127.png",
+        "id": 127
     },
-    "d837b5126142830e745a9f3d664e2bca162cc750e7132d2fd470359fab1819df": {
-        "name": null,
+    "9dcdda337c5801c5e50f20be54ee9c6edf60a67dee6905883e521bd943ec9fa2": {
+        "name": "L.B\u1ea1ch H\u1ed5",
         "image": "star_data\\star_images\\s000128.png",
         "hash_image": "star_data\\hash_images\\h000128.png",
-        "chart_image": "star_data\\chart_images\\h000128.png"
-    },
-    "768909c0079b765ea746b6e92cfaffdac62fb85ecae6f3604091ffa6c84cb871": {
-        "name": null,
-        "image": "star_data\\star_images\\s000129.png",
-        "hash_image": "star_data\\hash_images\\h000129.png",
-        "chart_image": "star_data\\chart_images\\h000129.png"
+        "chart_image": "star_data\\chart_images\\c000128.png",
+        "id": 128
     },
     "6ff2a7015492ea57fedc3315ab9b2885e61aea2c094f7ca157f0974446d75e2b": {
-        "name": null,
+        "name": "+TH\u00c1I D\u01af\u01a0NG(H)",
+        "image": "star_data\\star_images\\s000129.png",
+        "hash_image": "star_data\\hash_images\\h000129.png",
+        "chart_image": "star_data\\chart_images\\c000129.png",
+        "id": 129
+    },
+    "0990589982df966d300539d6886e54d5cccf5e3540d6c5db20a904d6aea9cb53": {
+        "name": "\u0110\u00e0 La (H)",
         "image": "star_data\\star_images\\s000130.png",
         "hash_image": "star_data\\hash_images\\h000130.png",
-        "chart_image": "star_data\\chart_images\\h000130.png"
-    },
-    "118f621e4660c5f555c39745cf04eea5f285c2370ef705d2f726b418a43ee89f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000131.png",
-        "hash_image": "star_data\\hash_images\\h000131.png",
-        "chart_image": "star_data\\chart_images\\h000131.png"
-    },
-    "fa2cc0d0c556f3164dc45c4fc248476b9f46f1346f4db68feffaa277205f398f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000132.png",
-        "hash_image": "star_data\\hash_images\\h000132.png",
-        "chart_image": "star_data\\chart_images\\h000132.png"
-    },
-    "ef85efc14ed0c837273750871cc6ad0be9ef2dafb2d7c8a35a8268525709daf9": {
-        "name": null,
-        "image": "star_data\\star_images\\s000133.png",
-        "hash_image": "star_data\\hash_images\\h000133.png",
-        "chart_image": "star_data\\chart_images\\h000133.png"
+        "chart_image": "star_data\\chart_images\\c000130.png",
+        "id": 130
     },
     "cb96acbfc151aa5e1f006cb102a088e0850c21e1f1a6a6ca15c74cfe9dfb0126": {
-        "name": null,
+        "name": "-THI\u00caN PH\u1ee6(\u0110)",
+        "image": "star_data\\star_images\\s000131.png",
+        "hash_image": "star_data\\hash_images\\h000131.png",
+        "chart_image": "star_data\\chart_images\\c000131.png",
+        "id": 131
+    },
+    "e321892227a5929c928734d0d60bace5ec92a50a42239713d5ea4339fd03c3d2": {
+        "name": "H\u00f3a L\u1ed9c(\u0110)",
+        "image": "star_data\\star_images\\s000132.png",
+        "hash_image": "star_data\\hash_images\\h000132.png",
+        "chart_image": "star_data\\chart_images\\c000132.png",
+        "id": 132
+    },
+    "a4137d0394bef1ec4bbcdda2f355d0c0b9490debc1b96e6ee6b3e3fad4c292a4": {
+        "name": "H\u00f3a Quy\u1ec1n(\u0110)",
+        "image": "star_data\\star_images\\s000133.png",
+        "hash_image": "star_data\\hash_images\\h000133.png",
+        "chart_image": "star_data\\chart_images\\c000133.png",
+        "id": 133
+    },
+    "add3dafbac61b0cb6817808a4800f372e5a6b3fd213899ea716c80716c30e021": {
+        "name": "K\u00ecnh D\u01b0\u01a1ng(\u0110)",
         "image": "star_data\\star_images\\s000134.png",
         "hash_image": "star_data\\hash_images\\h000134.png",
-        "chart_image": "star_data\\chart_images\\h000134.png"
-    },
-    "2177584505a9f61c4bfb01f312c1fc30c53b8b133b61f4a4a47108fd292eba59": {
-        "name": null,
-        "image": "star_data\\star_images\\s000135.png",
-        "hash_image": "star_data\\hash_images\\h000135.png",
-        "chart_image": "star_data\\chart_images\\h000135.png"
-    },
-    "e716afc95af6425018338cb420c45efb13e6e83dbb23489794f4eacb20cdf8f3": {
-        "name": null,
-        "image": "star_data\\star_images\\s000136.png",
-        "hash_image": "star_data\\hash_images\\h000136.png",
-        "chart_image": "star_data\\chart_images\\h000136.png"
-    },
-    "eea74fcb838d7753a326750b8471cb6d6e7ef631103ca35ce975258dcb3a303f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000137.png",
-        "hash_image": "star_data\\hash_images\\h000137.png",
-        "chart_image": "star_data\\chart_images\\h000137.png"
-    },
-    "d95a2ea951637082f78b6b21cdd85f1a515ef87e56ca20645772be8b2f7ba270": {
-        "name": null,
-        "image": "star_data\\star_images\\s000138.png",
-        "hash_image": "star_data\\hash_images\\h000138.png",
-        "chart_image": "star_data\\chart_images\\h000138.png"
-    },
-    "afd66a822949f88f0a7cdc4ef9e7fdcc727eddaeee4d4bc7017e2074b5744f7e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000139.png",
-        "hash_image": "star_data\\hash_images\\h000139.png",
-        "chart_image": "star_data\\chart_images\\h000139.png"
-    },
-    "8f919c39ba6edab5162c0a09267bad5724585d67fd2de8fc2a23f33305ecf36f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000140.png",
-        "hash_image": "star_data\\hash_images\\h000140.png",
-        "chart_image": "star_data\\chart_images\\h000140.png"
-    },
-    "3e7bcaac6d720d01348a7eeca744b70bcbfb600659650241bb0492050adf363b": {
-        "name": null,
-        "image": "star_data\\star_images\\s000141.png",
-        "hash_image": "star_data\\hash_images\\h000141.png",
-        "chart_image": "star_data\\chart_images\\h000141.png"
+        "chart_image": "star_data\\chart_images\\c000134.png",
+        "id": 134
     },
     "e26b517902571307180264edcbebfb38b02f0fb0e280c0fff9934527bfdea358": {
-        "name": null,
-        "image": "star_data\\star_images\\s000142.png",
-        "hash_image": "star_data\\hash_images\\h000142.png",
-        "chart_image": "star_data\\chart_images\\h000142.png"
-    },
-    "b6e15422723082b112ba9141c72254f0430a3017602544ea8a27b17829622b36": {
-        "name": null,
-        "image": "star_data\\star_images\\s000143.png",
-        "hash_image": "star_data\\hash_images\\h000143.png",
-        "chart_image": "star_data\\chart_images\\h000143.png"
+        "name": "-THAM LANG(M)",
+        "image": "star_data\\star_images\\s000135.png",
+        "hash_image": "star_data\\hash_images\\h000135.png",
+        "chart_image": "star_data\\chart_images\\c000135.png",
+        "id": 135
     },
     "247590244a6bb573220902920ee3af72aa510165b8c29526295e227c718ae868": {
-        "name": null,
-        "image": "star_data\\star_images\\s000144.png",
-        "hash_image": "star_data\\hash_images\\h000144.png",
-        "chart_image": "star_data\\chart_images\\h000144.png"
+        "name": "-C\u1ef0 M\u00d4N(\u0110)",
+        "image": "star_data\\star_images\\s000136.png",
+        "hash_image": "star_data\\hash_images\\h000136.png",
+        "chart_image": "star_data\\chart_images\\c000136.png",
+        "id": 136
     },
-    "64744136e3e135f5e958d2ed04a2f439188cff21f6e51a33cb610660e1d9b5dd": {
-        "name": null,
-        "image": "star_data\\star_images\\s000145.png",
-        "hash_image": "star_data\\hash_images\\h000145.png",
-        "chart_image": "star_data\\chart_images\\h000145.png"
+    "746b03488d1ebb78281ea7d351882172539c6c5982e8cd00df51a878e7115168": {
+        "name": "Linh Tinh(\u0110)",
+        "image": "star_data\\star_images\\s000137.png",
+        "hash_image": "star_data\\hash_images\\h000137.png",
+        "chart_image": "star_data\\chart_images\\c000137.png",
+        "id": 137
     },
-    "c5030a814a9fb296ce80773bb15984f188e2e95ecfd3dd16786acb1aaf2dce2e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000146.png",
-        "hash_image": "star_data\\hash_images\\h000146.png",
-        "chart_image": "star_data\\chart_images\\h000146.png"
-    },
-    "eb6eec9eca0e97c960bb05fc7437219b4c2c45980188789885a24263516ed80b": {
-        "name": null,
-        "image": "star_data\\star_images\\s000147.png",
-        "hash_image": "star_data\\hash_images\\h000147.png",
-        "chart_image": "star_data\\chart_images\\h000147.png"
-    },
-    "e254af758f6fea3017265ca42a9caac9403764b5343848c6e38ac40fb0d4a0c1": {
-        "name": null,
-        "image": "star_data\\star_images\\s000148.png",
-        "hash_image": "star_data\\hash_images\\h000148.png",
-        "chart_image": "star_data\\chart_images\\h000148.png"
-    },
-    "42496c97821ae1a2fbadc19f4c2f3748fce67ea0e70e28084b523e7e456762dc": {
-        "name": null,
-        "image": "star_data\\star_images\\s000149.png",
-        "hash_image": "star_data\\hash_images\\h000149.png",
-        "chart_image": "star_data\\chart_images\\h000149.png"
-    },
-    "ddac3b517bd2e517d94e8bd275282c9d8cc15945fa237964cd02b9b896d5593b": {
-        "name": null,
-        "image": "star_data\\star_images\\s000150.png",
-        "hash_image": "star_data\\hash_images\\h000150.png",
-        "chart_image": "star_data\\chart_images\\h000150.png"
-    },
-    "2ecf33ddc3958cc233c5149356ad2c092f33dd9e00d6802f1ad6b3cdb4da91a5": {
-        "name": null,
-        "image": "star_data\\star_images\\s000151.png",
-        "hash_image": "star_data\\hash_images\\h000151.png",
-        "chart_image": "star_data\\chart_images\\h000151.png"
-    },
-    "1acf24c152014a3664a62707808a4cd97783c5cec2d0d42c5218d4dea1af0ec8": {
-        "name": null,
-        "image": "star_data\\star_images\\s000152.png",
-        "hash_image": "star_data\\hash_images\\h000152.png",
-        "chart_image": "star_data\\chart_images\\h000152.png"
+    "2b64f1a25a451611a159aa14917c4c0eb646fcd40174f34828209b958b3fe792": {
+        "name": "Ti\u1ec3u Hao(\u0110)",
+        "image": "star_data\\star_images\\s000138.png",
+        "hash_image": "star_data\\hash_images\\h000138.png",
+        "chart_image": "star_data\\chart_images\\c000138.png",
+        "id": 138
     },
     "62563052b63fd25cfd7600fab756c93de60a77716ebca0edc9295b2bd4a6265e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000153.png",
-        "hash_image": "star_data\\hash_images\\h000153.png",
-        "chart_image": "star_data\\chart_images\\h000153.png"
+        "name": "+THI\u00caN T\u01af\u1edaNG(H)",
+        "image": "star_data\\star_images\\s000139.png",
+        "hash_image": "star_data\\hash_images\\h000139.png",
+        "chart_image": "star_data\\chart_images\\c000139.png",
+        "id": 139
     },
-    "1620eca0cdd7bac18a83d54099f19fdfdcc175d77f1ac282e1698780d4bf8339": {
-        "name": null,
-        "image": "star_data\\star_images\\s000154.png",
-        "hash_image": "star_data\\hash_images\\h000154.png",
-        "chart_image": "star_data\\chart_images\\h000154.png"
-    },
-    "f2caff33792b09801c863f4793d5119e65fc7f8e253e13ea9569bd8b58cc30f8": {
-        "name": null,
-        "image": "star_data\\star_images\\s000155.png",
-        "hash_image": "star_data\\hash_images\\h000155.png",
-        "chart_image": "star_data\\chart_images\\h000155.png"
-    },
-    "a8958678afd3649af087b62e7cba78583311f60b8ad58214cb0066ed0c40545b": {
-        "name": null,
-        "image": "star_data\\star_images\\s000156.png",
-        "hash_image": "star_data\\hash_images\\h000156.png",
-        "chart_image": "star_data\\chart_images\\h000156.png"
-    },
-    "466ac59d684abae11d890e09728cdc0eb025e319baa5de4847b65ae29e266426": {
-        "name": null,
-        "image": "star_data\\star_images\\s000157.png",
-        "hash_image": "star_data\\hash_images\\h000157.png",
-        "chart_image": "star_data\\chart_images\\h000157.png"
+    "5f0dfc0caa1404d6121850f293ebbc1c2d200a35e40ee9ca2ee70dfbd9cb7be6": {
+        "name": "\u0110\u1ea1i Hao(\u0110)",
+        "image": "star_data\\star_images\\s000140.png",
+        "hash_image": "star_data\\hash_images\\h000140.png",
+        "chart_image": "star_data\\chart_images\\c000140.png",
+        "id": 140
     },
     "1279b9b18717640e17df1a91af91a38026b88711ef9da0540d23edd5c672ce42": {
-        "name": null,
-        "image": "star_data\\star_images\\s000158.png",
-        "hash_image": "star_data\\hash_images\\h000158.png",
-        "chart_image": "star_data\\chart_images\\h000158.png"
+        "name": "-LI\u00caM TRINH(H)",
+        "image": "star_data\\star_images\\s000141.png",
+        "hash_image": "star_data\\hash_images\\h000141.png",
+        "chart_image": "star_data\\chart_images\\c000141.png",
+        "id": 141
     },
     "733ade4b3edf7fd45e2140d2425431724063ba07817230cdd046bfc36b0c4020": {
-        "name": null,
-        "image": "star_data\\star_images\\s000159.png",
-        "hash_image": "star_data\\hash_images\\h000159.png",
-        "chart_image": "star_data\\chart_images\\h000159.png"
+        "name": "-PH\u00c1 QU\u00c2N(H)",
+        "image": "star_data\\star_images\\s000142.png",
+        "hash_image": "star_data\\hash_images\\h000142.png",
+        "chart_image": "star_data\\chart_images\\c000142.png",
+        "id": 142
     },
-    "017df3c918832751bc35e872a3c34b0d85ae55e129fd6d06e9a82a010946cd8b": {
-        "name": null,
-        "image": "star_data\\star_images\\s000160.png",
-        "hash_image": "star_data\\hash_images\\h000160.png",
-        "chart_image": "star_data\\chart_images\\h000160.png"
-    },
-    "ba9fa1255b53baac12e121e2ff659ea8d3e0e349ad463ccfdf8d30112f4a4e92": {
-        "name": null,
-        "image": "star_data\\star_images\\s000161.png",
-        "hash_image": "star_data\\hash_images\\h000161.png",
-        "chart_image": "star_data\\chart_images\\h000161.png"
-    },
-    "d89e278aae2f7a80e446bbe75fc0bd3ff1c50bf295aa7cbd1f405d83cb27909f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000162.png",
-        "hash_image": "star_data\\hash_images\\h000162.png",
-        "chart_image": "star_data\\chart_images\\h000162.png"
-    },
-    "b4089a0c7cd1df25e427b8efec6e734b04629bf5441d3e471ffdd02ba686b8ec": {
-        "name": null,
-        "image": "star_data\\star_images\\s000163.png",
-        "hash_image": "star_data\\hash_images\\h000163.png",
-        "chart_image": "star_data\\chart_images\\h000163.png"
-    },
-    "becf7997f9a715b459252450b3affa65e8ab19ca54ac1b5f8c438450a5c4526d": {
-        "name": null,
-        "image": "star_data\\star_images\\s000164.png",
-        "hash_image": "star_data\\hash_images\\h000164.png",
-        "chart_image": "star_data\\chart_images\\h000164.png"
-    },
-    "867419df49b3aa7f8b3eeb9bc282acd8429e67d688671919a168534df85ed732": {
-        "name": null,
-        "image": "star_data\\star_images\\s000165.png",
-        "hash_image": "star_data\\hash_images\\h000165.png",
-        "chart_image": "star_data\\chart_images\\h000165.png"
+    "88dfeb6fa255829b0850062e88765d5372093dceb94494f4b75bc0be99fe0819": {
+        "name": "H\u00f3a K\u1ecb(B)",
+        "image": "star_data\\star_images\\s000143.png",
+        "hash_image": "star_data\\hash_images\\h000143.png",
+        "chart_image": "star_data\\chart_images\\c000143.png",
+        "id": 143
     },
     "f8e515c784f12886ced8df1dfdb49db4948db8babe4952c7b1113ca4217899c0": {
-        "name": null,
-        "image": "star_data\\star_images\\s000166.png",
-        "hash_image": "star_data\\hash_images\\h000166.png",
-        "chart_image": "star_data\\chart_images\\h000166.png"
+        "name": "-THI\u00caN C\u01a0(M)",
+        "image": "star_data\\star_images\\s000144.png",
+        "hash_image": "star_data\\hash_images\\h000144.png",
+        "chart_image": "star_data\\chart_images\\c000144.png",
+        "id": 144
     },
     "b575ef473c00f1e619c8fe703a3080590b6bdb5af0b2beb0cf570df4a92fa889": {
-        "name": null,
-        "image": "star_data\\star_images\\s000167.png",
-        "hash_image": "star_data\\hash_images\\h000167.png",
-        "chart_image": "star_data\\chart_images\\h000167.png"
+        "name": "+THI\u00caN L\u01af\u01a0NG(M)",
+        "image": "star_data\\star_images\\s000145.png",
+        "hash_image": "star_data\\hash_images\\h000145.png",
+        "chart_image": "star_data\\chart_images\\c000145.png",
+        "id": 145
     },
-    "2c35909e35c68e164a442deecbe21381698bd82d662d5f795110d4b7b6c116ea": {
-        "name": null,
-        "image": "star_data\\star_images\\s000168.png",
-        "hash_image": "star_data\\hash_images\\h000168.png",
-        "chart_image": "star_data\\chart_images\\h000168.png"
-    },
-    "ec35948f65c4daa56e32ee1debafc35e83a19d0e6755bb426754ff98a8504cf6": {
-        "name": null,
-        "image": "star_data\\star_images\\s000169.png",
-        "hash_image": "star_data\\hash_images\\h000169.png",
-        "chart_image": "star_data\\chart_images\\h000169.png"
-    },
-    "3dd31af8a63966ff3eb2ecf03e4c060ef49674ce2fc5f314599285eb97b48856": {
-        "name": null,
-        "image": "star_data\\star_images\\s000170.png",
-        "hash_image": "star_data\\hash_images\\h000170.png",
-        "chart_image": "star_data\\chart_images\\h000170.png"
-    },
-    "45baaf438fd406fa711811f73b284156a19252ab2ebb1e7d8214c19a5b443d46": {
-        "name": null,
-        "image": "star_data\\star_images\\s000171.png",
-        "hash_image": "star_data\\hash_images\\h000171.png",
-        "chart_image": "star_data\\chart_images\\h000171.png"
-    },
-    "4e9e485ffbc46a02275906931b4499818455dd12bcf967de14492da69898c36e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000172.png",
-        "hash_image": "star_data\\hash_images\\h000172.png",
-        "chart_image": "star_data\\chart_images\\h000172.png"
-    },
-    "7de2b68367e4ab862b48bb59d9aa353aa07429ab050735acdaca20f2a873b08e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000173.png",
-        "hash_image": "star_data\\hash_images\\h000173.png",
-        "chart_image": "star_data\\chart_images\\h000173.png"
-    },
-    "243c9bba58a3f115fe6f93813aa6bc6ce31f647d4a25ba4ab0fadd3ef7081832": {
-        "name": null,
-        "image": "star_data\\star_images\\s000174.png",
-        "hash_image": "star_data\\hash_images\\h000174.png",
-        "chart_image": "star_data\\chart_images\\h000174.png"
-    },
-    "1e78a39d91c25f1b7b24ee0bf30fb789de0e89e004b2b4e0ab2e33f615f41282": {
-        "name": null,
-        "image": "star_data\\star_images\\s000175.png",
-        "hash_image": "star_data\\hash_images\\h000175.png",
-        "chart_image": "star_data\\chart_images\\h000175.png"
+    "39282b55a5245f36143062c9f96e2ea188153d678e8f3d27adaab5af2113b69e": {
+        "name": "Thi\u00ean Kh\u1ed1c(\u0110)",
+        "image": "star_data\\star_images\\s000146.png",
+        "hash_image": "star_data\\hash_images\\h000146.png",
+        "chart_image": "star_data\\chart_images\\c000146.png",
+        "id": 146
     },
     "ac77b6f08c306e75fe99a60cf42622783e879e20f166f6c03ae3147005cb7caf": {
-        "name": null,
-        "image": "star_data\\star_images\\s000176.png",
-        "hash_image": "star_data\\hash_images\\h000176.png",
-        "chart_image": "star_data\\chart_images\\h000176.png"
+        "name": "+T\u1eec VI(B)",
+        "image": "star_data\\star_images\\s000147.png",
+        "hash_image": "star_data\\hash_images\\h000147.png",
+        "chart_image": "star_data\\chart_images\\c000147.png",
+        "id": 147
     },
     "bee66219377188f2f36422d46dd8bbdc6a291421709d7bb80d02dddb1db93e23": {
-        "name": null,
-        "image": "star_data\\star_images\\s000177.png",
-        "hash_image": "star_data\\hash_images\\h000177.png",
-        "chart_image": "star_data\\chart_images\\h000177.png"
+        "name": "+TH\u1ea4T S\u00c1T(V)",
+        "image": "star_data\\star_images\\s000148.png",
+        "hash_image": "star_data\\hash_images\\h000148.png",
+        "chart_image": "star_data\\chart_images\\c000148.png",
+        "id": 148
     },
-    "2188f3d369a828a8da1f02b433d34d348ddb1c594fba47e40b576f014f10b63f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000178.png",
-        "hash_image": "star_data\\hash_images\\h000178.png",
-        "chart_image": "star_data\\chart_images\\h000178.png"
-    },
-    "4ebc7ef016aa078ebc293d51d3d73e7154937b21577d107ab0c0de6d5fb9d1a2": {
-        "name": null,
-        "image": "star_data\\star_images\\s000179.png",
-        "hash_image": "star_data\\hash_images\\h000179.png",
-        "chart_image": "star_data\\chart_images\\h000179.png"
-    },
-    "acd157f5b26fcdd8aa881fc3395dfd20e496064eff53bcdece8e513cc1a61848": {
-        "name": null,
-        "image": "star_data\\star_images\\s000180.png",
-        "hash_image": "star_data\\hash_images\\h000180.png",
-        "chart_image": "star_data\\chart_images\\h000180.png"
-    },
-    "7741e4df11f9bed1d68faab5a8bd726ace5fc92984515c17d253beee93a1f222": {
-        "name": null,
-        "image": "star_data\\star_images\\s000181.png",
-        "hash_image": "star_data\\hash_images\\h000181.png",
-        "chart_image": "star_data\\chart_images\\h000181.png"
+    "ae8dadcb0552868699941f169c782ab26017d8a4418d480f7e41d77863162e99": {
+        "name": "Thi\u00ean M\u00e3(\u0110)",
+        "image": "star_data\\star_images\\s000149.png",
+        "hash_image": "star_data\\hash_images\\h000149.png",
+        "chart_image": "star_data\\chart_images\\c000149.png",
+        "id": 149
     },
     "5c90cc848e57591e98079bff6d8d71f224de22dad1167d3571938e0a9ba829aa": {
-        "name": null,
-        "image": "star_data\\star_images\\s000182.png",
-        "hash_image": "star_data\\hash_images\\h000182.png",
-        "chart_image": "star_data\\chart_images\\h000182.png"
+        "name": "+THI\u00caN T\u01af\u1edaNG(\u0110)",
+        "image": "star_data\\star_images\\s000150.png",
+        "hash_image": "star_data\\hash_images\\h000150.png",
+        "chart_image": "star_data\\chart_images\\c000150.png",
+        "id": 150
     },
-    "56cf836045367590df3e20d56e2d18c14fde0e231181a3107d83712283cf5f30": {
-        "name": null,
-        "image": "star_data\\star_images\\s000183.png",
-        "hash_image": "star_data\\hash_images\\h000183.png",
-        "chart_image": "star_data\\chart_images\\h000183.png"
-    },
-    "7b1c5b0e57bd86093461358c0cb361a42b0d4c78f96c9a308cf41e09b43a882a": {
-        "name": null,
-        "image": "star_data\\star_images\\s000184.png",
-        "hash_image": "star_data\\hash_images\\h000184.png",
-        "chart_image": "star_data\\chart_images\\h000184.png"
+    "b46b51014bf66f7904c49c122730c49fba9e44df55846b0e5244bd524032b56b": {
+        "name": "H\u00f3a Khoa(\u0110)",
+        "image": "star_data\\star_images\\s000151.png",
+        "hash_image": "star_data\\hash_images\\h000151.png",
+        "chart_image": "star_data\\chart_images\\c000151.png",
+        "id": 151
     },
     "be75de8e0a2d6b7452cdc686a32d94e86f1688b13ec85c49e6b6b5bc7a8d31ca": {
-        "name": null,
-        "image": "star_data\\star_images\\s000185.png",
-        "hash_image": "star_data\\hash_images\\h000185.png",
-        "chart_image": "star_data\\chart_images\\h000185.png"
+        "name": "-LI\u00caM TRINH(\u0110)",
+        "image": "star_data\\star_images\\s000152.png",
+        "hash_image": "star_data\\hash_images\\h000152.png",
+        "chart_image": "star_data\\chart_images\\c000152.png",
+        "id": 152
     },
     "907733535f4ad9ea426654717ff3e5567a5fcc20a83980bd54d0bc1fce5db3a9": {
-        "name": null,
+        "name": "+TH\u1ea4T S\u00c1T(\u0110)",
+        "image": "star_data\\star_images\\s000153.png",
+        "hash_image": "star_data\\hash_images\\h000153.png",
+        "chart_image": "star_data\\chart_images\\c000153.png",
+        "id": 153
+    },
+    "ef24de422487da2af3f952e9f504825b9e63a8d7fefe35c8450f77c3a11c2980": {
+        "name": "Thi\u00ean H\u01b0(\u0110)",
+        "image": "star_data\\star_images\\s000154.png",
+        "hash_image": "star_data\\hash_images\\h000154.png",
+        "chart_image": "star_data\\chart_images\\c000154.png",
+        "id": 154
+    },
+    "2faa7578f1dda57fc81d63e2569648108fd07f3f1d68dd9536c1907f3e104e12": {
+        "name": "H\u00f3a Quy\u1ec1n(V)",
+        "image": "star_data\\star_images\\s000155.png",
+        "hash_image": "star_data\\hash_images\\h000155.png",
+        "chart_image": "star_data\\chart_images\\c000155.png",
+        "id": 155
+    },
+    "66f37c9807d696bb588461cf859e64f0aa680321a3e4cf6702b50e68def44082": {
+        "name": "H\u1ecfa Tinh(\u0110)",
+        "image": "star_data\\star_images\\s000156.png",
+        "hash_image": "star_data\\hash_images\\h000156.png",
+        "chart_image": "star_data\\chart_images\\c000156.png",
+        "id": 156
+    },
+    "707cc3327a74c122da80bfcdf117249be91578cde67380eca183f7e1753adf33": {
+        "name": "-THAM LANG(H)",
+        "image": "star_data\\star_images\\s000157.png",
+        "hash_image": "star_data\\hash_images\\h000157.png",
+        "chart_image": "star_data\\chart_images\\c000157.png",
+        "id": 157
+    },
+    "e8be00e6c060e0f91deb63d563d100e122312faaa78a97ca5d3ab3ab2eeb5b07": {
+        "name": "-THI\u00caN C\u01a0(H)",
+        "image": "star_data\\star_images\\s000158.png",
+        "hash_image": "star_data\\hash_images\\h000158.png",
+        "chart_image": "star_data\\chart_images\\c000158.png",
+        "id": 158
+    },
+    "9ae25023598011322ae27ed7d946f43de1e60fe603c72fc678699934c5b4749e": {
+        "name": "-THI\u00caN PH\u1ee6(B)",
+        "image": "star_data\\star_images\\s000159.png",
+        "hash_image": "star_data\\hash_images\\h000159.png",
+        "chart_image": "star_data\\chart_images\\c000159.png",
+        "id": 159
+    },
+    "29ab6f708b5c62a1527d6a56898f6bfe2190d3d5cbd73d3239f48904d89ddd3f": {
+        "name": "Thi\u00ean Di\u00eau(H)",
+        "image": "star_data\\star_images\\s000160.png",
+        "hash_image": "star_data\\hash_images\\h000160.png",
+        "chart_image": "star_data\\chart_images\\c000160.png",
+        "id": 160
+    },
+    "95fd38234ddf6665fe431ff324c9b7ba916d909af20797265c32ae2054ef69fb": {
+        "name": "-V\u0168 KH\u00daC(H)",
+        "image": "star_data\\star_images\\s000161.png",
+        "hash_image": "star_data\\hash_images\\h000161.png",
+        "chart_image": "star_data\\chart_images\\c000161.png",
+        "id": 161
+    },
+    "f1dcb8b38d0bf5a4f8b0c53d54687b785862de1db07e6d9a84b3af2abf5d3969": {
+        "name": "+TH\u00c1I D\u01af\u01a0NG(M)",
+        "image": "star_data\\star_images\\s000162.png",
+        "hash_image": "star_data\\hash_images\\h000162.png",
+        "chart_image": "star_data\\chart_images\\c000162.png",
+        "id": 162
+    },
+    "fc79c416e0c017f00f5f7405bbee6f60ad96fbb5067cff72cbd8481649b63e64": {
+        "name": "-TH\u00c1I \u00c2M(M)",
+        "image": "star_data\\star_images\\s000163.png",
+        "hash_image": "star_data\\hash_images\\h000163.png",
+        "chart_image": "star_data\\chart_images\\c000163.png",
+        "id": 163
+    },
+    "426f26fb0c0ee4ca30cbce62680b25d32bbb2f8571b94548e68980d15fed463c": {
+        "name": "+THI\u00caN \u0110\u1ed2NG(\u0110)",
+        "image": "star_data\\star_images\\s000164.png",
+        "hash_image": "star_data\\hash_images\\h000164.png",
+        "chart_image": "star_data\\chart_images\\c000164.png",
+        "id": 164
+    },
+    "d3446ac01af4998854ef78b98c50a413b56dcf3aa2787565b1031cc44b558da3": {
+        "name": "Thi\u00ean H\u00ecnh(\u0110)",
+        "image": "star_data\\star_images\\s000165.png",
+        "hash_image": "star_data\\hash_images\\h000165.png",
+        "chart_image": "star_data\\chart_images\\c000165.png",
+        "id": 165
+    },
+    "315fe54d7f070e51c73ac0cd691ea1b3adedcad826737f6d6ab3f590a456e60c": {
+        "name": "-THI\u00caN C\u01a0(\u0110)",
+        "image": "star_data\\star_images\\s000166.png",
+        "hash_image": "star_data\\hash_images\\h000166.png",
+        "chart_image": "star_data\\chart_images\\c000166.png",
+        "id": 166
+    },
+    "29dc592261c43786f3ccc4d701071056d582345a2b96d6b98d1fcca54d27c002": {
+        "name": "+TH\u1ea4T S\u00c1T(H)",
+        "image": "star_data\\star_images\\s000167.png",
+        "hash_image": "star_data\\hash_images\\h000167.png",
+        "chart_image": "star_data\\chart_images\\c000167.png",
+        "id": 167
+    },
+    "674e7af05f26ff34084cec57cab296acc3a041a4e2e742a748b212feea63cfc7": {
+        "name": "B\u1ea1ch H\u1ed5(\u0110)",
+        "image": "star_data\\star_images\\s000168.png",
+        "hash_image": "star_data\\hash_images\\h000168.png",
+        "chart_image": "star_data\\chart_images\\c000168.png",
+        "id": 168
+    },
+    "c11d68104d6feea5bc8dab4dc6c02e6276b83179e5c51a90f9685aa20be10523": {
+        "name": "Tang M\u00f4n(\u0110)",
+        "image": "star_data\\star_images\\s000169.png",
+        "hash_image": "star_data\\hash_images\\h000169.png",
+        "chart_image": "star_data\\chart_images\\c000169.png",
+        "id": 169
+    },
+    "c90a98543439224d025fcf8cec7a2f4613a8f7ac452251cdb36c14cc0f519914": {
+        "name": "+TH\u00c1I D\u01af\u01a0NG(V)",
+        "image": "star_data\\star_images\\s000170.png",
+        "hash_image": "star_data\\hash_images\\h000170.png",
+        "chart_image": "star_data\\chart_images\\c000170.png",
+        "id": 170
+    },
+    "2924f67e06b77fd5dbb0b4729a554ce88aeac880b99ce07683d83d51b456dd1c": {
+        "name": "+THI\u00caN L\u01af\u01a0NG(V)",
+        "image": "star_data\\star_images\\s000171.png",
+        "hash_image": "star_data\\hash_images\\h000171.png",
+        "chart_image": "star_data\\chart_images\\c000171.png",
+        "id": 171
+    },
+    "4a35907a383c450b6ee805bd693b887991b09d95feb9d81c891bddb019abb6b4": {
+        "name": "-LI\u00caM TRINH(M)",
+        "image": "star_data\\star_images\\s000172.png",
+        "hash_image": "star_data\\hash_images\\h000172.png",
+        "chart_image": "star_data\\chart_images\\c000172.png",
+        "id": 172
+    },
+    "14a1f47083e2e9e0d142e607dfeb2cbf54ac6cb9bb7a23a877180276fcf53f13": {
+        "name": "-THI\u00caN PH\u1ee6(V)",
+        "image": "star_data\\star_images\\s000173.png",
+        "hash_image": "star_data\\hash_images\\h000173.png",
+        "chart_image": "star_data\\chart_images\\c000173.png",
+        "id": 173
+    },
+    "b45172561057ff3933f07adb60e1ece7b529ab3a6e8fe6ed7252c33b09bcabc3": {
+        "name": "-V\u0168 KH\u00daC(V)",
+        "image": "star_data\\star_images\\s000174.png",
+        "hash_image": "star_data\\hash_images\\h000174.png",
+        "chart_image": "star_data\\chart_images\\c000174.png",
+        "id": 174
+    },
+    "ef27cd6da91bb18b76d174b4ab0f0276b2d2c48cc71a01ee2364bfa8e306f7d1": {
+        "name": "+THI\u00caN T\u01af\u1edaNG(M)",
+        "image": "star_data\\star_images\\s000175.png",
+        "hash_image": "star_data\\hash_images\\h000175.png",
+        "chart_image": "star_data\\chart_images\\c000175.png",
+        "id": 175
+    },
+    "de41fc44e4da7e1d53f0d261cffb367dab5d7ae895f6256db8e07453780b424e": {
+        "name": "H\u00f3a L\u1ed9c(V)",
+        "image": "star_data\\star_images\\s000176.png",
+        "hash_image": "star_data\\hash_images\\h000176.png",
+        "chart_image": "star_data\\chart_images\\c000176.png",
+        "id": 176
+    },
+    "a6ec57daa88301e08785726f5b4203bd5d86cbcfe8fadb1e02e77b7c3c5c3ced": {
+        "name": "-C\u1ef0 M\u00d4N(V)",
+        "image": "star_data\\star_images\\s000177.png",
+        "hash_image": "star_data\\hash_images\\h000177.png",
+        "chart_image": "star_data\\chart_images\\c000177.png",
+        "id": 177
+    },
+    "3ecf9ec17bd9ffa6ce250d0148348955c8073459b23bab58d20b967d4bc5eba9": {
+        "name": "+THI\u00caN \u0110\u1ed2NG(V)",
+        "image": "star_data\\star_images\\s000178.png",
+        "hash_image": "star_data\\hash_images\\h000178.png",
+        "chart_image": "star_data\\chart_images\\c000178.png",
+        "id": 178
+    },
+    "4343ddd39731726fcbe6dc4732473128eecfc857884efdf53dea3050badf5761": {
+        "name": "-TH\u00c1I \u00c2M(V)",
+        "image": "star_data\\star_images\\s000179.png",
+        "hash_image": "star_data\\hash_images\\h000179.png",
+        "chart_image": "star_data\\chart_images\\c000179.png",
+        "id": 179
+    },
+    "483d8a21e4b482b6c089633d447c4723becdc894328158600209371a7521c900": {
+        "name": "+THI\u00caN L\u01af\u01a0NG(H)",
+        "image": "star_data\\star_images\\s000180.png",
+        "hash_image": "star_data\\hash_images\\h000180.png",
+        "chart_image": "star_data\\chart_images\\c000180.png",
+        "id": 180
+    },
+    "81e8e335373be34de426d230ccc0cee0d8e3319282b68e8415ae105ca03c67eb": {
+        "name": "+T\u1eec VI(V)",
+        "image": "star_data\\star_images\\s000181.png",
+        "hash_image": "star_data\\hash_images\\h000181.png",
+        "chart_image": "star_data\\chart_images\\c000181.png",
+        "id": 181
+    },
+    "276c785ffdda77882cf5190d36aed4d249dc6c6e11a74d0e68199f808b6b07a6": {
+        "name": "-C\u1ef0 M\u00d4N(H)",
+        "image": "star_data\\star_images\\s000182.png",
+        "hash_image": "star_data\\hash_images\\h000182.png",
+        "chart_image": "star_data\\chart_images\\c000182.png",
+        "id": 182
+    },
+    "3087b3891ddb983f0aa6c1f8621a00aaa220ecf90e25608ea9cd0e39006ea85e": {
+        "name": "-PH\u00c1 QU\u00c2N(\u0110)",
+        "image": "star_data\\star_images\\s000183.png",
+        "hash_image": "star_data\\hash_images\\h000183.png",
+        "chart_image": "star_data\\chart_images\\c000183.png",
+        "id": 183
+    },
+    "5850e4fc82ed473a3a26174d30e9a0c30e50718d4aab8baeaf550bf9ae67d19c": {
+        "name": "-THAM LANG(\u0110)",
+        "image": "star_data\\star_images\\s000184.png",
+        "hash_image": "star_data\\hash_images\\h000184.png",
+        "chart_image": "star_data\\chart_images\\c000184.png",
+        "id": 184
+    },
+    "fcd2eaae64b1f18e60fda0eb51048912b623b9cee2871770b76fe15797d15743": {
+        "name": "+TH\u00c1I D\u01af\u01a0NG(\u0110)",
+        "image": "star_data\\star_images\\s000185.png",
+        "hash_image": "star_data\\hash_images\\h000185.png",
+        "chart_image": "star_data\\chart_images\\c000185.png",
+        "id": 185
+    },
+    "8c928666e50f9e89b989b56fe1c23a8d6df7dc30c07af2549f2e9c801ff5adb5": {
+        "name": "-TH\u00c1I \u00c2M(\u0110)",
         "image": "star_data\\star_images\\s000186.png",
         "hash_image": "star_data\\hash_images\\h000186.png",
-        "chart_image": "star_data\\chart_images\\h000186.png"
+        "chart_image": "star_data\\chart_images\\c000186.png",
+        "id": 186
     },
-    "0935f07ec18702b1caad58343f5910ac64b4bb2354c3448c5ca51cb7a02d3e73": {
-        "name": null,
+    "68d66e04fc4634e26edc37ff01b3bc7b40c6afff28597e94ff74ca1c8f7baa85": {
+        "name": "+T\u1eec VI(\u0110)",
         "image": "star_data\\star_images\\s000187.png",
         "hash_image": "star_data\\hash_images\\h000187.png",
-        "chart_image": "star_data\\chart_images\\h000187.png"
+        "chart_image": "star_data\\chart_images\\c000187.png",
+        "id": 187
     },
-    "da3f34ffb2cb5ebe76559b5e028f72def9d7308177b31f0b0955ba0109570459": {
-        "name": null,
+    "5ce044bb4001cb89f8fb8b941c930c8f33e330b4c7a48497d397672d8f9dd309": {
+        "name": "-PH\u00c1 QU\u00c2N(V)",
         "image": "star_data\\star_images\\s000188.png",
         "hash_image": "star_data\\hash_images\\h000188.png",
-        "chart_image": "star_data\\chart_images\\h000188.png"
+        "chart_image": "star_data\\chart_images\\c000188.png",
+        "id": 188
     },
-    "fd2b3553e3ead796eb198f0ce79fdd828afad17b84acb8b913b1cb854f4515e2": {
-        "name": null,
+    "eeaf253f6232bb75ccea15af34af8f9fd93bf056ddd3ab2cc6e1753f5ef99842": {
+        "name": "-V\u0168 KH\u00daC(\u0110)",
         "image": "star_data\\star_images\\s000189.png",
         "hash_image": "star_data\\hash_images\\h000189.png",
-        "chart_image": "star_data\\chart_images\\h000189.png"
+        "chart_image": "star_data\\chart_images\\c000189.png",
+        "id": 189
     },
-    "b0852b803cf19d625f7ff6971631f80a93addb9d0cd26d2230903c0c5d71d11a": {
-        "name": null,
+    "ae74c444a3b2c2f5f87110ceb0537789801bc165f74d2016bf962ce358d14c48": {
+        "name": "+THI\u00caN \u0110\u1ed2NG(M)",
         "image": "star_data\\star_images\\s000190.png",
         "hash_image": "star_data\\hash_images\\h000190.png",
-        "chart_image": "star_data\\chart_images\\h000190.png"
+        "chart_image": "star_data\\chart_images\\c000190.png",
+        "id": 190
     },
-    "d0370f8507ce1447ea9745c4d7d14419c4cb0019f108199ce8b83f800d744b69": {
+    "66ae731a771b251498a3fe31b6944a7125e46989ac0cb633e17426917cf9d566": {
         "name": null,
         "image": "star_data\\star_images\\s000191.png",
         "hash_image": "star_data\\hash_images\\h000191.png",
-        "chart_image": "star_data\\chart_images\\h000191.png"
+        "chart_image": "star_data\\chart_images\\c000191.png",
+        "id": 191
     },
-    "a72c380d0cb7c618f71f169a41f63c889363f88c7e3fac58e5987b1376e6585f": {
+    "600b82ca74f8910d611efb772d3f26f46d98fa2071395a9411f1de58e0010ee4": {
         "name": null,
         "image": "star_data\\star_images\\s000192.png",
         "hash_image": "star_data\\hash_images\\h000192.png",
-        "chart_image": "star_data\\chart_images\\h000192.png"
+        "chart_image": "star_data\\chart_images\\c000192.png",
+        "id": 192
     },
-    "a7b9bf3cd1aa0f0223df8ab16bb32f2b8aa7ed422e29a7cc6ed728bc30479de5": {
+    "df957a3c3ee7eaf6f89a3b6ed8fcd5fd3f069ce720dffff75d70f7157170a2d6": {
         "name": null,
         "image": "star_data\\star_images\\s000193.png",
         "hash_image": "star_data\\hash_images\\h000193.png",
-        "chart_image": "star_data\\chart_images\\h000193.png"
+        "chart_image": "star_data\\chart_images\\c000193.png",
+        "id": 193
     },
-    "707cc3327a74c122da80bfcdf117249be91578cde67380eca183f7e1753adf33": {
+    "8497ed5eac348d489c2ea706b47780166adbed7283a81fdebfc1a72a6f3c5903": {
         "name": null,
         "image": "star_data\\star_images\\s000194.png",
         "hash_image": "star_data\\hash_images\\h000194.png",
-        "chart_image": "star_data\\chart_images\\h000194.png"
-    },
-    "c1def57a591f60ef24babf2d9505dbe7e315ca9ce46f4f650bb2c9e01b2e07af": {
-        "name": null,
-        "image": "star_data\\star_images\\s000195.png",
-        "hash_image": "star_data\\hash_images\\h000195.png",
-        "chart_image": "star_data\\chart_images\\h000195.png"
-    },
-    "98e61aa749add509d92b27ded135493e7f9c260354a14cfde54f2d13f108606c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000196.png",
-        "hash_image": "star_data\\hash_images\\h000196.png",
-        "chart_image": "star_data\\chart_images\\h000196.png"
-    },
-    "e8be00e6c060e0f91deb63d563d100e122312faaa78a97ca5d3ab3ab2eeb5b07": {
-        "name": null,
-        "image": "star_data\\star_images\\s000197.png",
-        "hash_image": "star_data\\hash_images\\h000197.png",
-        "chart_image": "star_data\\chart_images\\h000197.png"
-    },
-    "9ae25023598011322ae27ed7d946f43de1e60fe603c72fc678699934c5b4749e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000198.png",
-        "hash_image": "star_data\\hash_images\\h000198.png",
-        "chart_image": "star_data\\chart_images\\h000198.png"
-    },
-    "28c4796e4c24013ca82784c65a021196c409785647d8331ee3b56d3cd0bbf482": {
-        "name": null,
-        "image": "star_data\\star_images\\s000199.png",
-        "hash_image": "star_data\\hash_images\\h000199.png",
-        "chart_image": "star_data\\chart_images\\h000199.png"
-    },
-    "b9637dfacdbb92f89968f875175768e37fa0bc5f08f99ffe447b4e9e07cdfd22": {
-        "name": null,
-        "image": "star_data\\star_images\\s000200.png",
-        "hash_image": "star_data\\hash_images\\h000200.png",
-        "chart_image": "star_data\\chart_images\\h000200.png"
-    },
-    "0652bea25936745a22a6ad266ed58b0f7bad387c20cb8ff2ec02c1ba659fb665": {
-        "name": null,
-        "image": "star_data\\star_images\\s000201.png",
-        "hash_image": "star_data\\hash_images\\h000201.png",
-        "chart_image": "star_data\\chart_images\\h000201.png"
-    },
-    "ba1395f72555ac1a2137913b5e49d47bf8823720dd0f8ca3320fb6af9d2406eb": {
-        "name": null,
-        "image": "star_data\\star_images\\s000202.png",
-        "hash_image": "star_data\\hash_images\\h000202.png",
-        "chart_image": "star_data\\chart_images\\h000202.png"
-    },
-    "754792c0efc759c986b04ceabc6a9db44a2ca9976cf5edc2db2215bc9b0c350f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000203.png",
-        "hash_image": "star_data\\hash_images\\h000203.png",
-        "chart_image": "star_data\\chart_images\\h000203.png"
-    },
-    "95fd38234ddf6665fe431ff324c9b7ba916d909af20797265c32ae2054ef69fb": {
-        "name": null,
-        "image": "star_data\\star_images\\s000204.png",
-        "hash_image": "star_data\\hash_images\\h000204.png",
-        "chart_image": "star_data\\chart_images\\h000204.png"
-    },
-    "b45172561057ff3933f07adb60e1ece7b529ab3a6e8fe6ed7252c33b09bcabc3": {
-        "name": null,
-        "image": "star_data\\star_images\\s000205.png",
-        "hash_image": "star_data\\hash_images\\h000205.png",
-        "chart_image": "star_data\\chart_images\\h000205.png"
-    },
-    "ef27cd6da91bb18b76d174b4ab0f0276b2d2c48cc71a01ee2364bfa8e306f7d1": {
-        "name": null,
-        "image": "star_data\\star_images\\s000206.png",
-        "hash_image": "star_data\\hash_images\\h000206.png",
-        "chart_image": "star_data\\chart_images\\h000206.png"
-    },
-    "4a35907a383c450b6ee805bd693b887991b09d95feb9d81c891bddb019abb6b4": {
-        "name": null,
-        "image": "star_data\\star_images\\s000207.png",
-        "hash_image": "star_data\\hash_images\\h000207.png",
-        "chart_image": "star_data\\chart_images\\h000207.png"
-    },
-    "14a1f47083e2e9e0d142e607dfeb2cbf54ac6cb9bb7a23a877180276fcf53f13": {
-        "name": null,
-        "image": "star_data\\star_images\\s000208.png",
-        "hash_image": "star_data\\hash_images\\h000208.png",
-        "chart_image": "star_data\\chart_images\\h000208.png"
-    },
-    "483d8a21e4b482b6c089633d447c4723becdc894328158600209371a7521c900": {
-        "name": null,
-        "image": "star_data\\star_images\\s000209.png",
-        "hash_image": "star_data\\hash_images\\h000209.png",
-        "chart_image": "star_data\\chart_images\\h000209.png"
-    },
-    "a3c0081129f34db8a7abca7dfb99ca06631610b4af864f2d604595f39280b500": {
-        "name": null,
-        "image": "star_data\\star_images\\s000210.png",
-        "hash_image": "star_data\\hash_images\\h000210.png",
-        "chart_image": "star_data\\chart_images\\h000210.png"
-    },
-    "cc63ff6d388f1e4e3daefdf76d42f4fa0b6c5c14f73e2f3d03738a5a8d6bc6ad": {
-        "name": null,
-        "image": "star_data\\star_images\\s000211.png",
-        "hash_image": "star_data\\hash_images\\h000211.png",
-        "chart_image": "star_data\\chart_images\\h000211.png"
-    },
-    "29dc592261c43786f3ccc4d701071056d582345a2b96d6b98d1fcca54d27c002": {
-        "name": null,
-        "image": "star_data\\star_images\\s000212.png",
-        "hash_image": "star_data\\hash_images\\h000212.png",
-        "chart_image": "star_data\\chart_images\\h000212.png"
-    },
-    "f1dcb8b38d0bf5a4f8b0c53d54687b785862de1db07e6d9a84b3af2abf5d3969": {
-        "name": null,
-        "image": "star_data\\star_images\\s000213.png",
-        "hash_image": "star_data\\hash_images\\h000213.png",
-        "chart_image": "star_data\\chart_images\\h000213.png"
-    },
-    "f4b374376e0c2da983b91c9d43e8a54bbe4d075fd4247f069f184d80d5808f60": {
-        "name": null,
-        "image": "star_data\\star_images\\s000214.png",
-        "hash_image": "star_data\\hash_images\\h000214.png",
-        "chart_image": "star_data\\chart_images\\h000214.png"
-    },
-    "11751c46241a5681feeb80249f3139a76609e985cd5e66cdf5e4eef925dea544": {
-        "name": null,
-        "image": "star_data\\star_images\\s000215.png",
-        "hash_image": "star_data\\hash_images\\h000215.png",
-        "chart_image": "star_data\\chart_images\\h000215.png"
-    },
-    "fc79c416e0c017f00f5f7405bbee6f60ad96fbb5067cff72cbd8481649b63e64": {
-        "name": null,
-        "image": "star_data\\star_images\\s000216.png",
-        "hash_image": "star_data\\hash_images\\h000216.png",
-        "chart_image": "star_data\\chart_images\\h000216.png"
-    },
-    "3a3939ee124a7b2527065c810dfb230305b48ae3f41c89e58da54cd161a9ab66": {
-        "name": null,
-        "image": "star_data\\star_images\\s000217.png",
-        "hash_image": "star_data\\hash_images\\h000217.png",
-        "chart_image": "star_data\\chart_images\\h000217.png"
-    },
-    "426f26fb0c0ee4ca30cbce62680b25d32bbb2f8571b94548e68980d15fed463c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000218.png",
-        "hash_image": "star_data\\hash_images\\h000218.png",
-        "chart_image": "star_data\\chart_images\\h000218.png"
-    },
-    "833e3276e556f058c86b838d4cb3e1435f2a7527fe0fcfcd9c8654b27716b57c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000219.png",
-        "hash_image": "star_data\\hash_images\\h000219.png",
-        "chart_image": "star_data\\chart_images\\h000219.png"
-    },
-    "790f58205ec6a6ab49a102a0307ff441067e5fe70b5f145c745ae4636b789896": {
-        "name": null,
-        "image": "star_data\\star_images\\s000220.png",
-        "hash_image": "star_data\\hash_images\\h000220.png",
-        "chart_image": "star_data\\chart_images\\h000220.png"
-    },
-    "6cce470bdc16e4273f5a380b076c39e9294187caf25a03101522306e0f5cb4ca": {
-        "name": null,
-        "image": "star_data\\star_images\\s000221.png",
-        "hash_image": "star_data\\hash_images\\h000221.png",
-        "chart_image": "star_data\\chart_images\\h000221.png"
-    },
-    "b30d397c0135fa4a8581c1831a5fae309673fd9fd33749433d17dcc8370d62e5": {
-        "name": null,
-        "image": "star_data\\star_images\\s000222.png",
-        "hash_image": "star_data\\hash_images\\h000222.png",
-        "chart_image": "star_data\\chart_images\\h000222.png"
-    },
-    "564eb48817a9a48cc9037f50d62b8ec56f65f49979e8a800f90907f57370dc5a": {
-        "name": null,
-        "image": "star_data\\star_images\\s000223.png",
-        "hash_image": "star_data\\hash_images\\h000223.png",
-        "chart_image": "star_data\\chart_images\\h000223.png"
-    },
-    "40f85e6aa300c409a34c77a54563f3401e3816dbb97d70aec26eb657d02bea2d": {
-        "name": null,
-        "image": "star_data\\star_images\\s000224.png",
-        "hash_image": "star_data\\hash_images\\h000224.png",
-        "chart_image": "star_data\\chart_images\\h000224.png"
-    },
-    "1885f5bb2e57eaaff17e5bc5b0fabbd5e95bb253ea183aa087f05afe4894c2ec": {
-        "name": null,
-        "image": "star_data\\star_images\\s000225.png",
-        "hash_image": "star_data\\hash_images\\h000225.png",
-        "chart_image": "star_data\\chart_images\\h000225.png"
-    },
-    "315fe54d7f070e51c73ac0cd691ea1b3adedcad826737f6d6ab3f590a456e60c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000226.png",
-        "hash_image": "star_data\\hash_images\\h000226.png",
-        "chart_image": "star_data\\chart_images\\h000226.png"
-    },
-    "4343ddd39731726fcbe6dc4732473128eecfc857884efdf53dea3050badf5761": {
-        "name": null,
-        "image": "star_data\\star_images\\s000227.png",
-        "hash_image": "star_data\\hash_images\\h000227.png",
-        "chart_image": "star_data\\chart_images\\h000227.png"
-    },
-    "2924f67e06b77fd5dbb0b4729a554ce88aeac880b99ce07683d83d51b456dd1c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000228.png",
-        "hash_image": "star_data\\hash_images\\h000228.png",
-        "chart_image": "star_data\\chart_images\\h000228.png"
-    },
-    "826ee65b534bdb0c15a60e0a00e30bf5b937dd151fe57a58a48f7ab563c003ef": {
-        "name": null,
-        "image": "star_data\\star_images\\s000229.png",
-        "hash_image": "star_data\\hash_images\\h000229.png",
-        "chart_image": "star_data\\chart_images\\h000229.png"
-    },
-    "7dcf620785b5c7b85f8be10c48a7aeffd1642f19c26fa0c52867073d93911867": {
-        "name": null,
-        "image": "star_data\\star_images\\s000230.png",
-        "hash_image": "star_data\\hash_images\\h000230.png",
-        "chart_image": "star_data\\chart_images\\h000230.png"
-    },
-    "17b8015ed516f9968f4e6bc2557ab386f22325dc5ebbc4146c5664c1483c5985": {
-        "name": null,
-        "image": "star_data\\star_images\\s000231.png",
-        "hash_image": "star_data\\hash_images\\h000231.png",
-        "chart_image": "star_data\\chart_images\\h000231.png"
-    },
-    "c90a98543439224d025fcf8cec7a2f4613a8f7ac452251cdb36c14cc0f519914": {
-        "name": null,
-        "image": "star_data\\star_images\\s000232.png",
-        "hash_image": "star_data\\hash_images\\h000232.png",
-        "chart_image": "star_data\\chart_images\\h000232.png"
-    },
-    "ca61d0f8f22668184ecc2d578cf4a4b1ea9ce7f088ee9f4ae3e5e1c5d5d9a53a": {
-        "name": null,
-        "image": "star_data\\star_images\\s000233.png",
-        "hash_image": "star_data\\hash_images\\h000233.png",
-        "chart_image": "star_data\\chart_images\\h000233.png"
-    },
-    "41f40ebcee20ba88ddd5d3ead67aae87e49a595bc0e464a02b12d3d84de63bd1": {
-        "name": null,
-        "image": "star_data\\star_images\\s000234.png",
-        "hash_image": "star_data\\hash_images\\h000234.png",
-        "chart_image": "star_data\\chart_images\\h000234.png"
-    },
-    "a6ec57daa88301e08785726f5b4203bd5d86cbcfe8fadb1e02e77b7c3c5c3ced": {
-        "name": null,
-        "image": "star_data\\star_images\\s000235.png",
-        "hash_image": "star_data\\hash_images\\h000235.png",
-        "chart_image": "star_data\\chart_images\\h000235.png"
-    },
-    "3ecf9ec17bd9ffa6ce250d0148348955c8073459b23bab58d20b967d4bc5eba9": {
-        "name": null,
-        "image": "star_data\\star_images\\s000236.png",
-        "hash_image": "star_data\\hash_images\\h000236.png",
-        "chart_image": "star_data\\chart_images\\h000236.png"
-    },
-    "81e8e335373be34de426d230ccc0cee0d8e3319282b68e8415ae105ca03c67eb": {
-        "name": null,
-        "image": "star_data\\star_images\\s000237.png",
-        "hash_image": "star_data\\hash_images\\h000237.png",
-        "chart_image": "star_data\\chart_images\\h000237.png"
-    },
-    "276c785ffdda77882cf5190d36aed4d249dc6c6e11a74d0e68199f808b6b07a6": {
-        "name": null,
-        "image": "star_data\\star_images\\s000238.png",
-        "hash_image": "star_data\\hash_images\\h000238.png",
-        "chart_image": "star_data\\chart_images\\h000238.png"
-    },
-    "3087b3891ddb983f0aa6c1f8621a00aaa220ecf90e25608ea9cd0e39006ea85e": {
-        "name": null,
-        "image": "star_data\\star_images\\s000239.png",
-        "hash_image": "star_data\\hash_images\\h000239.png",
-        "chart_image": "star_data\\chart_images\\h000239.png"
-    },
-    "5850e4fc82ed473a3a26174d30e9a0c30e50718d4aab8baeaf550bf9ae67d19c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000240.png",
-        "hash_image": "star_data\\hash_images\\h000240.png",
-        "chart_image": "star_data\\chart_images\\h000240.png"
-    },
-    "fcd2eaae64b1f18e60fda0eb51048912b623b9cee2871770b76fe15797d15743": {
-        "name": null,
-        "image": "star_data\\star_images\\s000241.png",
-        "hash_image": "star_data\\hash_images\\h000241.png",
-        "chart_image": "star_data\\chart_images\\h000241.png"
-    },
-    "8c928666e50f9e89b989b56fe1c23a8d6df7dc30c07af2549f2e9c801ff5adb5": {
-        "name": null,
-        "image": "star_data\\star_images\\s000242.png",
-        "hash_image": "star_data\\hash_images\\h000242.png",
-        "chart_image": "star_data\\chart_images\\h000242.png"
-    },
-    "b187b71aacbcafc399af7911446925db6896126730354c13e5e617ef0238d8b2": {
-        "name": null,
-        "image": "star_data\\star_images\\s000243.png",
-        "hash_image": "star_data\\hash_images\\h000243.png",
-        "chart_image": "star_data\\chart_images\\h000243.png"
-    },
-    "d876b82b92b25b468a68af1402b7971401865e5c1598bb0ea9f764ee9079e038": {
-        "name": null,
-        "image": "star_data\\star_images\\s000244.png",
-        "hash_image": "star_data\\hash_images\\h000244.png",
-        "chart_image": "star_data\\chart_images\\h000244.png"
-    },
-    "aacb0afcfe058c8681365a8aaf77d0e3c6e59e766f4e67d3ce2acbdb422a67cb": {
-        "name": null,
-        "image": "star_data\\star_images\\s000245.png",
-        "hash_image": "star_data\\hash_images\\h000245.png",
-        "chart_image": "star_data\\chart_images\\h000245.png"
-    },
-    "078ffdf027ca8af2dcc4aa1b46d3b65c81072c198d1d4c01beccecca5c58d5a5": {
-        "name": null,
-        "image": "star_data\\star_images\\s000246.png",
-        "hash_image": "star_data\\hash_images\\h000246.png",
-        "chart_image": "star_data\\chart_images\\h000246.png"
-    },
-    "68d66e04fc4634e26edc37ff01b3bc7b40c6afff28597e94ff74ca1c8f7baa85": {
-        "name": null,
-        "image": "star_data\\star_images\\s000247.png",
-        "hash_image": "star_data\\hash_images\\h000247.png",
-        "chart_image": "star_data\\chart_images\\h000247.png"
-    },
-    "5ce044bb4001cb89f8fb8b941c930c8f33e330b4c7a48497d397672d8f9dd309": {
-        "name": null,
-        "image": "star_data\\star_images\\s000248.png",
-        "hash_image": "star_data\\hash_images\\h000248.png",
-        "chart_image": "star_data\\chart_images\\h000248.png"
-    },
-    "eeaf253f6232bb75ccea15af34af8f9fd93bf056ddd3ab2cc6e1753f5ef99842": {
-        "name": null,
-        "image": "star_data\\star_images\\s000249.png",
-        "hash_image": "star_data\\hash_images\\h000249.png",
-        "chart_image": "star_data\\chart_images\\h000249.png"
-    },
-    "ae74c444a3b2c2f5f87110ceb0537789801bc165f74d2016bf962ce358d14c48": {
-        "name": null,
-        "image": "star_data\\star_images\\s000250.png",
-        "hash_image": "star_data\\hash_images\\h000250.png",
-        "chart_image": "star_data\\chart_images\\h000250.png"
-    },
-    "cc9aa8d10c01cda107cd83e1f8d3be4ce49b0b54bea4a73e72a62251b13af83d": {
-        "name": null,
-        "image": "star_data\\star_images\\s000251.png",
-        "hash_image": "star_data\\hash_images\\h000251.png",
-        "chart_image": "star_data\\chart_images\\h000251.png"
-    },
-    "2d821d7ba750562ce58bff5a55480a7eb2f2c832bb28236a2d006044f7fc7d10": {
-        "name": null,
-        "image": "star_data\\star_images\\s000252.png",
-        "hash_image": "star_data\\hash_images\\h000252.png",
-        "chart_image": "star_data\\chart_images\\h000252.png"
-    },
-    "2cbbc48aae81d8ee8d026a2404ee2f94f6ac091c88de613441c9972e3611e9c9": {
-        "name": null,
-        "image": "star_data\\star_images\\s000253.png",
-        "hash_image": "star_data\\hash_images\\h000253.png",
-        "chart_image": "star_data\\chart_images\\h000253.png"
-    },
-    "d582d1111b0a968adab9de340eb0de49d9e4a141291ce73f8bcfd4198186af36": {
-        "name": null,
-        "image": "star_data\\star_images\\s000254.png",
-        "hash_image": "star_data\\hash_images\\h000254.png",
-        "chart_image": "star_data\\chart_images\\h000254.png"
-    },
-    "1913d4a8b21a365d99a2aa80c0772dcf6b0c60f9b10fdc696fc914df9c31923d": {
-        "name": null,
-        "image": "star_data\\star_images\\s000255.png",
-        "hash_image": "star_data\\hash_images\\h000255.png",
-        "chart_image": "star_data\\chart_images\\h000255.png"
-    },
-    "f6ae3f1d37762fdaba998803e31cdbf7ebbf00cf0ccea139a9e47505a5c355b0": {
-        "name": null,
-        "image": "star_data\\star_images\\s000256.png",
-        "hash_image": "star_data\\hash_images\\h000256.png",
-        "chart_image": "star_data\\chart_images\\h000256.png"
-    },
-    "00ad8dbb483ad18af56979a0c2220d18db9d9e4f35e9e997b2272658b3e4dd6a": {
-        "name": null,
-        "image": "star_data\\star_images\\s000257.png",
-        "hash_image": "star_data\\hash_images\\h000257.png",
-        "chart_image": "star_data\\chart_images\\h000257.png"
-    },
-    "44702581fa60c592a2d2c6d65f04fedcb21abd34e2e920e30aaa18039836db6f": {
-        "name": null,
-        "image": "star_data\\star_images\\s000258.png",
-        "hash_image": "star_data\\hash_images\\h000258.png",
-        "chart_image": "star_data\\chart_images\\h000258.png"
-    },
-    "8a8362162e71a996f1c97e59871f29e7536d49a76cc96d3eba7cd49ceaff0e12": {
-        "name": null,
-        "image": "star_data\\star_images\\s000259.png",
-        "hash_image": "star_data\\hash_images\\h000259.png",
-        "chart_image": "star_data\\chart_images\\h000259.png"
-    },
-    "f9b89bb41e5f01aea9efdfedffb60b99a4c0cb01b2dc179227c636f34bfc2f6c": {
-        "name": null,
-        "image": "star_data\\star_images\\s000260.png",
-        "hash_image": "star_data\\hash_images\\h000260.png",
-        "chart_image": "star_data\\chart_images\\h000260.png"
-    },
-    "e5200bde0c197ec1c81c57d12df921cf1238cdfcd796aea7a86a23795f998e28": {
-        "name": null,
-        "image": "star_data\\star_images\\s000261.png",
-        "hash_image": "star_data\\hash_images\\h000261.png",
-        "chart_image": "star_data\\chart_images\\h000261.png"
+        "chart_image": "star_data\\chart_images\\c000194.png",
+        "id": 194
     }
 }

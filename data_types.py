@@ -1,8 +1,10 @@
 from dataclasses import dataclass, asdict
 
-@dataclass
-class StarData:
-    hash: str
+
+class StarData(int):
+    @property
+    def id(self):
+        return int(self)
 
 @dataclass
 class PalaceData:

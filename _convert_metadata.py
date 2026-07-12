@@ -21,15 +21,16 @@ def process_chart_data(input_path: str, output_path: str):
             # 2. Process image
             try:
                 img = Image.open('downloads/' + item["filename"])
-                chart_data: ChartData = process_image(img)
+                chart_data: ChartData | None = process_image(img)
             except Exception as e:
                 print(f"Error processing {item['filename']}: {e}")
+                continue
+
+            if not chart_data:
                 continue
             
             # 3. Create new structure
             new_item = {
-                "index": item["index"],
-                "filename": item["filename"],
                 "input_data": item["data"],
                 "output_chart": chart_data.to_dict()
             }
@@ -51,14 +52,11 @@ def wipe():
         f.write('{}')
 
     
-if __name__ == '__main__':
-    with open('hash_data.json') as f:
-        hash_data_text = f.read()
-
-    if hash_data_text.strip() != '{}':
-        print('Wiping old data')
-        wipe()
-        print('Wiped old data! restart to start process chart data.')
-    else:
-        print('processing chart data')
-        process_chart_data('metadata.jsonl', 'new_metadata.jsonl')
+# if __name__ == '__main__':
+#     if any(HASH_IMAGES_DIR.iterdir()):
+#         print('Wiping old data')
+#         wipe()
+#         print('Wiped old data! Run this again to start processing chart data.')
+#     else:
+#         print('Processing chart data')
+#         process_chart_data('metadata.jsonl', 'new_metadata.jsonl')

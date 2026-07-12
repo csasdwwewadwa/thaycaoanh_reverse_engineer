@@ -16,11 +16,11 @@ CHART_IMAGES_DIR = STAR_DATA_DIR / Path("chart_images"); CHART_IMAGES_DIR.mkdir(
 
 
 EMPTY_HASHES = set([
-    'f2ee37924268fee2a886e945acb532060457bca695e9c7d5c0a24dca07ef3a7e',
+    'f0504c142fa8dfa7c0351fd7d8db19ea0d151be6d088e81dd20107805997581e',
 ])
 
 
-with open('hash_data.json') as f:
+with open('hash_data.json', encoding='utf-8') as f:
     hashes_data = json.load(f)
 
 
@@ -38,9 +38,15 @@ chart_index += 1
 def load_image(path: Path | str):
     return Image.open(path)
 
+def get_next_free_star_id():
+    global hashes_data
+    star_id = -1
+    for v in hashes_data.values():
+        if v['id'] > star_id:
+            star_id = v['id']
+    return star_id + 1
+
 def iter_palaces_start_pos():
-    # start_x, start_y = 14, 11
-    # dx = (0, 356, 354, 360)
     for iy, y in enumerate((11, 487, 963, 1439)):
         for ix, x in enumerate((14, 370, 724, 1084)):
             # Skip the middle slots which are not palaces
@@ -55,23 +61,45 @@ def iter_star_column_crop_area(start_x, start_y, width, height, step, max_count)
     for i in range(max_count):
         yield (start_x, start_y+step*i, start_x+width, start_y+height+step*i)
 
-def hash_and_crop_star(image_arr, crop_area, is_fill_crop_area=False):
+def crop_and_get_star_hash(image_arr, crop_area, is_fill_crop_area=False):
     left, top, right, bottom = crop_area
     cropped_image = image_arr[top:bottom:2, left:right:2]
     if is_fill_crop_area:
         cropped_image[6:, 50:] = (253, 204, 204)
-    hashed_image = hashlib.sha256(cropped_image.tobytes()).hexdigest()
-        
-    star = StarData(hashed_image)
+    star_hash = hashlib.sha256(cropped_image.tobytes()).hexdigest()
 
-    # Debug
-
+    # # Debug
     # Image.fromarray(cropped_image).save('cropped_result.png')
-    # print(hashed_image)
+    # print(star_hash)
     # input()
-    return star
 
-def archive_new_star(image_arr, star, crop_area):
+    return star_hash
+
+def is_chart_valid(image_arr):
+    '''
+    Chart sometimes have render issues in it lmao
+    We use this to filter out unusable charts
+    '''
+
+    # Issue #1, column contain too many stars to the point of overlapping posibility
+    for psx, psy in iter_palaces_start_pos():
+        # left col
+        if not np.all(image_arr[psy+436, psx+6:psx+26] == (253, 250, 250)):
+            return False
+        
+        # right col
+        if not np.all(image_arr[psy+404, psx+192:psx+211] == (253, 250, 250)):
+            return False
+        
+    # Issue #2, float precision being ahh for the "Cân xương tính số" part (lol)
+    if not np.all(image_arr[1142, 1085:1099] == (253, 250, 250)):
+        return False
+    
+    return True
+
+
+
+def archive_new_star(image_arr, star:StarData, star_hash, crop_area):
     global chart_index
 
     left, top, right, bottom = crop_area
@@ -80,22 +108,23 @@ def archive_new_star(image_arr, star, crop_area):
     star_image_path = STAR_IMAGES_DIR / f"s{chart_index:06d}.png"
     Image.fromarray(star_image).save(star_image_path)
 
-    hash_image = image_arr[top:bottom, left:right]
+    hash_image = image_arr[top:bottom:2, left:right:2]
     hash_image_path = HASH_IMAGES_DIR / f"h{chart_index:06d}.png"
     Image.fromarray(hash_image).save(hash_image_path)
 
-    chart_image_path = CHART_IMAGES_DIR / f"h{chart_index:06d}.png"
+    chart_image_path = CHART_IMAGES_DIR / f"c{chart_index:06d}.png"
     Image.fromarray(image_arr).save(chart_image_path)
 
-    hashes_data[star.hash] = {
+    hashes_data[star_hash] = {
         'name' : None,
         'image' : str(star_image_path),
         'hash_image' : str(hash_image_path),
-        'chart_image' : str(chart_image_path)
+        'chart_image' : str(chart_image_path),
+        'id' : star.id
     }
 
-    with open('hash_data.json', 'w') as f:
-        json.dump(hashes_data, f, indent=4)
+    with open('hash_data.json', 'w', encoding='utf-8') as f:
+        json.dump(hashes_data, f, indent=4, ensure_ascii=False)
     
     chart_index += 1
 
@@ -104,13 +133,16 @@ def process_left_col(image_arr, psx, psy):
     sy = psy + 127
 
     stars = []
-    for crop_area in iter_star_column_crop_area(sx, sy, 133, 26, 30, 10):
-        star = hash_and_crop_star(image_arr, crop_area, True)
-        if star.hash in EMPTY_HASHES:
+    for crop_area in iter_star_column_crop_area(sx, sy, 123, 26, 30, 10):
+        star_hash = crop_and_get_star_hash(image_arr, crop_area, True)
+        if star_hash in EMPTY_HASHES:
             break
+        if star_hash not in hashes_data:
+            star = StarData(get_next_free_star_id())
+            archive_new_star(image_arr, star, star_hash, crop_area)
+        else:
+            star = StarData(hashes_data[star_hash]['id'])
         stars.append(star)
-        if star.hash not in hashes_data:
-            archive_new_star(image_arr, star, crop_area)
             
     return stars
 
@@ -119,13 +151,16 @@ def process_right_col(image_arr, psx, psy):
     sy = psy + 129
 
     stars = []
-    for crop_area in iter_star_column_crop_area(sx, sy, 133, 26, 30, 10):
-        star = hash_and_crop_star(image_arr, crop_area, True)
-        if star.hash in EMPTY_HASHES:
+    for crop_area in iter_star_column_crop_area(sx, sy, 123, 26, 30, 10):
+        star_hash = crop_and_get_star_hash(image_arr, crop_area, True)
+        if star_hash in EMPTY_HASHES:
             break
+        if star_hash not in hashes_data:
+            star = StarData(get_next_free_star_id())
+            archive_new_star(image_arr, star, star_hash, crop_area)
+        else:
+            star = StarData(hashes_data[star_hash]['id'])
         stars.append(star)
-        if star.hash not in hashes_data:
-            archive_new_star(image_arr, star, crop_area)
 
     return stars
 
@@ -157,15 +192,20 @@ def process_major(image_arr, psx, psy):
         sy = y - 3
 
         crop_area = (sx, sy, sx+99, sy+28)
-        star = hash_and_crop_star(image_arr, crop_area)
+        star_hash = crop_and_get_star_hash(image_arr, crop_area, True)
+        if star_hash in EMPTY_HASHES:
+            break
+        if star_hash not in hashes_data:
+            star = StarData(get_next_free_star_id())
+            archive_new_star(image_arr, star, star_hash, crop_area)
+        else:
+            star = StarData(hashes_data[star_hash]['id'])
         stars.append(star)
-        if star.hash not in hashes_data:
-            archive_new_star(image_arr, star, crop_area)
 
     return stars
 
 
-def process_image(image: Image.Image) -> ChartData:
+def process_image(image: Image.Image) -> ChartData | None:
     '''
     palace indices:
     
@@ -181,6 +221,9 @@ def process_image(image: Image.Image) -> ChartData:
 
     # Pre-bake the image as an numpy array
     image_arr = np.array(image)
+
+    if not is_chart_valid(image_arr):
+        return None
 
     palaces = []
     for index, (psx, psy) in enumerate(iter_palaces_start_pos()):
@@ -210,7 +253,9 @@ if __name__ == '__main__':
             len(p.major_stars),
             len(p.left_stars),
             len(p.right_stars),
-            )
+        )
+
+
 
 
 
