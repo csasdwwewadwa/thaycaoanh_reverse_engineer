@@ -3,36 +3,65 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class VectorQuantizerBlock(nn.Module):
-    def __init__(self, num_embeddings=256, embedding_dim=128, commitment_cost=0.25):
+    def __init__(self, num_embeddings=256, embedding_dim=128, commitment_cost=0.05, decay=0.99, epsilon=1e-5):
         super(VectorQuantizerBlock, self).__init__()
         self.embedding_dim = embedding_dim
         self.num_embeddings = num_embeddings
         self.commitment_cost = commitment_cost
         
+        self.decay = decay
+        self.epsilon = epsilon
+
+        # Codebook weights are kept outside the standard gradient backprop graph
         self.codebook = nn.Embedding(self.num_embeddings, self.embedding_dim)
         self.codebook.weight.data.normal_(0, 1.0 / embedding_dim)
+        
+        # Register EMA tracking variables as buffers so they move to GPU automatically
+        self.register_buffer('ema_cluster_size', torch.zeros(num_embeddings))
+        self.register_buffer('ema_w', torch.clone(self.codebook.weight.data))
 
     def forward(self, x):
-        # L2-normalize inputs and codebook weights.
-        # This converts the distance check into a cosine-similarity check, 
-        # guaranteeing that distances stay bounded between 0 and 4.
+        # Bounded Cosine Similarity Geometry
         x_norm = F.normalize(x, p=2, dim=1)
         codebook_norm = F.normalize(self.codebook.weight, p=2, dim=1)
         
-        # Calculate Euclidean distances on normalized vectors
         distances = (torch.sum(x_norm**2, dim=1, keepdim=True) 
                      - 2 * torch.matmul(x_norm, codebook_norm.t())
                      + torch.sum(codebook_norm**2, dim=1))
         
+        # Select closest lookup indices
         encoding_indices = torch.argmin(distances, dim=1)
         quantized = self.codebook(encoding_indices)
         
-        # VQ Losses
-        q_loss = F.mse_loss(quantized, x.detach())
+        # EMA Codebook Updates (Only during training)
+        if self.training:
+            # Convert indices to one-hot vectors
+            encodings = F.one_hot(encoding_indices, self.num_embeddings).float()
+            
+            # Count how many samples in the batch selected each codebook slot
+            cluster_size = torch.sum(encodings, dim=0)
+            # Sum up the continuous vectors that selected each slot
+            dw = torch.matmul(encodings.t(), x.detach())
+            
+            # Decay the running counts and historical locations
+            self.ema_cluster_size.mul_(self.decay).add_(cluster_size, alpha=1 - self.decay)
+            self.ema_w.mul_(self.decay).add_(dw, alpha=1 - self.decay)
+            
+            # Laplace smoothing to prevent division by zero in unused slots
+            n = torch.sum(self.ema_cluster_size)
+            smoothed_cluster_size = ((self.ema_cluster_size + self.epsilon) / 
+                                     (n + self.num_embeddings * self.epsilon) * n)
+            
+            # Re-normalize codebook slots with their new smoothed average locations
+            updated_weights = self.ema_w / smoothed_cluster_size.unsqueeze(1)
+            self.codebook.weight.data.copy_(updated_weights)
+
+        # Continuous-to-Discrete Commitment Loss
+        # (Since codebook vectors don't use gradients, e_loss is all we care about)
         e_loss = F.mse_loss(quantized.detach(), x)
-        vq_loss = q_loss + self.commitment_cost * e_loss
+        vq_loss = self.commitment_cost * e_loss
         
-        # Straight-Through Estimator Trick
+        # Straight-Through Estimator
         quantized = x + (quantized - x).detach()
         
         return quantized, vq_loss

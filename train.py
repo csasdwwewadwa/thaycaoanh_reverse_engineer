@@ -141,24 +141,13 @@ def run_pipeline():
                 batch_inputs, batch_targets = batch_inputs.to(device), batch_targets.to(device)
                 
                 optimizer.zero_grad()
-
                 logits, vq_loss = model(batch_inputs)
+
                 classification_loss = bce_criterion(logits, batch_targets)
+                total_loss = classification_loss + vq_loss
 
-                # VQ Warmup: Keep VQ weight at 0.0 for the first 5 epochs, then slowly scale up
-                # NOTE
-                if epoch <= 5:
-                    vq_weight = 0.0
-                else:
-                    vq_weight = min(0.02, (epoch - 5) * 0.002) if epoch > 5 else 0.0
-
-                total_loss = classification_loss + (vq_loss * vq_weight)
-                
                 total_loss.backward()
-                
-                # Protect against sudden sharp gradient boundaries in the lookup cells
                 torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=0.5)
-                
                 optimizer.step()
                 
                 train_loss_accumulator += total_loss.item()
