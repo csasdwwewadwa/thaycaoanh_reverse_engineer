@@ -3,7 +3,7 @@ from PIL import Image
 import time
 from pathlib import Path
 from data_types import *
-from extractor import process_image, STAR_IMAGES_DIR, HASH_IMAGES_DIR, CHART_IMAGES_DIR
+from chart_extractor import process_image, STAR_IMAGES_DIR, HASH_IMAGES_DIR, CHART_IMAGES_DIR
 from tqdm import tqdm
 
 

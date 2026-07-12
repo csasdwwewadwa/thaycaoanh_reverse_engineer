@@ -14,7 +14,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from PIL import Image
 
-from extractor import process_image
+from chart_extractor import process_image
 
 
 URL = "https://tuvi.thaycaoanh.net/index.php"
@@ -63,15 +63,14 @@ def get_session():
     return thread_local.session
 
 def random_form():
-    # 1. Pick the year and month first so we know the limits
-    year_val = random.randint(1900, 2099)
+    # Pick the year and month first so we know the limits
+    year_val = random.randint(1800, 2199)
     month_val = random.randint(1, 12)
     
-    # 2. Get the correct maximum number of days for that specific month and year
+    # Get the correct maximum number of days for that specific month and year
     _, num_days = calendar.monthrange(year_val, month_val)
     day_val = random.randint(1, num_days)
     
-    # 3. Return your dictionary with the dynamically calculated day
     return {
         "name": "",
         "sex": str(random.choice((1, 2))),
@@ -81,7 +80,7 @@ def random_form():
         "caltype": "1",
         "hour": str(random.randint(0, 23)),
         "minute": str(random.randint(0, 59)),
-        "yearcalc": str(random.randint(1900, 2099)),
+        "yearcalc": str(random.randint(1800, 2199)),
         "monthcalc": str(random.randint(1, 12)),
         "timezone": "235",
         "timezoneOption": "1",
@@ -100,7 +99,7 @@ def next_chart_index():
 
 def download_chart():
     session = get_session()
-    data = random_form() # Generate data here to pass it through
+    data = random_form()
     r = session.post(URL, data=data, timeout=30)
     r.raise_for_status()
 
@@ -119,7 +118,6 @@ def download_chart():
     r = session.get(image_url, timeout=30)
     r.raise_for_status()
     
-    # Open bytes stream with PIL and force RGB conversion
     img = Image.open(io.BytesIO(r.content)).convert("RGB")
     return img, data
 
@@ -129,7 +127,7 @@ def downloader():
         try:
             img, data = download_chart()
             idx = next_chart_index()
-            save_queue.put((idx, img, data)) # Pass PIL image and input data to queue
+            save_queue.put((idx, img, data))
             with status_lock: downloaded += 1
         except Exception:
             with status_lock: errors += 1
@@ -140,17 +138,14 @@ def writer():
         idx, img, data = save_queue.get()
         
         try:
-            # Process the PIL image using the extraction pipeline
             chart_data = process_image(img)
             
             if chart_data:
-                # Structure matching the specified format
                 new_item = {
                     "input_data": data,
                     "output_chart": chart_data.to_dict()
                 }
                 
-                # Append formatted item directly to metadata.jsonl
                 with log_lock:
                     with open(LOG_FILE, "a", encoding="utf-8") as outfile:
                         outfile.write(json.dumps(new_item, ensure_ascii=False) + '\n')
@@ -186,7 +181,6 @@ def status_thread():
 
 
 if __name__ == "__main__":
-    # Removed DOWNLOAD_DIR and find_next_chart_index since images aren't saved to disk anymore
     chart_index = 0
 
     threading.Thread(target=status_thread, daemon=True).start()
