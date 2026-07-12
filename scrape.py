@@ -63,11 +63,7 @@ def get_session():
     return thread_local.session
 
 def random_form():
-<<<<<<< HEAD
     # Pick the year and month first so we know the limits
-=======
-    # 1. Pick the year and month first so we know the limits
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
     year_val = random.randint(1800, 2199)
     month_val = random.randint(1, 12)
     

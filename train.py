@@ -10,21 +10,11 @@ import os
 from model import SineVQModuloNet
 
 
-<<<<<<< HEAD
 # DATASET PIPELINE
 
 class ModuloDataset(Dataset):
     def __init__(self, inputs_list, outputs_list):
         # inputs_list contains pre-computed 162-dimensional sine/cosine arrays
-=======
-# ==========================================
-# 2. DATASET PIPELINE
-# ==========================================
-
-class ModuloDataset(Dataset):
-    def __init__(self, inputs_list, outputs_list):
-        # inputs_list now contains pre-computed 162-dimensional sine/cosine arrays
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
         self.inputs = torch.tensor(inputs_list, dtype=torch.float32)
         # Outputs must be float32 for BCEWithLogitsLoss target constraints
         self.outputs = torch.tensor(outputs_list, dtype=torch.float32)
@@ -44,10 +34,7 @@ def load_dataset(filepath='metadata copy.jsonl'):
     outputs = []
     
     # Setup prime frequencies for preprocessing
-<<<<<<< HEAD
     # TODO: other, specific frequencies might be beneficial?
-=======
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
     frequencies = np.array([2.0, 3.0, 5.0, 7.0, 11.0, 13.0, 17.0, 19.0, 31.0], dtype=np.float32)
     
     file_size = os.path.getsize(filepath)
@@ -58,10 +45,6 @@ def load_dataset(filepath='metadata copy.jsonl'):
                 input_data = data['input_data']
 
                 for palace_i, palace in enumerate(data['output_chart']['palaces']):
-<<<<<<< HEAD
-=======
-                    # 1. Gather raw inputs
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
                     raw_inp = [
                         palace_i,
                         int(input_data['sex']),
@@ -74,17 +57,9 @@ def load_dataset(filepath='metadata copy.jsonl'):
                         int(input_data['monthcalc']),
                     ]
                     
-<<<<<<< HEAD
                     inp_arr = np.array(raw_inp, dtype=np.float32)
                     
                     # (9, 9)
-=======
-                    # 2. Convert to NumPy array for fast vectorized math
-                    inp_arr = np.array(raw_inp, dtype=np.float32)
-                    
-                    # 4. Generate the multi-frequency sine and cosine features
-                    # Shape: (9, 1) * (1, 9) -> (9, 9)
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
                     scaled_matrix = inp_arr[:, np.newaxis] * frequencies[np.newaxis, :]
                     
                     sin_features = np.sin(scaled_matrix).flatten()
@@ -105,15 +80,9 @@ def load_dataset(filepath='metadata copy.jsonl'):
                     
     return inputs, outputs
 
-<<<<<<< HEAD
 
 
 # MAIN PIPELINE
-=======
-# ==========================================
-# 3. PIPELINE EXECUTION ENGINE
-# ==========================================
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
 
 
 def run_pipeline():
@@ -121,7 +90,6 @@ def run_pipeline():
     torch.manual_seed(42)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Executing pipeline on device: {device}")
-<<<<<<< HEAD
     print("--------------------------------------------------------------------------------")
 
     # Load data
@@ -129,16 +97,6 @@ def run_pipeline():
     dataset_size = len(raw_inputs)
     
     # Split indices (80% train / 20% val)
-=======
-    print("This pipeline will run indefinitely. Press Ctrl+C at any time to safely stop and save.")
-    print("--------------------------------------------------------------------------------")
-
-    # 1. Load data
-    raw_inputs, raw_outputs = load_dataset()
-    dataset_size = len(raw_inputs)
-    
-    # 2. Split indices manually (80% train / 20% validation)
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
     indices = np.arange(dataset_size)
     np.random.shuffle(indices)
     
@@ -146,16 +104,11 @@ def run_pipeline():
     val_indices = indices[:val_split_edge]
     train_indices = indices[val_split_edge:]
     
-<<<<<<< HEAD
-=======
-    # Map index chunks to sub-lists
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
     train_in = [raw_inputs[i] for i in train_indices]
     train_out = [raw_outputs[i] for i in train_indices]
     val_in = [raw_inputs[i] for i in val_indices]
     val_out = [raw_outputs[i] for i in val_indices]
     
-<<<<<<< HEAD
     train_dataset = ModuloDataset(train_in, train_out)
     val_dataset = ModuloDataset(val_in, val_out)
     train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, drop_last=True)
@@ -173,26 +126,10 @@ def run_pipeline():
 
 
     # Main loop
-=======
-    # 3. Create Dataset instances and loaders
-    train_dataset = ModuloDataset(train_in, train_out)
-    val_dataset = ModuloDataset(val_in, val_out)
-    
-    train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, drop_last=True)
-    val_loader = DataLoader(val_dataset, batch_size=256, shuffle=False)
-    
-    # 4. Instantiate Model components
-    model = SineVQModuloNet(output_dim=195, latent_dim=128, num_codes=64).to(device)
-    bce_criterion = nn.BCEWithLogitsLoss()
-    optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
-    
-    # Tracking variables for saving logic
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
     epoch = 0
     best_accuracy = -1.0
     
     try:
-<<<<<<< HEAD
         while True:
             epoch += 1
 
@@ -200,19 +137,10 @@ def run_pipeline():
             model.train()
             train_loss_accumulator = 0.0
 
-=======
-        # 5. Infinite Optimization Loop
-        while True:
-            epoch += 1
-            model.train()
-            train_loss_accumulator = 0.0
-            
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
             for batch_inputs, batch_targets in train_loader:
                 batch_inputs, batch_targets = batch_inputs.to(device), batch_targets.to(device)
                 
                 optimizer.zero_grad()
-<<<<<<< HEAD
 
                 logits, vq_loss = model(batch_inputs)
                 classification_loss = bce_criterion(logits, batch_targets)
@@ -225,31 +153,17 @@ def run_pipeline():
                     vq_weight = min(0.02, (epoch - 5) * 0.002) if epoch > 5 else 0.0
 
                 total_loss = classification_loss + (vq_loss * vq_weight)
-=======
-                logits, vq_loss = model(batch_inputs)
-                
-                classification_loss = bce_criterion(logits, batch_targets)
-                total_loss = classification_loss + vq_loss * 0.1
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
                 
                 total_loss.backward()
                 
                 # Protect against sudden sharp gradient boundaries in the lookup cells
-<<<<<<< HEAD
                 torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=0.5)
-=======
-                torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
                 
                 optimizer.step()
                 
                 train_loss_accumulator += total_loss.item()
                 
-<<<<<<< HEAD
             # Eval phase
-=======
-            # Evaluation Phase
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
             model.eval()
             val_bce_loss = 0.0
             exact_row_matches = 0
@@ -274,12 +188,8 @@ def run_pipeline():
             print(f"Epoch {epoch:04d} | Train Loss: {average_train_loss:.4f} | "
                   f"Val Loss: {average_val_loss:.4f} | Perfect Match Accuracy: {perfect_match_accuracy:.2f}%")
             
-<<<<<<< HEAD
 
             # Saving phase
-=======
-            # --- PERIODIC SAVING LOGIC ---
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
             checkpoint = {
                 'epoch': epoch,
                 'model_state_dict': model.state_dict(),
@@ -291,7 +201,6 @@ def run_pipeline():
             if perfect_match_accuracy > best_accuracy:
                 best_accuracy = perfect_match_accuracy
                 torch.save(checkpoint, 'best_modulo_model.pt')
-<<<<<<< HEAD
                 print(f"  ---  New best perfrct match acc! Saved weights to 'best_modulo_model.pt'")
                 
                 if perfect_match_accuracy == 100.0:
@@ -303,17 +212,6 @@ def run_pipeline():
     except KeyboardInterrupt:
         print("\n--------------------------------------------------------------------------------")
         print("Training stopped.")
-=======
-                print(f"  --> 🎉 New best validation metric! Saved weights to 'best_modulo_model.pt'")
-                
-                if perfect_match_accuracy == 100.0:
-                    print("\n🎯 Achieved 100% absolute accuracy! The model has successfully reverse-engineered the algorithm.")
-                    break
-
-    except KeyboardInterrupt:
-        print("\n--------------------------------------------------------------------------------")
-        print("🛑 Training manually interrupted by user.")
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
         
         if epoch > 0:
             torch.save({
@@ -322,12 +220,7 @@ def run_pipeline():
                 'optimizer_state_dict': optimizer.state_dict(),
                 'best_accuracy': best_accuracy
             }, 'checkpoint_interrupted.pt')
-<<<<<<< HEAD
             print("Saved current weights to 'checkpoint_interrupted.pt'.")
-=======
-            print("💾 Current weights securely backed up to 'checkpoint_interrupted.pt' before exiting.")
-        print("Execution termination complete.")
->>>>>>> 62cf3cfa4833c31dc1f50c41442b2df6bcf64853
 
 
 if __name__ == "__main__":
