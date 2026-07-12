@@ -14,7 +14,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from PIL import Image
 
-from extractor import process_image
+from chart_extractor import process_image
 
 
 URL = "https://tuvi.thaycaoanh.net/index.php"
@@ -64,7 +64,7 @@ def get_session():
 
 def random_form():
     # 1. Pick the year and month first so we know the limits
-    year_val = random.randint(1900, 2099)
+    year_val = random.randint(1800, 2199)
     month_val = random.randint(1, 12)
     
     # 2. Get the correct maximum number of days for that specific month and year
@@ -81,7 +81,7 @@ def random_form():
         "caltype": "1",
         "hour": str(random.randint(0, 23)),
         "minute": str(random.randint(0, 59)),
-        "yearcalc": str(random.randint(1900, 2099)),
+        "yearcalc": str(random.randint(1800, 2199)),
         "monthcalc": str(random.randint(1, 12)),
         "timezone": "235",
         "timezoneOption": "1",
@@ -144,7 +144,6 @@ def writer():
             chart_data = process_image(img)
             
             if chart_data:
-                # Structure matching the specified format
                 new_item = {
                     "input_data": data,
                     "output_chart": chart_data.to_dict()
@@ -186,7 +185,6 @@ def status_thread():
 
 
 if __name__ == "__main__":
-    # Removed DOWNLOAD_DIR and find_next_chart_index since images aren't saved to disk anymore
     chart_index = 0
 
     threading.Thread(target=status_thread, daemon=True).start()
