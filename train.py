@@ -91,8 +91,7 @@ def run_pipeline():
     torch.manual_seed(42)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Executing pipeline on device: {device}")
-    print("Initializing dataset..")
-    
+
     # DATA LOADERS: Instantiated using the on-the-fly partition streams
     train_dataset = PartitionedStreamDataset(mode='train')
     val_dataset = PartitionedStreamDataset(mode='val')
@@ -116,8 +115,7 @@ def run_pipeline():
         pin_memory=True
     )
     
-    # Init
-    print('Initializing model..')
+    # Init model
     model = SineVQModuloNet(output_dim=195, latent_dim=128, num_codes=256).to(device)
     bce_criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
@@ -142,6 +140,7 @@ def run_pipeline():
             # Training phase
             model.train()
             train_loss_accumulator = 0.0
+            train_batches = 0
 
             for batch_inputs, batch_targets in train_loader:
                 batch_inputs, batch_targets = batch_inputs.to(device), batch_targets.to(device)
@@ -157,6 +156,7 @@ def run_pipeline():
                 optimizer.step()
                 
                 train_loss_accumulator += total_loss.item()
+                train_batches += 1
                 
             # Eval phase
             model.eval()
@@ -176,14 +176,13 @@ def run_pipeline():
                     exact_row_matches += row_matches
                     total_val_samples += batch_inputs.size(0)
                     
-            average_train_loss = train_loss_accumulator / len(train_loader)
-            average_val_loss = val_bce_loss / total_val_samples
-            perfect_match_accuracy = (exact_row_matches / total_val_samples) * 100.0
+            average_train_loss = train_loss_accumulator / max(1, train_batches)
+            average_val_loss = val_bce_loss / max(1, total_val_samples)
+            perfect_match_accuracy = (exact_row_matches / max(1, total_val_samples)) * 100.0
             
             print(f"Epoch {epoch:04d} | Train Loss: {average_train_loss:.4f} | "
-                  f"Val Loss: {average_val_loss:.4f} | Perfect Match Accuracy: {perfect_match_accuracy:.2f}% "
-                  f"Learning Rate: {optimizer.param_groups[0]['lr']}")
-            
+                  f"Val Loss: {average_val_loss:.4f} | Perfect Match Accuracy: {perfect_match_accuracy:.2f}% | "
+                  f"Learning Rate: {optimizer.param_groups[0]['lr']:.6f}")
 
             # Saving phase
             checkpoint = {
@@ -197,13 +196,14 @@ def run_pipeline():
             if perfect_match_accuracy > best_accuracy:
                 best_accuracy = perfect_match_accuracy
                 torch.save(checkpoint, 'best_modulo_model.pt')
-                print(f"  ---  New best perfrct match acc! Saved weights to 'best_modulo_model.pt'")
+                print(f"  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'")
                 
                 if perfect_match_accuracy == 100.0:
                     print("\nAchieved 100% absolute accuracy! INFERENCE TEST TIME BABYYYYY")
                     break
 
-            scheduler.step()
+            # UPGRADE: Fed validation loss tracking straight to Plateau scheduler
+            scheduler.step(average_val_loss)
 
     except KeyboardInterrupt:
         print("\n--------------------------------------------------------------------------------")
@@ -217,7 +217,6 @@ def run_pipeline():
                 'best_accuracy': best_accuracy
             }, 'checkpoint_interrupted.pt')
             print("Saved current weights to 'checkpoint_interrupted.pt'.")
-
 
 if __name__ == "__main__":
     run_pipeline()
