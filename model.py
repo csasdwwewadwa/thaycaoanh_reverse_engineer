@@ -88,6 +88,8 @@ class SineVQModuloNet(nn.Module):
         
         self.ln3 = nn.LayerNorm(latent_dim)
         self.vq3 = VectorQuantizerBlock(num_embeddings=num_codes, embedding_dim=latent_dim)
+
+        self.dropout = nn.Dropout(p=0.1)
         
         self.output_layer = nn.Linear(latent_dim, output_dim)
 
@@ -96,16 +98,16 @@ class SineVQModuloNet(nn.Module):
         
         ln_1 = self.ln1(latent)
         quantized1, vq_loss1 = self.vq1(ln_1)
-        latent = latent + self.transit1(quantized1)
+        latent = latent + self.dropout(self.transit1(quantized1))
         
         ln_2 = self.ln2(latent)
         quantized2, vq_loss2 = self.vq2(ln_2)
-        latent = latent + self.transit2(quantized2)
+        latent = latent + self.dropout(self.transit2(quantized2))
         
         ln_3 = self.ln3(latent)
         quantized3, vq_loss3 = self.vq3(ln_3)
         # Final block can directly feed the output layer via a skip connection
-        final_latent = latent + quantized3
+        final_latent = latent + self.dropout(quantized3)
         
         total_vq_loss = vq_loss1 + vq_loss2 + vq_loss3
         logits = self.output_layer(final_latent)

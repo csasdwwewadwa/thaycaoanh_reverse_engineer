@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import IterableDataset, DataLoader
 import numpy as np
 from tqdm import tqdm
 import json
@@ -12,73 +12,74 @@ from model import SineVQModuloNet
 
 # DATASET PIPELINE
 
-class ModuloDataset(Dataset):
-    def __init__(self, inputs_list, outputs_list):
-        # inputs_list contains pre-computed 162-dimensional sine/cosine arrays
-        self.inputs = torch.tensor(inputs_list, dtype=torch.float32)
-        # Outputs must be float32 for BCEWithLogitsLoss target constraints
-        self.outputs = torch.tensor(outputs_list, dtype=torch.float32)
+# STREAMING SET: Define two distinct streams using index boundaries 
+# to maintain a 80% train / 20% validation split ratio.
+class PartitionedStreamDataset(torch.utils.data.IterableDataset):
+    def __init__(self, filepath='metadata copy.jsonl', mode='train'):
+        super().__init__()
+        self.base_dataset = StreamModuloDataset(filepath)
+        self.mode = mode
 
-    def __len__(self):
-        return len(self.inputs)
+    def __iter__(self):
+        for i, (inp, out) in enumerate(self.base_dataset):
+            # 80/20 distribution calculation on index tracking numbers
+            is_val = (i % 5 == 0)  # 20% of dataset rows match this condition
+            if self.mode == 'val' and is_val:
+                yield inp, out
+            elif self.mode == 'train' and not is_val:
+                yield inp, out
 
-    def __getitem__(self, idx):
-        return self.inputs[idx], self.outputs[idx]
 
+class StreamModuloDataset(IterableDataset):
+    def __init__(self, filepath='metadata copy.jsonl'):
+        super().__init__()
+        self.filepath = filepath
+        self.frequencies = np.array([2.0, 3.0, 5.0, 7.0, 11.0, 13.0, 17.0, 19.0, 31.0], dtype=np.float32)
 
-def load_dataset(filepath='metadata copy.jsonl'):
-    """
-    Loads pairs from the jsonl file and pre-computes multi-frequency periodic features.
-    """
-    inputs = []
-    outputs = []
-    
-    # Setup prime frequencies for preprocessing
-    # TODO: other, specific frequencies might be beneficial?
-    frequencies = np.array([2.0, 3.0, 5.0, 7.0, 11.0, 13.0, 17.0, 19.0, 31.0], dtype=np.float32)
-    
-    file_size = os.path.getsize(filepath)
-    with open(filepath, 'r') as f:
-        with tqdm(total=file_size, unit='B', unit_scale=True, desc="Processing input file") as pbar:
-            for line in f:
+    def __iter__(self):
+        # Multi-worker safety assignment
+        worker_info = torch.utils.data.get_worker_info()
+        if worker_info is None:
+            # Single-process data loading (no change)
+            worker_id = 0
+            num_workers = 1
+        else:
+            # Split lines across distinct worker IDs
+            worker_id = worker_info.id
+            num_workers = worker_info.num_workers
+
+        with open(self.filepath, 'r') as f:
+            for i, line in enumerate(f):
+                # Ensure each worker only processes its assigned lines
+                if i % num_workers != worker_id:
+                    continue
+                    
+                if not line.strip():
+                    continue
+                
                 data = json.loads(line)
                 input_data = data['input_data']
 
                 for palace_i, palace in enumerate(data['output_chart']['palaces']):
                     raw_inp = [
-                        palace_i,
-                        int(input_data['sex']),
-                        int(input_data['day']),
-                        int(input_data['month']),
-                        int(input_data['year']),
-                        int(input_data['hour']),
-                        int(input_data['minute']),
-                        int(input_data['yearcalc']),
-                        int(input_data['monthcalc']),
+                        palace_i, int(input_data['sex']), int(input_data['day']),
+                        int(input_data['month']), int(input_data['year']), int(input_data['hour']),
+                        int(input_data['minute']), int(input_data['yearcalc']), int(input_data['monthcalc']),
                     ]
                     
                     inp_arr = np.array(raw_inp, dtype=np.float32)
-                    
-                    # (9, 9)
-                    scaled_matrix = inp_arr[:, np.newaxis] * frequencies[np.newaxis, :]
+                    scaled_matrix = inp_arr[:, np.newaxis] * self.frequencies[np.newaxis, :]
                     
                     sin_features = np.sin(scaled_matrix).flatten()
                     cos_features = np.cos(scaled_matrix).flatten()
-                    
-                    # Combine into a final 162-dimensional feature vector
-                    processed_inp = np.concatenate([sin_features, cos_features]).tolist()
+                    processed_inp = np.concatenate([sin_features, cos_features])
 
                     stars = palace["major_stars"] + palace["left_stars"] + palace["right_stars"]
-                    out = [0] * 195
+                    out = np.zeros(195, dtype=np.float32)
                     for v in stars:
-                        out[v] = 1
+                        out[v] = 1.0
                 
-                    inputs.append(processed_inp)
-                    outputs.append(out)
-
-                pbar.update(len(line))
-                    
-    return inputs, outputs
+                    yield torch.tensor(processed_inp, dtype=torch.float32), torch.tensor(out, dtype=torch.float32)
 
 
 
@@ -90,39 +91,45 @@ def run_pipeline():
     torch.manual_seed(42)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Executing pipeline on device: {device}")
-    print("--------------------------------------------------------------------------------")
-
-    # Load data
-    raw_inputs, raw_outputs = load_dataset()
-    dataset_size = len(raw_inputs)
+    print("Initializing dataset..")
     
-    # Split indices (80% train / 20% val)
-    indices = np.arange(dataset_size)
-    np.random.shuffle(indices)
+    # DATA LOADERS: Instantiated using the on-the-fly partition streams
+    train_dataset = PartitionedStreamDataset(mode='train')
+    val_dataset = PartitionedStreamDataset(mode='val')
     
-    val_split_edge = int(dataset_size * 0.2)
-    val_indices = indices[:val_split_edge]
-    train_indices = indices[val_split_edge:]
+    # Use 4 parallel worker processes to parse JSON text and math arrays simultaneously
+    # prefetch_factor=2 keeps 2 batches per worker waiting in RAM ready to instantly swap to GPU
+    train_loader = DataLoader(
+        train_dataset, 
+        batch_size=128, 
+        drop_last=True, 
+        num_workers=4, 
+        prefetch_factor=2,
+        pin_memory=True  # Fast-tracks tensor transfers from RAM straight to GPU memory
+    )
     
-    train_in = [raw_inputs[i] for i in train_indices]
-    train_out = [raw_outputs[i] for i in train_indices]
-    val_in = [raw_inputs[i] for i in val_indices]
-    val_out = [raw_outputs[i] for i in val_indices]
-    
-    train_dataset = ModuloDataset(train_in, train_out)
-    val_dataset = ModuloDataset(val_in, val_out)
-    train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True, drop_last=True)
-    val_loader = DataLoader(val_dataset, batch_size=256, shuffle=False)
+    val_loader = DataLoader(
+        val_dataset, 
+        batch_size=256, 
+        num_workers=4,
+        prefetch_factor=2,
+        pin_memory=True
+    )
     
     # Init
+    print('Initializing model..')
     model = SineVQModuloNet(output_dim=195, latent_dim=128, num_codes=256).to(device)
     bce_criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
-    # Smoothly lowers the learning rate as epochs progress
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100, eta_min=1e-5)
-    
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer, 
+        mode='min',      # Minimize val loss
+        factor=0.1,      # Cut LR by 10x
+        patience=15,     # Wait 15 epochs of no improvement before cutting
+    )
 
 
+    print("--------------------------------------------------------------------------------")
 
     # Main loop
     epoch = 0
@@ -174,7 +181,8 @@ def run_pipeline():
             perfect_match_accuracy = (exact_row_matches / total_val_samples) * 100.0
             
             print(f"Epoch {epoch:04d} | Train Loss: {average_train_loss:.4f} | "
-                  f"Val Loss: {average_val_loss:.4f} | Perfect Match Accuracy: {perfect_match_accuracy:.2f}%")
+                  f"Val Loss: {average_val_loss:.4f} | Perfect Match Accuracy: {perfect_match_accuracy:.2f}% "
+                  f"Learning Rate: {optimizer.param_groups[0]['lr']}")
             
 
             # Saving phase
