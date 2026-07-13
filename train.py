@@ -119,7 +119,6 @@ def run_pipeline():
     bce_criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
     # Smoothly lowers the learning rate as epochs progress
-    # TODO: FIX SUDDEN LOSS SPIKES
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100, eta_min=1e-5)
     
 
