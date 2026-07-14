@@ -3,35 +3,7 @@ import matplotlib.pyplot as plt
 
 # The text data containing the training history
 log_data = """
-Epoch 0001 | Train Loss: 0.1500 | Val Loss: 0.1208 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0002 | Train Loss: 0.1181 | Val Loss: 0.1166 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0003 | Train Loss: 0.1144 | Val Loss: 0.1137 | Perfect Match Accuracy: 0.02% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0004 | Train Loss: 0.1120 | Val Loss: 0.1118 | Perfect Match Accuracy: 0.04% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0005 | Train Loss: 0.1102 | Val Loss: 0.1103 | Perfect Match Accuracy: 0.07% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0006 | Train Loss: 0.1090 | Val Loss: 0.1096 | Perfect Match Accuracy: 0.08% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0007 | Train Loss: 0.1083 | Val Loss: 0.1090 | Perfect Match Accuracy: 0.10% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0008 | Train Loss: 0.1079 | Val Loss: 0.1085 | Perfect Match Accuracy: 0.09% | Learning Rate: 0.001000
-Epoch 0009 | Train Loss: 0.1076 | Val Loss: 0.1081 | Perfect Match Accuracy: 0.10% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0010 | Train Loss: 0.1078 | Val Loss: 0.1082 | Perfect Match Accuracy: 0.10% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0011 | Train Loss: 0.1078 | Val Loss: 0.1080 | Perfect Match Accuracy: 0.11% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0012 | Train Loss: 0.1076 | Val Loss: 0.1078 | Perfect Match Accuracy: 0.12% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0013 | Train Loss: 0.1073 | Val Loss: 0.1077 | Perfect Match Accuracy: 0.12% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0014 | Train Loss: 0.1069 | Val Loss: 0.1075 | Perfect Match Accuracy: 0.13% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
-Epoch 0015 | Train Loss: 0.1067 | Val Loss: 0.1072 | Perfect Match Accuracy: 0.13% | Learning Rate: 0.001000
-  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt
+
 """
 
 def parse_and_plot(text):
