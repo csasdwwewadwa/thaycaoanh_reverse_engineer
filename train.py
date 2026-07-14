@@ -9,7 +9,7 @@ from tqdm import tqdm
 import json
 import os
 
-from model import ModuloNetNoVQ # <-- Import the updated No-VQ class
+from model import HierarchicalFSQNet # <-- Import the updated No-VQ class
 
 
 # DATASET PIPELINE
@@ -96,11 +96,7 @@ def run_pipeline():
     )
     
     # Initialize the Continuous No-VQ Model
-    base_model = ModuloNetNoVQ(
-        in_features=1, 
-        latent_dim=512, 
-        num_heavy_blocks=2
-    )
+    base_model = HierarchicalFSQNet()
     
     classification_head = nn.Sequential(
         nn.Flatten(),
