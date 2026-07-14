@@ -89,7 +89,7 @@ class SineVQModuloNet(nn.Module):
         self.ln3 = nn.LayerNorm(latent_dim)
         self.vq3 = VectorQuantizerBlock(num_embeddings=num_codes, embedding_dim=latent_dim)
 
-        self.dropout = nn.Dropout(p=0.1)
+        self.dropout = nn.Dropout(p=0.08)
         
         self.output_layer = nn.Linear(latent_dim, output_dim)
 

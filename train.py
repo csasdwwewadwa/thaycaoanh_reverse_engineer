@@ -116,7 +116,7 @@ def run_pipeline():
     )
     
     # Init model
-    model = SineVQModuloNet(output_dim=195, latent_dim=128, num_codes=256).to(device)
+    model = SineVQModuloNet(output_dim=195, latent_dim=256, num_codes=512).to(device)
     bce_criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
