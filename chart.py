@@ -3,7 +3,15 @@ import matplotlib.pyplot as plt
 
 # The text data containing the training history
 log_data = """
-
+--------------------------------------------------------------------------------
+Epoch 0001 | Train Loss: 0.2239 | Val Loss: 0.2090 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
+  -->  New best perfect match acc! Saved weights to 'best_modulo_model.pt'
+Epoch 0002 | Train Loss: 0.2014 | Val Loss: 0.1893 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
+Epoch 0003 | Train Loss: 0.1935 | Val Loss: 0.1905 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
+Epoch 0004 | Train Loss: 0.1917 | Val Loss: 0.1914 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
+Epoch 0005 | Train Loss: 0.1953 | Val Loss: 0.1899 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
+Epoch 0006 | Train Loss: 0.1934 | Val Loss: 0.1930 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
+Epoch 0007 | Train Loss: 0.1944 | Val Loss: 0.1893 | Perfect Match Accuracy: 0.00% | Learning Rate: 0.001000
 """
 
 def parse_and_plot(text):
