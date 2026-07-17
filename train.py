@@ -4,7 +4,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, IterableDataset
-from model import HierarchicalFSQNet
+from model_bigmlp_trihead import TriHeadBigMLP
 from dataset import StreamModuloDataset, PartitionedStreamDataset
 
 
@@ -34,38 +34,41 @@ def run_pipeline():
         pin_memory=True
     )
     
-    model = HierarchicalFSQNet(input_dim=162, output_dim=195).to(device)
+    # model = HierarchicalFSQNet(input_dim=162, output_dim=195).to(device)
+    model = TriHeadBigMLP().to(device)
+    # pos_weight = torch.ones([195], device=device) * 5.0  # Penalize 5x for a wrongly-predicted "1".
+    # bce_criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
     bce_criterion = nn.BCEWithLogitsLoss()
     
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
-    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(
         optimizer, 
-        mode='min',      
-        factor=0.1,      
-        patience=15,     
+        T_0=10,      # Number of iterations for the first restart
+        T_mult=2,    # Double the cycle length after each restart (10, 20, 40, 80...)
+        eta_min=1e-6 # Minimum learning rate
     )
 
     # ------------------------------------------------------------------
     # ADDED: LOAD PREVIOUSLY SAVED WEIGHTS
     # ------------------------------------------------------------------
-    checkpoint_path = 'best_modulo_model.pt'  # Change to 'checkpoint_latest.pt' if preferred
+    checkpoint_path = 'checkpoint_latest.pt'  # Change to 'checkpoint_latest.pt' if preferred
     start_epoch = 0
     best_perfect_match_accuracy = -1.0
 
-    # if os.path.exists(checkpoint_path):
-    #     print(f"--> Found existing checkpoint at '{checkpoint_path}'. Loading weights...")
-    #     checkpoint = torch.load(checkpoint_path, map_location=device)
+    if os.path.exists(checkpoint_path):
+        print(f"--> Found existing checkpoint at '{checkpoint_path}'. Loading weights...")
+        checkpoint = torch.load(checkpoint_path, map_location=device)
         
-    #     model.load_state_dict(checkpoint['model_state_dict'])
-    #     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-    #     start_epoch = checkpoint.get('epoch', 0)
-    #     best_perfect_match_accuracy = checkpoint.get('best_accuracy', -1.0)
+        model.load_state_dict(checkpoint['model_state_dict'])
+        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+        start_epoch = checkpoint.get('epoch', 0)
+        best_perfect_match_accuracy = checkpoint.get('best_accuracy', -1.0)
         
-    #     print(f"--> Weights successfully loaded! Resuming from Epoch {start_epoch + 1} with previous best accuracy: {best_perfect_match_accuracy:.2f}%")
-    #     print("--------------------------------------------------------------------------------")
-    # else:
-    #     print("--> No existing checkpoint found. Starting training from scratch.")
-    #     print("--------------------------------------------------------------------------------")
+        print(f"--> Weights successfully loaded! Resuming from Epoch {start_epoch + 1} with previous best accuracy: {best_perfect_match_accuracy:.2f}%")
+        print("--------------------------------------------------------------------------------")
+    else:
+        print("--> No existing checkpoint found. Starting training from scratch.")
+        print("--------------------------------------------------------------------------------")
 
     epoch = start_epoch
     
