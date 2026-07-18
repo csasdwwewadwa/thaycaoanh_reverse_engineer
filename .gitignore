@@ -4,3 +4,11 @@ new_metadata.jsonl
 metadata.jsonl
 metadata copy.jsonl
 *.pt
+dataset_audit*.json
+dataset_audit*.sqlite3
+dataset_audit*.sqlite3-shm
+dataset_audit*.sqlite3-wal
+major_template_analysis.json
+non_major_inventory.json
+non_major_dependency_analysis.json
+rules/generated/

@@ -3,8 +3,7 @@ import json
 import numpy as np
 import torch
 import torch.nn as nn
-from model_fsq import HierarchicalFSQNet
-from model_bigmlp import BigMLP
+from ML.model_bigmlp_trihead import TriHeadBigMLP
 
 with open('hash_data.json', encoding='utf-8') as f:
     hashes_data = json.load(f)
@@ -27,7 +26,7 @@ def run_pipeline(sex, day, month, year, hour, minute, yearcalc, monthcalc):
     x = torch.tensor(raw_inp, dtype=torch.float32, device=device)
 
 
-    model = BigMLP().to(device)
+    model = TriHeadBigMLP().to(device)
 
     # ------------------------------------------------------------------
     # ADDED: LOAD PREVIOUSLY SAVED WEIGHTS
@@ -41,6 +40,8 @@ def run_pipeline(sex, day, month, year, hour, minute, yearcalc, monthcalc):
         checkpoint = torch.load(checkpoint_path, map_location=device)
         
         model.load_state_dict(checkpoint['model_state_dict'])
+        start_epoch = checkpoint['epoch']
+        best_perfect_match_accuracy = checkpoint['best_accuracy']
         
         print(f"--> Weights successfully loaded! Model at Epoch {start_epoch + 1} with previous best accuracy: {best_perfect_match_accuracy:.2f}%")
         print("--------------------------------------------------------------------------------")

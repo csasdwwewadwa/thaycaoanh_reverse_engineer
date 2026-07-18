@@ -4,8 +4,22 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, IterableDataset
-from model_bigmlp_trihead import TriHeadBigMLP
-from dataset import StreamModuloDataset, PartitionedStreamDataset
+from ML.model_bigmlp_trihead import TriHeadBigMLP
+from ML.dataset import StreamModuloDataset, PartitionedStreamDataset
+
+
+def get_current_pos_weight(epoch, total_warmup_epochs=10, target_weight=5.0, num_classes=195, device='cpu'):
+    """
+    Linearly ramps up the pos_weight from 1.0 to target_weight over total_warmup_epochs.
+    Returns a 1D tensor of shape [num_classes].
+    """
+    if epoch >= total_warmup_epochs:
+        current_scalar = target_weight
+    else:
+        # Linearly scale from 1.0 up to target_weight
+        current_scalar = 1.0 + (target_weight - 1.0) * (epoch / total_warmup_epochs)
+    
+    return torch.full((num_classes,), current_scalar, device=device)
 
 
 def run_pipeline():
@@ -36,9 +50,8 @@ def run_pipeline():
     
     # model = HierarchicalFSQNet(input_dim=162, output_dim=195).to(device)
     model = TriHeadBigMLP().to(device)
-    # pos_weight = torch.ones([195], device=device) * 5.0  # Penalize 5x for a wrongly-predicted "1".
-    # bce_criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
-    bce_criterion = nn.BCEWithLogitsLoss()
+    
+    # NOTE: bce_criterion is now dynamically updated inside the epoch loop.
     
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(
@@ -55,26 +68,41 @@ def run_pipeline():
     start_epoch = 0
     best_perfect_match_accuracy = -1.0
 
-    if os.path.exists(checkpoint_path):
-        print(f"--> Found existing checkpoint at '{checkpoint_path}'. Loading weights...")
-        checkpoint = torch.load(checkpoint_path, map_location=device)
+    # if os.path.exists(checkpoint_path):
+    #     print(f"--> Found existing checkpoint at '{checkpoint_path}'. Loading weights...")
+    #     checkpoint = torch.load(checkpoint_path, map_location=device)
         
-        model.load_state_dict(checkpoint['model_state_dict'])
-        optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-        start_epoch = checkpoint.get('epoch', 0)
-        best_perfect_match_accuracy = checkpoint.get('best_accuracy', -1.0)
+    #     model.load_state_dict(checkpoint['model_state_dict'])
+    #     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+    #     start_epoch = checkpoint.get('epoch', 0)
+    #     best_perfect_match_accuracy = checkpoint.get('best_accuracy', -1.0)
         
-        print(f"--> Weights successfully loaded! Resuming from Epoch {start_epoch + 1} with previous best accuracy: {best_perfect_match_accuracy:.2f}%")
-        print("--------------------------------------------------------------------------------")
-    else:
-        print("--> No existing checkpoint found. Starting training from scratch.")
-        print("--------------------------------------------------------------------------------")
+    #     print(f"--> Weights successfully loaded! Resuming from Epoch {start_epoch + 1} with previous best accuracy: {best_perfect_match_accuracy:.2f}%")
+    #     print("--------------------------------------------------------------------------------")
+    # else:
+    #     print("--> No existing checkpoint found. Starting training from scratch.")
+    #     print("--------------------------------------------------------------------------------")
 
     epoch = start_epoch
     
     try:
         while True:
             epoch += 1
+
+            # ------------------------------------------------------------------
+            # DYNAMIC POS WEIGHT WARMUP
+            # ------------------------------------------------------------------
+            # We use (epoch - 1) so Epoch 1 gets a weight of 1.0, 
+            # ramping up to 5.0 by Epoch 11 (after a 10-epoch warmup)
+            pos_weight_tensor = get_current_pos_weight(
+                epoch=epoch - 1, 
+                total_warmup_epochs=40, 
+                target_weight=3.0, 
+                num_classes=195, 
+                device=device
+            )
+            bce_criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight_tensor)
+            current_scalar_weight = pos_weight_tensor[0].item()
 
             # ------------------------------------------------------------------
             # TRAINING PHASE
@@ -140,6 +168,7 @@ def run_pipeline():
             current_lr = optimizer.param_groups[0]['lr']
             
             print(f"Epoch {epoch:04d} | "
+                  f"Pos Weight: {current_scalar_weight:.2f}x | "
                   f"Train Loss: {average_train_loss:.4f} (Soft Acc: {train_soft_accuracy:.2f}%) | "
                   f"Val Loss: {average_val_loss:.4f} (Soft Acc: {val_soft_accuracy:.2f}%) | "
                   f"Perfect Match: {perfect_match_accuracy:.2f}% | "
