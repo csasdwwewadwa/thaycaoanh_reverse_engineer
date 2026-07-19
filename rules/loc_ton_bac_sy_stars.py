@@ -8,12 +8,12 @@ from manual_tools.vietnamese_lunar import solar_to_lunar
 DEFAULT_RULE_PATH = Path(__file__).parent / "generated" / "loc_ton_bac_sy_stars.json"
 
 
-def loc_ton_bac_sy_template_key(day, month, year, hour):
+def loc_ton_bac_sy_template_key(day, month, year, hour, sex):
     birth_date = date(int(year), int(month), int(day))
     if int(hour) == 23:
         birth_date += timedelta(days=1)
     _, _, lunar_year, _ = solar_to_lunar(birth_date.day, birth_date.month, birth_date.year)
-    return lunar_year % 10
+    return lunar_year % 10, int(sex)
 
 
 def load_loc_ton_bac_sy_rules(path=DEFAULT_RULE_PATH):
@@ -21,9 +21,9 @@ def load_loc_ton_bac_sy_rules(path=DEFAULT_RULE_PATH):
         return json.load(source)
 
 
-def generate_loc_ton_bac_sy_stars(day, month, year, hour, rules=None):
+def generate_loc_ton_bac_sy_stars(day, month, year, hour, sex, rules=None):
     rules = rules or load_loc_ton_bac_sy_rules()
-    key = str(loc_ton_bac_sy_template_key(day, month, year, hour))
+    key = ",".join(str(value) for value in loc_ton_bac_sy_template_key(day, month, year, hour, sex))
     template = rules["templates"].get(key)
     if template is None:
         raise KeyError(f"Loc Ton/Bac Sy template {key} was not observed in the rule dataset")

@@ -6,6 +6,12 @@ from .four_brightness_families_stars import generate_four_brightness_families_st
 from .thien_dieu_brightness_stars import generate_thien_dieu_brightness_stars
 from .tang_mon_brightness_stars import generate_tang_mon_brightness_stars
 from .eleven_star_annual_stars import generate_eleven_star_annual_stars
+from .luu_nien_transformation_stars import generate_luu_nien_transformation_stars
+from .n_transformation_stars import generate_n_transformation_stars
+from .dai_van_transformation_stars import generate_dai_van_transformation_stars
+from .luu_ha_stars import generate_luu_ha_stars
+from .am_sat_stars import generate_am_sat_stars
+from .luu_van_stars import generate_luu_van_stars
 from .kinh_duong_da_la_stars import generate_kinh_duong_da_la_stars
 from .loc_ton_bac_sy_stars import generate_loc_ton_bac_sy_stars
 from .major_stars import generate_major_stars, major_rule_key
@@ -30,6 +36,12 @@ __all__ = (
 	"generate_thien_dieu_brightness_stars",
 	"generate_tang_mon_brightness_stars",
 	"generate_eleven_star_annual_stars",
+	"generate_luu_nien_transformation_stars",
+	"generate_n_transformation_stars",
+	"generate_dai_van_transformation_stars",
+	"generate_luu_ha_stars",
+	"generate_am_sat_stars",
+	"generate_luu_van_stars",
 	"generate_hoa_linh_stars",
 	"generate_hoa_transformation_stars",
 	"generate_day_rotation_stars",
