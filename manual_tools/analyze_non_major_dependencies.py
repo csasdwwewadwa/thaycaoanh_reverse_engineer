@@ -1,9 +1,11 @@
 import argparse
 import json
-from collections import Counter, defaultdict
+from collections import Counter
+from datetime import date, timedelta
+from functools import lru_cache
 from pathlib import Path
 
-from .analyze_major_templates import DependencyScore, extract_features
+from .vietnamese_lunar import solar_to_lunar
 
 
 BIRTH_CANDIDATES = (
@@ -53,11 +55,93 @@ def star_locations(item, target_ids):
                     yield star_id, palace_index
 
 
+@lru_cache(maxsize=200_000)
+def lunar_date(day, month, year):
+    return solar_to_lunar(day, month, year)
+
+
+def projected_feature_keys(sex, day, month, year, hour, minute, yearcalc, monthcalc):
+    _, lunar_month, lunar_year, _ = lunar_date(day, month, year)
+    if hour == 23:
+        rollover_date = date(year, month, day) + timedelta(days=1)
+        rat_lunar_day, _, _, _ = lunar_date(
+            rollover_date.day, rollover_date.month, rollover_date.year
+        )
+    else:
+        rat_lunar_day = lunar_date(day, month, year)[0]
+    lunar_year_stem = lunar_year % 10
+    lunar_year_branch = lunar_year % 12
+    hour_branch = ((hour + 1) // 2) % 12
+    birth_values = (
+        lunar_year_stem,
+        lunar_year_branch,
+        lunar_month,
+        rat_lunar_day,
+        hour_branch,
+        sex,
+    )
+    view_year_stem = yearcalc % 10
+    view_year_branch = yearcalc % 12
+    return (
+        (birth_values[0],),
+        (birth_values[1],),
+        (birth_values[2],),
+        (birth_values[3],),
+        (birth_values[4],),
+        (birth_values[5],),
+        (birth_values[0], birth_values[2]),
+        (birth_values[1], birth_values[2]),
+        (birth_values[3], birth_values[2]),
+        (birth_values[3], birth_values[4]),
+        (birth_values[0], birth_values[4]),
+        (birth_values[1], birth_values[4]),
+        (birth_values[0], birth_values[2], birth_values[4]),
+        (birth_values[1], birth_values[2], birth_values[4]),
+        (birth_values[3], birth_values[2], birth_values[4]),
+        (birth_values[0], birth_values[2], birth_values[5]),
+        (view_year_stem,),
+        (view_year_branch,),
+        (monthcalc,),
+        (view_year_stem, monthcalc),
+        (view_year_branch, monthcalc),
+        (view_year_stem, view_year_branch, monthcalc),
+    )
+
+
+def input_values(input_data):
+    return tuple(int(input_data[name]) for name in (
+        "sex", "day", "month", "year", "hour", "minute", "yearcalc", "monthcalc"
+    ))
+
+
+def update_location_map(locations, key, palace_index):
+    previous = locations.get(key)
+    if previous is None:
+        locations[key] = palace_index
+        return False
+    if previous == palace_index or previous == -1:
+        return False
+    locations[key] = -1
+    return True
+
+
 def run(args):
     targets = load_targets(args.inventory)
     candidates = BIRTH_CANDIDATES + VIEW_CANDIDATES
-    scores = {
-        star_id: [DependencyScore(candidate) for candidate in candidates]
+    candidate_indexes = {
+        star_id: (
+            range(len(BIRTH_CANDIDATES))
+            if star["category"] == "natal_auxiliary"
+            else range(len(BIRTH_CANDIDATES), len(candidates))
+        )
+        for star_id, star in targets.items()
+    }
+    location_maps = {
+        star_id: [dict() for _ in candidates]
+        for star_id in targets
+    }
+    conflict_counts = {
+        star_id: [0 for _ in candidates]
         for star_id in targets
     }
     appearances = Counter()
@@ -70,11 +154,16 @@ def run(args):
             if not line.strip():
                 continue
             item = json.loads(line)
-            features = extract_features(item["input_data"])
+            feature_keys = projected_feature_keys(*input_values(item["input_data"]))
             for star_id, palace_index in star_locations(item, targets):
                 appearances[star_id] += 1
-                for score in scores[star_id]:
-                    score.add(features, palace_index)
+                for candidate_index in candidate_indexes[star_id]:
+                    if update_location_map(
+                        location_maps[star_id][candidate_index],
+                        feature_keys[candidate_index],
+                        palace_index,
+                    ):
+                        conflict_counts[star_id][candidate_index] += 1
             rows += 1
             if rows % args.progress_every == 0:
                 print(f"Analyzed {rows:,} charts", flush=True)
@@ -84,11 +173,19 @@ def run(args):
         observed = appearances[star_id]
         if not observed:
             continue
-        reports = [score.report(observed) for score in scores[star_id]]
+        reports = []
+        for candidate_index in candidate_indexes[star_id]:
+            locations = location_maps[star_id][candidate_index]
+            conflicting_keys = conflict_counts[star_id][candidate_index]
+            reports.append({
+                "features": list(candidates[candidate_index]),
+                "keys": len(locations),
+                "conflicting_keys": conflicting_keys,
+                "is_deterministic": conflicting_keys == 0,
+            })
         reports.sort(
             key=lambda result: (
                 result["is_deterministic"],
-                result["accuracy"],
                 -len(result["features"]),
                 -result["keys"],
             ),
