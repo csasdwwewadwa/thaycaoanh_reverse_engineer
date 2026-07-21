@@ -1,6 +1,7 @@
 import json
 import sys
 from pathlib import Path
+from tqdm import tqdm  # Add this import
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
@@ -8,10 +9,8 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from chart_generator import generate_chart
 
-
 SOURCE_PATH = PROJECT_ROOT / "metadata copy.jsonl"
 COLUMNS = ("major_stars", "left_stars", "right_stars")
-
 
 def expected_chart(record):
     return {
@@ -22,14 +21,21 @@ def expected_chart(record):
         for column in COLUMNS
     }
 
-
 def validate(source_path=SOURCE_PATH):
+    source_path = Path(source_path)
+    
+    # Pre-calculate line count for the progress bar
+    print("Counting lines for progress bar...")
+    total_lines = sum(1 for _ in source_path.open("r", encoding="utf-8"))
+    
     matched = 0
-    with Path(source_path).open("r", encoding="utf-8") as source:
-        for index, line in enumerate(source):
+    with source_path.open("r", encoding="utf-8") as source:
+        # Wrap the file iterator with tqdm
+        for index, line in tqdm(enumerate(source), total=total_lines, desc="Validating records"):
             record = json.loads(line)
             actual = generate_chart(**record["input_data"])
             expected = expected_chart(record)
+            
             if actual != expected:
                 for column in COLUMNS:
                     if actual[column] != expected[column]:
@@ -40,8 +46,8 @@ def validate(source_path=SOURCE_PATH):
                         )
                 raise AssertionError(f"Mismatch at record {index}")
             matched += 1
+            
     print(f"Matched {matched} frozen records exactly.")
-
 
 if __name__ == "__main__":
     validate()

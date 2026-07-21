@@ -1,48 +1,36 @@
-import json
-from datetime import date, timedelta
-from pathlib import Path
-
-from manual_tools.vietnamese_lunar import solar_to_lunar
-
-
-DEFAULT_RULE_PATH = Path(__file__).parent / "generated" / "n_transformation_stars.json"
-
-
-def hour_branch(hour):
-    return ((int(hour) + 1) // 2) % 12
+from .luu_nien_transformation_stars import (
+    ANNUAL_TRANSFORMATIONS,
+    NATAL_STAR_IDS,
+    _slot_for_star,
+)
+from .major_stars import generate_major_stars
+from .natal_auxiliary_stars import generate_natal_auxiliary_stars
+from .van_xuong_van_khuc_stars import generate_van_xuong_van_khuc_stars
+from .year_branch_rotation_stars import generate_year_branch_rotation_stars
 
 
-def n_transformation_template_key(day, month, year, hour, sex, yearcalc, monthcalc):
-    birth_date = date(int(year), int(month), int(day))
-    if int(hour) == 23:
-        birth_date += timedelta(days=1)
-    lunar_day, lunar_month, lunar_year, lunar_leap = solar_to_lunar(
-        birth_date.day, birth_date.month, birth_date.year
-    )
-    return (
-        int(yearcalc) % 60,
-        int(monthcalc),
-        lunar_year % 60,
-        int(sex),
-        lunar_day,
-        lunar_month,
-        lunar_leap,
-        hour_branch(hour),
-    )
-
-
-def load_n_transformation_rules(path=DEFAULT_RULE_PATH):
-    with Path(path).open("r", encoding="utf-8") as source:
-        return json.load(source)
+def monthly_transformation_row(yearcalc, monthcalc):
+    return (int(monthcalc) - 1 + 2 * (int(yearcalc) % 10 - 1)) % 10
 
 
 def generate_n_transformation_stars(day, month, year, hour, sex, yearcalc, monthcalc, rules=None):
-    rules = rules or load_n_transformation_rules()
-    key = ",".join(
-        str(value)
-        for value in n_transformation_template_key(day, month, year, hour, sex, yearcalc, monthcalc)
+    del rules
+    natal_templates = (
+        generate_major_stars(day, month, year, hour),
+        generate_natal_auxiliary_stars(sex, day, month, year, hour),
+        generate_van_xuong_van_khuc_stars(day, month, year, hour),
+        generate_year_branch_rotation_stars(day, month, year, hour),
     )
-    template = rules["templates"].get(key)
-    if template is None:
-        raise KeyError(f"N transformation template {key} was not observed in the rule dataset")
+    loc_name, quyen_name, khoa_name, ki_name = ANNUAL_TRANSFORMATIONS[
+        monthly_transformation_row(yearcalc, monthcalc)
+    ]
+    slots = {
+        name: _slot_for_star(natal_templates, NATAL_STAR_IDS[name], name)
+        for name in {loc_name, quyen_name, khoa_name, ki_name}
+    }
+    template = {"left_stars": [[] for _ in range(12)], "right_stars": [[] for _ in range(12)]}
+    template["left_stars"][slots[loc_name]].append(82)
+    template["left_stars"][slots[quyen_name]].append(47)
+    template["left_stars"][slots[khoa_name]].append(31)
+    template["right_stars"][slots[ki_name]].append(91)
     return template

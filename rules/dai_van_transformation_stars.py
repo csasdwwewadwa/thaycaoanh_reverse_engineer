@@ -1,4 +1,5 @@
 import json
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -17,6 +18,7 @@ def dai_van_transformation_template_key(day, month, year, hour, sex, yearcalc, m
     )
 
 
+@lru_cache(maxsize=None)
 def load_dai_van_transformation_rules(path=DEFAULT_RULE_PATH):
     with Path(path).open("r", encoding="utf-8") as source:
         return json.load(source)
